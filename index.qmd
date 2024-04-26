@@ -1,0 +1,62 @@
+# Course Overview {.unnumbered}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+### Learning Activity
+::: {.callout-note appearance="minimal"}
+
+
+Normal tesxt goes here
+:::
+
+::: {.callout}
+more int
+
+:::
+
+::: {.callout-note appearance="simple"}
+## title
+
+
+Normal tesxt goes here
+:::
+
+::: {.callout-warning icon="false" appearance="simple"}
+
+
+
+Normal tesxt goes here
+:::
+
+::: {.callout-important icon="false" appearance="simple"}
+
+
+
+Normal tesxt goes here
+:::
+
+::: {.callout-caution collapse="true" icon="false" appearance="simple"}
+
+
+
+Normal tesxt goes here
+:::
+
+::: {.callout-tip icon="false" appearance="simple"}
+
+
+
+Normal tesxt goes here
+:::
+
+::: {.callout-note}
+text
+
+::: {.callout collapse="true"}
+## Title
+text
+
+:::
+:::
