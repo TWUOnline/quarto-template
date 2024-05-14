@@ -25,6 +25,8 @@ format:
     theme: cosmo
     toc: true
     toc-depth: 4
+    include-in-header:
+      - file: './twu_global_header.html'
   pdf:
     documentclass: scrreprt
 

@@ -1,0 +1,175 @@
+<style>
+  .twu-global-header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2rem;
+    width: 100%;
+    background: #002856;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    z-index: 1000;
+  }
+
+  .twu-global-header__inner {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #526f90;
+  }
+
+  @media(max-width: 768px) {
+    .twu-global-header__inner {
+      display: none;
+    }
+  }
+
+  .twu-global-header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+    padding: 0;
+    line-height: 1;
+    list-style: none;
+  }
+
+  .twu-global-header ul li {
+    padding: 0 0.5rem;
+    border-right: 1px solid #526f90;
+  }
+
+  .twu-global-header ul li:last-child {
+    border-right: none;
+  }
+
+  .twu-global-header ul a {
+    margin: 0;
+    padding: 0;
+    color: #cfcdc9;
+    font-size: 13px;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .twu-global-header ul a:hover {
+    color: #fff;
+  }
+
+  .twu-brand-header {
+    padding: 2rem;
+  }
+
+  .twu-brand-header div {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  .twu-brand-header img {
+    width: 420px;
+  }
+
+  @media(max-width: 768px) {
+    .twu-brand-header img {
+      width: 320px;
+    }
+  }
+</style>
+
+<script>
+  const GLOBAL_LINKS = [
+    {
+      text: "TWU.ca",
+      href: "https://twu.ca"
+    },
+    {
+      text: "Moodle",
+      href: "https://learn.twu.ca/"
+    },
+    {
+      text: "Campus Portal",
+      href: "https://trinitywestern.teamdynamix.com/TDClient/1904"
+    },
+    {
+      text: "My Email",
+      href: "https://outlook.office.com/"
+    }, {
+      text: "Service Hub",
+      href: "https://servicehub.twu.ca"
+    }, {
+      text: "Library",
+      href: "https://www.twu.ca/academics/library"
+    }
+  ];
+
+  const createElement = (el, classes, attributes = {}, content) => {
+    const newEl = document.createElement(el)
+
+    if (classes) {
+      newEl.className = classes;
+    }
+
+    Object.keys(attributes).forEach(key => {
+      newEl.setAttribute(key, attributes[key]);
+    });
+
+
+    if (content) {
+      newEl.textContent = content
+    }
+
+    return newEl;
+  }
+
+  const createNavLink = (link) => {
+    const li = createElement('li');
+    const a = createElement('a', null, {
+      href: link.href,
+      title: link.text
+    }, link.text);
+
+    li.append(a);
+
+    return li;
+  }
+
+  const createBrandHeader = () => {
+    const brandHeader = createElement('header', 'twu-brand-header');
+    const brandHeaderInner = createElement("div");
+
+    brandHeader.appendChild(brandHeaderInner);
+
+    const logo = document.createElement('img');
+    logo.src = 'https://www.twu.ca/themes/custom/twu/images/twu_logo_full.svg';
+
+    brandHeaderInner.appendChild(logo);
+
+    return brandHeader;
+  }
+
+  const createGlobalHeader = () => {
+    const twuGlobalHeader = createElement('div', 'twu-global-header');
+    const globalNavContainer = createElement("div", "twu-global-header__inner");
+    const globalNavLinks = createElement("ul", null, {role: 'navigation'});
+    const brandHeader = createBrandHeader();
+
+    GLOBAL_LINKS.forEach((link) => {
+      const li = createNavLink(link);
+      globalNavLinks.append(li);
+    });
+
+
+    globalNavContainer.append(globalNavLinks);
+    twuGlobalHeader.append(globalNavContainer);
+    twuGlobalHeader.append(brandHeader);
+
+    return twuGlobalHeader;
+  }
+
+  // TWU Global Header
+  document.addEventListener("DOMContentLoaded", function () {
+    document.body.insertBefore(createGlobalHeader(), document.body.firstChild);
+  });
+</script>
