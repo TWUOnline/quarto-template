@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "COURSE NUMBER"
-  author: "Norah Jones"
+  title: "Template"
+  author: "TWU Online"
   date: "last-modified"
   date-format: "MMM D, YYYY"
   chapters:
@@ -14,20 +14,29 @@ book:
     - u3.qmd
     - u4.qmd
     - u5.qmd
-    - u6.qmd    
-    - assessment.qmd
+    - u6.qmd
     - references.qmd
 
 bibliography: references.bib
 csl: apa.csl
+link-bibliography: true
+link-citations: true
 
 format:
   html:
-    theme: cosmo
-    toc: true
     toc-depth: 4
+    theme: cosmo
+    include-in-header:
+      - text: |
+          <script src="https://twuonline.github.io/course-materials/twu_global_header.js"></script>
   pdf:
     documentclass: scrreprt
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
 
-
+fig-cap-location: top
+lightbox:
+  desc-position: top
 
