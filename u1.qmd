@@ -1,30 +1,25 @@
-# Welcome {-}
+# Welcome {.unnumbered}
 
 Welcome to [COURSE]
 
+## Program Learning Outcomes {.unnumbered}
 
 
 
-## Program Learning Outcomes {-}
-
-
-
-## Course Learning Outcomes {-}
+## Course Learning Outcomes {.unnumbered}
 On successful completion of this course, students should be able to:
 
 
+### Resources {.unnumbered}
 
-
-### Resources {-}
-
-
-
-::: {.callout-caution}
 ## Academic Integrity
 
+::: {.callout-caution}
+
 It will be assumed that you have read, understand, and agree to the information provided on the ['Academic Dishonesty Policy' page](https://www.twu.ca/about-us/policies-guidelines/university-policies/academic-misconduct-fraud){target="_blank"}. If you have any questions at all please contact your instructor.
+
 :::
 
-## Graduate Level Writing Standards {-}
+## Graduate Level Writing Standards {.unnumbered}
 
 For students in 663, graduate level writing standards following APA 7 are expected. Please consult the [OWL Purdue website](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html){target="_blank"} for guidance and seek assistance from the TWU Writing Center and writing coaches as needed. Assignments have rubrics that attribute some marks to APA formatting and cannot be graded as fully meeting expectations if there are APA errors. That said, your conceptual understanding remains of primary importance. It is your responsibility to ensure polished work to the highest standard of which you are capable. This demands meticulous attention to detail, which will become more 'natural' with practice. Please seek any necessary clarification from your instructor.
