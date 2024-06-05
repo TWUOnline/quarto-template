@@ -28,6 +28,7 @@ link-citations: true
 
 format:
   html:
+    css: https://twuonline.github.io/course-materials/quarto/twu_styles.css
     toc-depth: 4
     theme: cosmo
     include-in-header:
