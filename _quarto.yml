@@ -15,12 +15,16 @@ book:
     - u4.qmd
     - u5.qmd
     - u6.qmd
+
+# Note: If you do not have any Zotero references (and a "Better BibLatex" references.bib file) in your course, you should comment-out (add "#" to the beginning of each line) the References section below or else you will get the "compilation failed- error" message when you render the Quarto project.
+# ------------Start of References Section----------------
     - references.qmd
 
 bibliography: references.bib
 csl: apa.csl
 link-bibliography: true
 link-citations: true
+# ------------End of References Section----------------
 
 format:
   html:
