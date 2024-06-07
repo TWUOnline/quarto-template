@@ -28,6 +28,7 @@ link-citations: true
 
 format:
   html:
+    favicon: https://www.twu.ca/themes/custom/twu/images/favicon/favicon.ico
     css: https://twuonline.github.io/course-materials/quarto/twu_styles.css
     toc-depth: 4
     theme: cosmo
