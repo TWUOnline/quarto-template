@@ -34,7 +34,7 @@ format:
     include-in-header:
       - text: |
           <script src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>
-          <link rel = "shortcut icon" href = "https://www.twu.ca/themes/custom/twu/images/favicon/favicon.ico" />
+          <link rel = "shortcut icon" href = "https://twuonline.github.io/course-materials/quarto/favicon.ico" />
   pdf:
     documentclass: scrreprt
   docx:
