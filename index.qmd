@@ -18,7 +18,7 @@ This box will prompt you to engage in course concepts, often by viewing resource
 
 :::
 
-## Assessment {-}
+## Assessment {.unnumbered}
 
 :::{.callout-note appearance="minimal"}
 
@@ -26,7 +26,7 @@ This box will signify an assignment or discussion post you will submit in Moodle
 
 :::
 
-## Checking your Learning {-}
+## Checking your Learning {.unnumbered}
 
 ::: {.callout-warning appearance="minimal"}
 
