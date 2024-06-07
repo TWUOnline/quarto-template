@@ -1,62 +1,47 @@
-# Course Overview {.unnumbered}
+# Welcome {.unnumbered}
 
-This is a Quarto book.
+This is the course book for Template. This book is divided into thematic units of study to help you engage with the materials. The course resources and learning activities are designed not only to help prepare you for the course assessments, but also to give you opportunities to practice various skills.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+> Below you will find information about how to navigate this book. Please read the full course syllabus located on the Course Home page in Moodle. It includes key information about the course schedule, assignments, and policies.
 
-### Learning Activity
-::: {.callout-note appearance="minimal"}
+## Course Notes {.unnumbered}
 
+Below is some key information on features you will see throughout the course.
 
-Normal tesxt goes here
-:::
+::: {.callout-tip appearance="minimal"}
 
-::: {.callout}
-more int
+<!-- ***Learning Activity*** -->
 
-:::
+***Learning Activity*** 
 
-::: {.callout-note appearance="simple"}
-## title
-
-
-Normal tesxt goes here
-:::
-
-::: {.callout-warning icon="false" appearance="simple"}
-
-
-
-Normal tesxt goes here
-:::
-
-::: {.callout-important icon="false" appearance="simple"}
-
-
-
-Normal tesxt goes here
-:::
-
-::: {.callout-caution collapse="true" icon="false" appearance="simple"}
-
-
-
-Normal tesxt goes here
-:::
-
-::: {.callout-tip icon="false" appearance="simple"}
-
-
-
-Normal tesxt goes here
-:::
-
-::: {.callout-note}
-text
-
-::: {.callout collapse="true"}
-## Title
-text
+This box will prompt you to engage in course concepts, often by viewing resources and reflecting on your experience and/or learning. Most learning activities are ungraded and are designed to help prepare you for the assessment in this course.
 
 :::
+
+## Assessment {-}
+
+:::{.callout-note appearance="minimal"}
+
+This box will signify an assignment or discussion post you will submit in Moodle.  Note that these demonstrate your understanding of the course learning outcomes. Be sure to review the grading rubrics for each assignment.
+
 :::
+
+## Checking your Learning {-}
+
+::: {.callout-warning appearance="minimal"}
+
+This box is for checking your understanding, to make sure you are ready for what follows. Ways to check your learning might include self-check quizzes or questions for discussion. These activities are not graded but are critical for you to be able to begin to develop evaluative judgement in this domain of knowledge.
+
+:::
+
+::: {.callout-important appearance="minimal"}
+
+<!-- ***Note*** -->
+
+***Note***
+
+This box signifies key notes. It may also warn you of possible problems or pitfalls you may encounter!
+
+::: 
+
+If you have any questions, do not hesitate to ask. We are here to help and be your guide on this journey.
