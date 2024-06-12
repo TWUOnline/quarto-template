@@ -1,8 +1,11 @@
-# version 1.0
+# version 1.1
 
 project:
   type: book
   output-dir: docs
+
+# Changing metadata labels: https://quarto.org/docs/authoring/title-blocks.html#metadata-labels
+published-title: "Last Modified"
 
 book:
   title: "Template"

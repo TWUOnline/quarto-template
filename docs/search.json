@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Template",
+    "section": "",
+    "text": "Welcome\nThis is the course book for [Course Name]. This book is divided into thematic units of study to help you engage with the materials. The course resources and learning activities are designed not only to help prepare you for the course assessments, but also to give you opportunities to practice various skills.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#course-notes",
+    "href": "index.html#course-notes",
+    "title": "Template",
+    "section": "Course Notes",
+    "text": "Course Notes\nBelow is some key information on features you will see throughout the course.\n\n\n\n\n\n\n\nLearning Activity\nThis box will prompt you to engage in course concepts, often by viewing resources and reflecting on your experience and/or learning. Most learning activities are ungraded and are designed to help prepare you for the assessment in this course.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#assessment",
+    "href": "index.html#assessment",
+    "title": "Template",
+    "section": "Assessment",
+    "text": "Assessment\n\n\n\n\n\n\nThis box will signify an assignment or discussion post you will submit in Moodle. Note that these demonstrate your understanding of the course learning outcomes. Be sure to review the grading rubrics for each assignment.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#checking-your-learning",
+    "href": "index.html#checking-your-learning",
+    "title": "Template",
+    "section": "Checking your Learning",
+    "text": "Checking your Learning\n\n\n\n\n\n\nThis box is for checking your understanding, to make sure you are ready for what follows. Ways to check your learning might include self-check quizzes or questions for discussion. These activities are not graded but are critical for you to be able to begin to develop evaluative judgement in this domain of knowledge.\n\n\n\n\n\n\n\n\n\n\nNote\nThis box signifies key notes. It may also warn you of possible problems or pitfalls you may encounter!\n\n\n\nIf you have any questions, do not hesitate to ask. We are here to help and be your guide on this journey.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "u1.html",
+    "href": "u1.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Program Learning Outcomes",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "u1.html#course-learning-outcomes",
+    "href": "u1.html#course-learning-outcomes",
+    "title": "Welcome",
+    "section": "Course Learning Outcomes",
+    "text": "Course Learning Outcomes\nOn successful completion of this course, students should be able to:\n\nResources",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "u1.html#academic-integrity",
+    "href": "u1.html#academic-integrity",
+    "title": "Welcome",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\n\n\n\n\n\n\nCaution\n\n\n\nIt will be assumed that you have read, understand, and agree to the information provided on the ‘Academic Dishonesty Policy’ page. If you have any questions at all please contact your instructor.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "u1.html#graduate-level-writing-standards",
+    "href": "u1.html#graduate-level-writing-standards",
+    "title": "Welcome",
+    "section": "Graduate Level Writing Standards",
+    "text": "Graduate Level Writing Standards\nFor students in 663, graduate level writing standards following APA 7 are expected. Please consult the OWL Purdue website for guidance and seek assistance from the TWU Writing Center and writing coaches as needed. Assignments have rubrics that attribute some marks to APA formatting and cannot be graded as fully meeting expectations if there are APA errors. That said, your conceptual understanding remains of primary importance. It is your responsibility to ensure polished work to the highest standard of which you are capable. This demands meticulous attention to detail, which will become more ‘natural’ with practice. Please seek any necessary clarification from your instructor.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "u2.html",
+    "href": "u2.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "u3.html",
+    "href": "u3.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "u4.html",
+    "href": "u4.html",
+    "title": "3  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "u5.html",
+    "href": "u5.html",
+    "title": "4  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "u6.html",
+    "href": "u6.html",
+    "title": "5  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  }
+]
