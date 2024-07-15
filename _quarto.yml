@@ -1,4 +1,4 @@
-# version 1.1
+# version 1.2
 
 project:
   type: book
@@ -20,18 +20,17 @@ book:
     - u4.qmd
     - u5.qmd
     - u6.qmd
-
-# Note: If you do not have any Zotero references (and a "Better BibLatex" references.bib file) in your course, you should comment-out (add "#" to the beginning of each line) the References section below or else you will get the "compilation failed- error" message when you render the Quarto project.
-# ------------Start of References Section----------------
     - references.qmd
 
-bibliography: references.bib
-csl: apa.csl
+# References
+bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
+csl: https://twuonline.github.io/course-materials/quarto/apa.csl
 link-bibliography: true
 link-citations: true
-# ------------End of References Section----------------
 
+# Formats
 format:
+# Format - HTML
   html:
     css: https://twuonline.github.io/course-materials/quarto/twu_styles.css
     toc-depth: 4
@@ -40,13 +39,16 @@ format:
       - text: |
           <script src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>
           <link rel = "shortcut icon" href = "https://twuonline.github.io/course-materials/quarto/favicon.ico" />
+# Format - PDF
   pdf:
     documentclass: scrreprt
+# Format - Doc
   docx:
     toc: true
     number-sections: true
     highlight-style: github
 
+# Fig captions
 fig-cap-location: top
 lightbox:
   desc-position: top
