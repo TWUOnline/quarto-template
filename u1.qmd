@@ -1,4 +1,4 @@
-# Welcome {.unnumbered}
+# A title for Unit 1
 
 Welcome to [COURSE]
 
