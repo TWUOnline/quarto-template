@@ -1,4 +1,4 @@
-# version 1.3
+# version 1.4
 
 project:
   type: book
@@ -6,6 +6,7 @@ project:
 
 # Changing metadata labels: https://quarto.org/docs/authoring/title-blocks.html#metadata-labels
 published-title: "Last Modified"
+#author-title: "Authors"
 
 book:
   title: "Template"
