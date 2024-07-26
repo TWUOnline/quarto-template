@@ -2,24 +2,140 @@
 
 Welcome to [COURSE]
 
-## Program Learning Outcomes {.unnumbered}
+## Topics {.unnumbered}
+
+This unit is divided into the following topics:
+1.
+2.
+3.
 
 
+### Unit Learning Outcomes {.unnumbered}
 
-## Course Learning Outcomes {.unnumbered}
-On successful completion of this course, students should be able to:
+When you have completed this unit, you will be able to:
 
+- Describe…
+- Contrast…
+- Analyze…
+- Determine…
+- Create…
 
-### Resources {.unnumbered}
+### Learning Activities {.unnumbered}
 
-## Academic Integrity
+Here is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.
 
-::: {.callout-caution}
+::: {.callout-tip icon=false appearance="simple"}
 
-It will be assumed that you have read, understand, and agree to the information provided on the ['Academic Dishonesty Policy' page](https://www.twu.ca/about-us/policies-guidelines/university-policies/academic-misconduct-fraud){target="_blank"}. If you have any questions at all please contact your instructor.
+**Learning Activities**
+
+1. Read…
+2. Watch…
+3. Explore…
+4. Complete the ungraded quiz.
+
+**Note:** Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
 
 :::
 
-## Graduate Level Writing Standards {.unnumbered}
+**Assessment**
 
-For students in 663, graduate level writing standards following APA 7 are expected. Please consult the [OWL Purdue website](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html){target="_blank"} for guidance and seek assistance from the TWU Writing Center and writing coaches as needed. Assignments have rubrics that attribute some marks to APA formatting and cannot be graded as fully meeting expectations if there are APA errors. That said, your conceptual understanding remains of primary importance. It is your responsibility to ensure polished work to the highest standard of which you are capable. This demands meticulous attention to detail, which will become more 'natural' with practice. Please seek any necessary clarification from your instructor.
+- Please see the Assessment section in Moodle for assignment details
+
+### Resources {.unnumbered}
+
+Here are the resources you will need to complete this unit.
+
+- (Textbook)
+- Other online resources will be provided in the unit.
+
+## Title for Topic 1
+
+We begin Unit 1…
+
+*(add content)*
+
+### Activity: Title (e.g. Read, Reflect and View) {-}
+
+::: {.callout-tip appearance="minimal"}
+
+*(add content)*
+
+View the following resources about …
+
+Next, watch the following videos that illustrate…
+
+**Questions to Consider**
+
+After completing the activities above, consider the following questions:
+
+- This is a question?
+
+:::
+
+## Title for Topic 2
+
+*(add content)*
+
+…
+
+### Activity: Title {-}
+
+::: {.callout-tip icon=false appearance="simple"}
+
+e.g. Case study
+
+*(add content)*
+
+Note that you may be asked to review this case or similar cases in your class discussion groups. You may want to prepare by relating the case to your readings. Specifically, identify the ethical issues and terms to help explain the case.*
+
+*[Note for Facilitator’s Guide: Use the case study above as a class or group discussion prompt. Remind students to complete this activity before the class session.]*
+
+:::
+
+## Title for Topic 3
+
+*(add content)*
+
+…
+
+### Activity: Title {-}
+
+::: {.callout-tip icon=false appearance="simple"}
+
+*(See [Assessment ideas](https://multi-access.twu.ca/assessment/assessment-ideas) for other ways to engage students in the topics.)*
+
+:::
+
+### Activity: Key Terms Quiz (ungraded) {-}
+
+::: {.callout-tip icon=false appearance="simple"}
+
+To review the concepts from this unit, take the following quiz.  This activity is ungraded and is designed to help prepare you for the assessments in this course.
+
+Match the following terms to their correct definition.
+
+1. **Term**– definition…
+2. **Term**– definition…
+3. **Term**– definition…
+
+:::
+
+## Unit Summary {.unnumbered}
+
+In this first unit, you have had the opportunity to learn about…
+
+*(add content)*
+
+### Checking Your Learning {.unnumbered}
+
+::: {.callout-warning icon=false appearance="simple"}
+
+Before you move on to the next unit, you may want to check that you are able to:
+
+- Describe…
+- Contrast…
+- Analyze…
+- Determine…
+- Create…
+
+:::

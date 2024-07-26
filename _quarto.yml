@@ -23,7 +23,7 @@ book:
     - u5.qmd
     - u6.qmd
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
-    - references.qmd
+#    - references.qmd
 
 # References
 bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
