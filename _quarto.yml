@@ -31,6 +31,9 @@ csl: https://twuonline.github.io/course-materials/quarto/apa.csl
 link-bibliography: true
 link-citations: true
 
+filters:
+  - custom.lua
+
 # Add templete for block
 title-block-banner: true
 # Formats
@@ -47,7 +50,8 @@ format:
     toc-depth: 4
     toc: true
     toc-title: On This Page
-    theme: cosmo
+    # theme: cosmo
+    theme: [cosmo, custom.scss]
     include-in-header:
     - text: |
         <script type="application/javascript" src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>

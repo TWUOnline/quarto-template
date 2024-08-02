@@ -24,22 +24,21 @@ When you have completed this unit, you will be able to:
 
 Here is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.
 
-::: {.callout-tip icon=false appearance="simple"}
-
-**Learning Activities**
-
 1. Read…
 2. Watch…
 3. Explore…
 4. Complete the ungraded quiz.
 
-**Note:** Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
+
+::: {.note icon="true"}
+
+Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
 
 :::
 
-**Assessment**
+### Assessment {.unnumbered} 
 
-- Please see the Assessment section in Moodle for assignment details
+Please see the Assessment section in Moodle for assignment details.
 
 ### Resources {.unnumbered}
 
@@ -56,7 +55,7 @@ We begin Unit 1…
 
 ### Activity: Title (e.g. Read, Reflect and View) {-}
 
-::: {.callout-tip appearance="minimal"}
+::: {.learning-activity}
 
 *(add content)*
 
@@ -80,7 +79,7 @@ After completing the activities above, consider the following questions:
 
 ### Activity: Title {-}
 
-::: {.callout-tip icon=false appearance="simple"}
+::: {.learning-activity}
 
 e.g. Case study
 
@@ -100,7 +99,7 @@ Note that you may be asked to review this case or similar cases in your class di
 
 ### Activity: Title {-}
 
-::: {.callout-tip icon=false appearance="simple"}
+::: {.learning-activity}
 
 *(See [Assessment ideas](https://multi-access.twu.ca/assessment/assessment-ideas) for other ways to engage students in the topics.)*
 
@@ -108,7 +107,7 @@ Note that you may be asked to review this case or similar cases in your class di
 
 ### Activity: Key Terms Quiz (ungraded) {-}
 
-::: {.callout-tip icon=false appearance="simple"}
+::: {.learning-activity}
 
 To review the concepts from this unit, take the following quiz.  This activity is ungraded and is designed to help prepare you for the assessments in this course.
 
@@ -128,7 +127,7 @@ In this first unit, you have had the opportunity to learn about…
 
 ### Checking Your Learning {.unnumbered}
 
-::: {.callout-warning icon=false appearance="simple"}
+::: {.learning-activity}
 
 Before you move on to the next unit, you may want to check that you are able to:
 
