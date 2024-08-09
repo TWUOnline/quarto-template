@@ -16,7 +16,7 @@ Below is some key information on features you will see throughout the course.
 
 This box will prompt you to engage in course concepts by:
 
-- Wiewing resources and reflecting on your experience and/or learning. 
+- Viewing resources and reflecting on your experience and/or learning. 
 - Checking your understanding to make sure you are ready for what follows. Ways to check your learning might include self-check quizzes or questions for discussion.
 
 ::: {.note}
