@@ -64,10 +64,10 @@ if FORMAT:match 'docx' then
       return pandoc.walk_block(div, {Div = process_div})
     end
   end
-  -- remove bookmarks from headings  
   function Div(div)
     return process_div(div)
   end
+  -- remove bookmarks from headings  
   function Header(el)
     el.identifier = ""
     return el
