@@ -61,10 +61,10 @@ format:
   pdf:
     documentclass: scrreprt
 # Format - Doc
-   docx:
-     toc: false
-     number-sections: true
-     highlight-style: github
+  docx:
+    toc: false
+    number-sections: true
+    highlight-style: github
   #   cite-method: biblatex
 # Fig captions
 fig-cap-location: top
