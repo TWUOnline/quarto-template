@@ -29,7 +29,7 @@ Working through course activities will help you to meet the learning outcomes an
 
 Below is an accordion.
 
-::: {.accordion title="This is an accordion. Click/tap this banner show/hide the content."}
+::: {.accordion title="This is an accordion. Click/tap this banner to show/hide the content."}
 
 An accordion may contain extra content such as worked examples or sample answers.
 
