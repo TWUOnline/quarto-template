@@ -12,6 +12,16 @@ if not FORMAT:match 'docx' then
         icon = false
       })
     end
+    -- check
+    if div.classes:includes("check") then
+      return quarto.Callout({
+        type = "note",
+        content = div.content,
+        title = "Checking Your Learning",
+        appearance = div.attributes.appearance or "default",
+        icon = false
+      })
+    end
     -- note
     if div.classes:includes("note") then
       return quarto.Callout({
@@ -48,6 +58,22 @@ if FORMAT:match 'docx' then
           type = "note",
           content = pandoc.walk_block(pandoc.Div(div.content), {Div = process_div}),
           title = div.attributes.title and ("Learning Activity: " .. div.attributes.title) or "Learning Activity",
+          appearance = div.attributes.appearance or "default",
+          icon = div.attributes.icon or false
+        })
+        in_callout = false
+        return result
+      else
+        return div
+      end
+    -- check
+    elseif div.classes:includes("check") then
+      if not in_callout then
+        in_callout = true
+        local result = quarto.Callout({
+          type = "note",
+          content = pandoc.walk_block(pandoc.Div(div.content), {Div = process_div}),
+          title = "Checking Your Learning",
           appearance = div.attributes.appearance or "default",
           icon = div.attributes.icon or false
         })
