@@ -42,85 +42,88 @@ if not FORMAT:match 'docx' then
         collapse = div.attributes.collapse or true
       })
     end
+    -- prote
+    if div.classes:includes("prote") then
+      local comment_lines = {"<!-- !!! Prote:"}
+      
+      local function add_inline_content(inline, line)
+        if inline.t == "Str" then
+          return line .. inline.text
+        elseif inline.t == "Space" then
+          return line .. " "
+        else
+          return line .. pandoc.utils.stringify(inline)
+        end
+      end
+    
+      for _, item in ipairs(div.content) do
+        if item.t == "Para" then
+          local line = ""
+          for _, inline in ipairs(item.content) do
+            if inline.t == "SoftBreak" then
+              table.insert(comment_lines, line)
+              line = ""
+            else
+              line = add_inline_content(inline, line)
+            end
+          end
+          if line ~= "" then
+            table.insert(comment_lines, line)
+          end
+        elseif item.t == "Plain" then
+          local line = pandoc.utils.stringify(item)
+          table.insert(comment_lines, line)
+        end
+      end
+      
+      table.insert(comment_lines, "-->")
+      
+      local html_comment = table.concat(comment_lines, "\n")
+      return pandoc.RawBlock('html', html_comment)
+    end
   end
 end
 
 -- Docx Filters
 if FORMAT:match 'docx' then
-  -- The function below repurposes the Quarto native 'note' Callout. For docs it requires a work-around since nested callouts are not supported.
   local in_callout = false
   local function process_div(div)
-    -- learning-activity
+    if in_callout then
+      return div
+    end
+
+    local function create_callout(type, content, title, appearance, icon)
+      in_callout = true
+      local result = quarto.Callout({
+        type = type,
+        content = pandoc.walk_block(pandoc.Div(content), {Div = process_div}),
+        title = title,
+        appearance = appearance or "default",
+        icon = icon
+      })
+      in_callout = false
+      return result
+    end
+
     if div.classes:includes("learning-activity") then
-      if not in_callout then
-        in_callout = true
-        local result = quarto.Callout({
-          type = "note",
-          content = pandoc.walk_block(pandoc.Div(div.content), {Div = process_div}),
-          title = div.attributes.title and ("Learning Activity: " .. div.attributes.title) or "Learning Activity",
-          appearance = div.attributes.appearance or "default",
-          icon = div.attributes.icon or false
-        })
-        in_callout = false
-        return result
-      else
-        return div
-      end
-    -- check
+      return create_callout("note", div.content, div.attributes.title and ("Learning Activity: " .. div.attributes.title) or "Learning Activity", div.attributes.appearance, div.attributes.icon or false)
     elseif div.classes:includes("check") then
-      if not in_callout then
-        in_callout = true
-        local result = quarto.Callout({
-          type = "note",
-          content = pandoc.walk_block(pandoc.Div(div.content), {Div = process_div}),
-          title = "Checking Your Learning",
-          appearance = div.attributes.appearance or "default",
-          icon = div.attributes.icon or false
-        })
-        in_callout = false
-        return result
-      else
-        return div
-      end
-    -- note
+      return create_callout("note", div.content, "Checking Your Learning", div.attributes.appearance, div.attributes.icon or false)
     elseif div.classes:includes("note") then
-      if not in_callout then
-        in_callout = true
-        local result = quarto.Callout({
-          type = "note",
-          content = pandoc.walk_block(pandoc.Div(div.content), {Div = process_div}),
-          appearance = div.attributes.appearance or "simple",
-          icon = div.attributes.icon or false
-        })
-        in_callout = false
-        return result
-      else
-        return div
-      end
-    -- accordion
+      return create_callout("note", div.content, nil, div.attributes.appearance or "simple", div.attributes.icon or false)
     elseif div.classes:includes("accordion") then
-      if not in_callout then
-        in_callout = true
-        local result = quarto.Callout({
-          type = "note",
-          content = pandoc.walk_block(pandoc.Div(div.content), {Div = process_div}),
-          title = div.attributes.title or "Open to learn more.",
-          appearance = div.attributes.appearance or "simple",
-          icon = div.attributes.icon or false
-        })
-        in_callout = false
-        return result
+      return create_callout("note", div.content, div.attributes.title or "Open to learn more.", div.attributes.appearance or "simple", div.attributes.icon or false)
+    elseif div.classes:includes("prote") then
+      return create_callout("important", div.content, "Note from Production", div.attributes.appearance or "simple", true)
     else
       return div
     end
-    else
-      return pandoc.walk_block(div, {Div = process_div})
-    end
   end
+
   function Div(div)
     return process_div(div)
   end
-  -- remove bookmarks from headings  
+
   function Header(el)
     el.identifier = ""
     return el
