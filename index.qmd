@@ -8,7 +8,7 @@ Please read the full course syllabus located on the Course Home page in Moodle. 
 
 :::
 
-## Course Activities
+## Course Activities {.unnumbered}
 
 Below is some key information on features you may see throughout the course.
 

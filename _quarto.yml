@@ -1,5 +1,4 @@
-# version 2.2
-
+# version 2.3
 
 project:
   type: book
@@ -33,7 +32,7 @@ link-bibliography: true
 link-citations: true
 
 filters:
-  - custom.lua
+   - yml-assets/custom.lua
 
 # Add templete for block
 title-block-banner: true
@@ -42,7 +41,7 @@ format:
 # Format - HTML
   html:
     template-partials:
-      header-assets/title-block.html
+      yml-assets/title-block.html
       
     sidebar:
       style: "docked"
@@ -52,7 +51,7 @@ format:
     toc: true
     toc-title: On This Page
     # theme: cosmo
-    theme: [cosmo, custom.scss]
+    theme: [cosmo, yml-assets/custom.scss]
     include-in-header:
     - text: |
         <script type="application/javascript" src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>

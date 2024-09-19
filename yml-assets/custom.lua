@@ -87,11 +87,11 @@ end
 -- Docx Filters
 if FORMAT:match 'docx' then
   local in_callout = false
+  
   local function process_div(div)
     if in_callout then
       return div
     end
-
     local function create_callout(type, content, title, appearance, icon)
       in_callout = true
       local result = quarto.Callout({
@@ -104,26 +104,54 @@ if FORMAT:match 'docx' then
       in_callout = false
       return result
     end
-
+    
+    local function create_custom_div(type, content, title, icon, color)
+      in_callout = true
+      local opening_line = "--- Begin " .. type
+      if title then
+        opening_line = opening_line .. ": " .. title
+      end
+      if icon then
+        opening_line = opening_line .. " (w/ icon)"
+      end
+      opening_line = opening_line .. " ---"
+      
+      local closing_line = "--- End " .. type .. " ---"
+      
+      -- Create a styled text using pandoc's RawInline
+      local function styled_text(text, color)
+        return pandoc.RawInline('openxml', 
+          string.format('<w:r><w:rPr><w:color w:val="%s"/><w:sz w:val="16"/></w:rPr><w:t>%s</w:t></w:r>', color, text))
+      end
+      
+      local result = pandoc.Div({
+        pandoc.Para(styled_text(opening_line, color)),
+        pandoc.walk_block(pandoc.Div(content), {Div = process_div}),
+        pandoc.Para(styled_text(closing_line, color))
+      })
+      
+      in_callout = false
+      return result
+    end
+    
     if div.classes:includes("learning-activity") then
-      return create_callout("note", div.content, div.attributes.title and ("Learning Activity: " .. div.attributes.title) or "Learning Activity", div.attributes.appearance, div.attributes.icon or false)
+      return create_custom_div("Learning Activity", div.content, div.attributes.title, div.attributes.icon, "2375DA")  -- Blue
     elseif div.classes:includes("check") then
-      return create_callout("note", div.content, "Checking Your Learning", div.attributes.appearance, div.attributes.icon or false)
+      return create_custom_div("Checking Your Learning", div.content, nil, div.attributes.icon, "96958E")  -- Grey
     elseif div.classes:includes("note") then
-      return create_callout("note", div.content, nil, div.attributes.appearance or "simple", div.attributes.icon or false)
+      return create_custom_div("Note", div.content, nil, div.attributes.icon, "198402")  -- Green
     elseif div.classes:includes("accordion") then
-      return create_callout("note", div.content, div.attributes.title or "Open to learn more.", div.attributes.appearance or "simple", div.attributes.icon or false)
+      return create_custom_div("Accordion", div.content, div.attributes.title or "Open to learn more", div.attributes.icon, "4F1896")  -- Purple
     elseif div.classes:includes("prote") then
       return create_callout("important", div.content, "Note from Production", div.attributes.appearance or "simple", true)
     else
       return div
     end
   end
-
+  
   function Div(div)
     return process_div(div)
   end
-
   function Header(el)
     el.identifier = ""
     return el
