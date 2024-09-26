@@ -1,10 +1,10 @@
-# version 2.3
+# version 2.4
 
 project:
   type: book
   output-dir: docs
 
-# Changing metadata labels: https://quarto.org/docs/authoring/title-blocks.html#metadata-labels
+# Info on changing metadata labels: https://quarto.org/docs/authoring/title-blocks.html#metadata-labels
 published-title: "Last Modified"
 #author-title: "Authors"
 
@@ -22,6 +22,7 @@ book:
     - u4.qmd
     - u5.qmd
     - u6.qmd
+
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
 #    - references.qmd
 
@@ -31,12 +32,18 @@ csl: https://twuonline.github.io/course-materials/quarto/apa.csl
 link-bibliography: true
 link-citations: true
 
+# Lua Filters
 filters:
-   - yml-assets/custom.lua
+  - at: pre-ast
+    path: yml-assets/pre.lua
+  - at: post-render
+    path: yml-assets/post.lua
 
 # Add templete for block
 title-block-banner: true
-# Formats
+
+# ------- Format Specific Settings -------
+
 format:
 # Format - HTML
   html:
@@ -50,8 +57,9 @@ format:
     toc-depth: 4
     toc: true
     toc-title: On This Page
-    # theme: cosmo
-    theme: [cosmo, yml-assets/custom.scss]
+    theme: cosmo
+    # The line below  should only be enabled to locally test css before moving it to the main css file in course materials.
+    #theme: [cosmo, yml-assets/test.scss]
     include-in-header:
     - text: |
         <script type="application/javascript" src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>
@@ -60,6 +68,7 @@ format:
 # Format - PDF
   pdf:
     documentclass: scrreprt
+
 # Format - Doc
   docx:
     toc: false
