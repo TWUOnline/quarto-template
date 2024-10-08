@@ -1,0 +1,498 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading,figureheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Template},
+  pdfauthor={TWU Online},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Template}
+\author{TWU Online}
+\date{Oct 1, 2024}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\bookmarksetup{startatroot}
+
+\chapter*{Welcome}\label{welcome}
+\addcontentsline{toc}{chapter}{Welcome}
+
+\markboth{Welcome}{Welcome}
+
+This is the course book for \textbf{{[}Course Name{]}}. This book is
+divided into thematic units of study to help you engage with the
+materials. The course resources and learning activities are designed not
+only to help prepare you for the course assessments, but also to give
+you opportunities to practice various skills.
+
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, rightrule=.15mm, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colback=white]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+Please read the full course syllabus located on the Course Home page in
+Moodle. It includes key information about the course schedule,
+assignments, and policies.
+
+\end{minipage}%
+\end{tcolorbox}
+
+\section*{Course Activities}\label{course-activities}
+\addcontentsline{toc}{section}{Course Activities}
+
+\markright{Course Activities}
+
+Below is some key information on features you may see throughout the
+course.
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, colframe=quarto-callout-note-color-frame, rightrule=.15mm, bottomrule=.15mm, title={Learning Activity}, bottomtitle=1mm, left=2mm, toprule=.15mm, opacitybacktitle=0.6, arc=.35mm, opacityback=0, toptitle=1mm, breakable, leftrule=.75mm, titlerule=0mm, colback=white]
+
+This box will prompt you to engage in course concepts by:
+
+\begin{itemize}
+\tightlist
+\item
+  Viewing resources and reflecting on your experience and/or learning.
+\item
+  Checking your understanding to make sure you are ready for what
+  follows. Ways to check your learning might include self-check quizzes
+  or questions for discussion.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, rightrule=.15mm, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colback=white]
+
+Working through course activities will help you to meet the learning
+outcomes and successfully complete your assessments.
+
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+Below is an accordion.
+
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, rightrule=.15mm, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colback=white]
+
+\vspace{-3mm}\textbf{This is an accordion. Click/tap this banner to show/hide the content.}\vspace{3mm}
+
+An accordion may contain extra content such as worked examples or sample
+answers.
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\chapter{A title for Unit 1}\label{a-title-for-unit-1}
+
+Welcome to {[}COURSE{]}
+
+\section*{Topics}\label{topics}
+\addcontentsline{toc}{section}{Topics}
+
+\markright{Topics}
+
+This unit is divided into the following topics: 1. 2. 3.
+
+\subsection*{Unit Learning Outcomes}\label{unit-learning-outcomes}
+\addcontentsline{toc}{subsection}{Unit Learning Outcomes}
+
+When you have completed this unit, you will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Describe\ldots{}
+\item
+  Contrast\ldots{}
+\item
+  Analyze\ldots{}
+\item
+  Determine\ldots{}
+\item
+  Create\ldots{}
+\end{itemize}
+
+\subsection*{Learning Activities}\label{learning-activities}
+\addcontentsline{toc}{subsection}{Learning Activities}
+
+Here is a list of learning activities that will benefit you in
+completing this unit. You may find it useful for planning your work.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Read\ldots{}
+\item
+  Watch\ldots{}
+\item
+  Explore\ldots{}
+\item
+  Complete the ungraded quiz.
+\end{enumerate}
+
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, rightrule=.15mm, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colback=white]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+Working through course activities will help you to meet the learning
+outcomes and successfully complete your assessments.
+
+\end{minipage}%
+\end{tcolorbox}
+
+\subsection*{Assessment}\label{assessment}
+\addcontentsline{toc}{subsection}{Assessment}
+
+Please see the Assessment section in Moodle for assignment details.
+
+\subsection*{Resources}\label{resources}
+\addcontentsline{toc}{subsection}{Resources}
+
+Here are the resources you will need to complete this unit.
+
+\begin{itemize}
+\tightlist
+\item
+  (Textbook)
+\item
+  Other online resources will be provided in the unit.
+\end{itemize}
+
+\section{Title for Topic 1}\label{title-for-topic-1}
+
+We begin Unit 1\ldots{}
+
+\emph{(add content)}
+
+\subsection*{Activity: Title (e.g.~Read, Reflect and
+View)}\label{activity-title-e.g.-read-reflect-and-view}
+\addcontentsline{toc}{subsection}{Activity: Title (e.g.~Read, Reflect
+and View)}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, colframe=quarto-callout-note-color-frame, rightrule=.15mm, bottomrule=.15mm, title={Learning Activity}, bottomtitle=1mm, left=2mm, toprule=.15mm, opacitybacktitle=0.6, arc=.35mm, opacityback=0, toptitle=1mm, breakable, leftrule=.75mm, titlerule=0mm, colback=white]
+
+\emph{(add content)}
+
+View the following resources about \ldots{}
+
+Next, watch the following videos that illustrate\ldots{}
+
+\textbf{Questions to Consider}
+
+After completing the activities above, consider the following questions:
+
+\begin{itemize}
+\tightlist
+\item
+  This is a question?
+\end{itemize}
+
+\end{tcolorbox}
+
+\section{Title for Topic 2}\label{title-for-topic-2}
+
+\emph{(add content)}
+
+\ldots{}
+
+\subsection*{Activity: Title}\label{activity-title}
+\addcontentsline{toc}{subsection}{Activity: Title}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, colframe=quarto-callout-note-color-frame, rightrule=.15mm, bottomrule=.15mm, title={Learning Activity}, bottomtitle=1mm, left=2mm, toprule=.15mm, opacitybacktitle=0.6, arc=.35mm, opacityback=0, toptitle=1mm, breakable, leftrule=.75mm, titlerule=0mm, colback=white]
+
+e.g.~Case study
+
+\emph{(add content)}
+
+Note that you may be asked to review this case or similar cases in your
+class discussion groups. You may want to prepare by relating the case to
+your readings. Specifically, identify the ethical issues and terms to
+help explain the case.*
+
+\emph{{[}Note for Facilitator's Guide: Use the case study above as a
+class or group discussion prompt. Remind students to complete this
+activity before the class session.{]}}
+
+\end{tcolorbox}
+
+\section{Title for Topic 3}\label{title-for-topic-3}
+
+\emph{(add content)}
+
+\ldots{}
+
+\subsection*{Activity: Title}\label{activity-title-1}
+\addcontentsline{toc}{subsection}{Activity: Title}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, colframe=quarto-callout-note-color-frame, rightrule=.15mm, bottomrule=.15mm, title={Learning Activity}, bottomtitle=1mm, left=2mm, toprule=.15mm, opacitybacktitle=0.6, arc=.35mm, opacityback=0, toptitle=1mm, breakable, leftrule=.75mm, titlerule=0mm, colback=white]
+
+\emph{(See
+\href{https://multi-access.twu.ca/assessment/assessment-ideas}{Assessment
+ideas} for other ways to engage students in the topics.)}
+
+\end{tcolorbox}
+
+\subsection*{Activity: Key Terms Quiz
+(ungraded)}\label{activity-key-terms-quiz-ungraded}
+\addcontentsline{toc}{subsection}{Activity: Key Terms Quiz (ungraded)}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, colframe=quarto-callout-note-color-frame, rightrule=.15mm, bottomrule=.15mm, title={Learning Activity}, bottomtitle=1mm, left=2mm, toprule=.15mm, opacitybacktitle=0.6, arc=.35mm, opacityback=0, toptitle=1mm, breakable, leftrule=.75mm, titlerule=0mm, colback=white]
+
+To review the concepts from this unit, take the following quiz.~ This
+activity is ungraded and is designed to help prepare you for the
+assessments in this course.
+
+Match the following terms to their correct definition.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Term}-- definition\ldots{}
+\item
+  \textbf{Term}-- definition\ldots{}
+\item
+  \textbf{Term}-- definition\ldots{}
+\end{enumerate}
+
+\end{tcolorbox}
+
+\section*{Unit Summary}\label{unit-summary}
+\addcontentsline{toc}{section}{Unit Summary}
+
+\markright{Unit Summary}
+
+In this first unit, you have had the opportunity to learn about\ldots{}
+
+\emph{(add content)}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, colframe=quarto-callout-note-color-frame, rightrule=.15mm, bottomrule=.15mm, title={Checking Your Learning}, bottomtitle=1mm, left=2mm, toprule=.15mm, opacitybacktitle=0.6, arc=.35mm, opacityback=0, toptitle=1mm, breakable, leftrule=.75mm, titlerule=0mm, colback=white]
+
+Before you move on to the next unit, you may want to check that you are
+able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Describe\ldots{}
+\item
+  Contrast\ldots{}
+\item
+  Analyze\ldots{}
+\item
+  Determine\ldots{}
+\item
+  Create\ldots{}
+\end{itemize}
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\chapter{A title for Unit 2}\label{a-title-for-unit-2}
+
+\bookmarksetup{startatroot}
+
+\chapter{\# A title for Unit 3}\label{a-title-for-unit-3}
+
+This is a book created from markdown and executable code.
+
+\bookmarksetup{startatroot}
+
+\chapter{\# A title for Unit 4}\label{a-title-for-unit-4}
+
+This is a book created from markdown and executable code.
+
+\bookmarksetup{startatroot}
+
+\chapter{\# A title for Unit 5}\label{a-title-for-unit-5}
+
+This is a book created from markdown and executable code.
+
+\bookmarksetup{startatroot}
+
+\chapter{\# A title for Unit 6}\label{a-title-for-unit-6}
+
+This is a book created from markdown and executable code.
+
+
+
+
+\end{document}

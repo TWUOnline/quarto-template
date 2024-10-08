@@ -1,0 +1,127 @@
+# Therapy- Part 1
+
+## Overview {.unnumbered}
+
+Units 11 and 12 introduce the exciting, and ever expanding, world of therapy. Today, psychotherapeutic techniques are used to address a range of human conditions- from helping people find hope in overwhelmingly challenging circumstances to people exploring ways to optimize their potentials. Having a therapeutic relationship can be tremendously valuable in a person’s life as a therapist should be non-judgmental and have no other agenda than to help a person reach their therapeutic goals. The focus of this unit will be to provide some overview and perspectives on therapy.
+
+### Topics {.unnumbered}
+
+This unit is will delve into the topic of :
+
+- Therapies
+
+### Learning Outcomes {.unnumbered}
+
+By the end of this unit, student's will be able to:
+
+- Define the key terminology associated with mental health treatment, psychological therapies, and biological treatments.
+- Describe the major barriers to seeking help for psychological disorders, arguments for and against involuntary treatment, and general approaches to conducting major types of psychotherapy.
+- Apply your knowledge to suggest what approach to therapy is likely most appropriate for a given situation, to identify major therapeutic techniques, and which drug therapies could be used for different psychological conditions.
+- Analyze whether self-help options, such as popular books, are a useful therapy option, the pros and cons of the major types of psychotherapy and whether St. John’s Wort, a popular herbal remedy for depression, works.
+- Describe how the drugs described in this module, and the other major medical approaches to therapy, affect brain functioning.
+
+### Learning Activities
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+- Read the relevant sections of Chapter 16 of your textbook
+- Review the Chapter 16 - Notes (intended to support your understanding of your readings)
+- Read and reflect about the articles from *PsychCentral,* *Behaviour Online,* and *Integration Models*
+
+:::
+
+::: {.note icon="true"}
+
+***Note***
+
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+:::
+
+::: {.note}
+
+***Assessment***
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
+
+### Resources {.unnumbered}
+
+Here are the resources you will need to complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.
+- Other resources will be provided online.
+
+## Therapies- Part 1
+
+### Psychological Therapies {.unnumbered}
+
+Psychological therapies, or psychotherapies, are a general class of therapies that deal with the psychological (mental/behavioural) world of people with disorders.
+
+These therapies are generally contrasted with biomedical approaches, which deal more with the biological world of the individual. Biomedical therapies focus on altering a person's biology to effect a change in the person's psychology.
+
+### Eclectic Approach {.unnumbered}
+
+The eclectic approach is an approach that values the diversity of treatment approaches. Eclectic approaches deal with psychology and biology. In addition, various types of psychotherapies may be employed. Eclectic therapy approaches are becoming very popular.
+
+### A Sin Problem? {.unnumbered}
+
+*“Many Christians are not satisfied with viewing psychological disorders as either illnesses or nothing but thought and behavior problems. They feel that both of these approaches are inadequate because they omit very important moral and spiritual questions. Consequently, the important issue of moral responsibility is not dealt with adequately.
+
+They feel that since humanity's most basic problem is alienation from God as a result of sin, no other difficulty can be dealt with until the relationship with God has been restored. Thus the first goal of therapy is to bring the client to the place of acknowledging his or her need, and asking for divine forgiveness through Jesus Christ. Once the client has placed his or her trust in God, and is operating within the same religious conceptual framework as the therapist, therapy can then proceed to the identification of specific disturbances of thought and behavior. These are seen as examples of sin in that the individual is either acting in a sinful way towards others, or is harboring sinful thoughts and attitudes within. The therapist will assist the individual to identify, confess, and forsake these sins. The goal of therapy is seen primarily in terms of spiritual growth and a "closer walk with God."*
+
+### Sin Only? {.unnumbered}
+
+In a work for Christian counselors, Koteskey (1983) gives the example of his eighteen month old son who developed an intense fear of dogs after two unpleasant experiences with them. Even the fact that the child was too young to talk did not prevent a fellow Christian psychologist from concluding that he had a spiritual problem. We should recognize that not every problem is necessarily a spiritual one. Just as a disturbance may have a purely biological cause, so too it may have a simple psychological (learning) explanation. Information gained from the study of animals may be helpful in the understanding of psychological problems as it is often vital in understanding biological problems. *(Both excerpts from Psychology and Christianity by Ronald Philipchalk)*
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+For many people unfamiliar with the journey of counselling, finding suitable resources may feel daunting. It is important to know that there are many different approaches designed to help you accomplish the growth goals you have for your life. In this activity, the first resource, Psych Central is the oldest peer-reviewed psychology and mental health network on the Internet. Established in 1992, originally it was an index to mental health. Now it gives you the opportunity to see some treatment options for a wide variety of conditions. Additionally, there is a resource on different theoretical approaches to behavior change, and a link to some information concerning the integration of Christianity and psychotherapy.
+
+- [**PsychCentral**](https://psychcentral.com/){target="_blank"}
+- [**Behaviour Online**](http://www.behavior.net){target="_blank"}
+- [**Integration Models**](http://www.psyche.gr/lpsycrel.htm){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Read the questions below and consider how they connect to what you have learned:
+
+- ***What is your view of the role of sin (or questionable moral behaviours) or other religious/spiritual beliefs in the treatment of psychological disorders?***
+- ***What kinds of religious/spiritual beliefs could lead to greater feelings of guilt/shame and increased psychological disorder?***
+
+*Be prepared to share your thoughts with other members of the class.*
+
+:::
+
+## Assessment {.unnumbered}
+
+::: {.note}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+:::
+
+## Checking Your Learning {.unnumbered}
+
+::: {.check}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define the key terminology related to health psychology, stress and illness, and coping and well-being.
+- Describe how genetic and environmental factors influence obesity, how physiological reactions that occur under stress, and how the immune system is connected to stress responses.
+- Apply your knowledge of persuasion and health to examine the effectiveness of different types of cigarette warnings, and of the beneficial effects of optimism to help you reframe stressful situations as positive opportunities.
+- Analyze whether media depictions of smoking affect smoking in adolescents, the claim that ulcers are caused by stress, and whether activities such as relaxation techniques, meditation, and biofeedback actually help people cope with stress and problems.
+- Describe how control over the environment and positive and negative styles of coping influences well-being.
+
+:::

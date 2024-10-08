@@ -1,0 +1,277 @@
+# Psychological Disorders
+
+## Overview {.unnumbered}
+
+Whether due to sheer fascination with the unusual, or perhaps just personal curiosity, many introductory psychology students look forward to learning about psychological disorders. Abnormal human behavior is a universal part of human history. In this unit you will learn about past and current perspectives on how to recognize and understand various psychopathologies and the numerous challenges that often accompany disorders. I would encourage you to refrain from diagnosing yourself, or others, while you are covering the information involved with this chapter. It will be tempting, especially with the checklist style presentation of some of the material, however; to offer an appropriate diagnosis of someone, you will need to obtain a minimum of a master’s degree in clinical or counselling psychology.
+
+### Topics {.unnumbered}
+
+This unit will be divided into the following topics:
+
+1. Looking at What is Normal and Anxiety Disorders
+2. Mood Disorders
+3. Schizophrenia
+4. Personality Disorders
+
+### Learning Outcomes {.unnumbered}
+
+By the end of this unit, student's will be able to:
+
+- Define the key terminology associated with classifying psychological disorders, personality and dissociative disorders, anxiety, obsessive-compulsive, and depressive disorders, and schizophrenia.
+- Describe advantages and criticisms associated with the Diagnostic and Statistical Manual of Mental Disorders (DSM-5).
+- Apply your knowledge of the mental disorders defense to decide if defendants are criminally responsible for their actions.
+- Analyze whether the benefits of labelling psychological disorders outweigh the disadvantages, the status of dissociative identity disorder as a legitimate diagnosis, and whether maladaptive aspects of specific phobias might arise from perfectly normal, healthy behaviours.
+- Apply your knowledge of antisocial personality disorder to explain how it could help people succeed in certain professions.
+- Describe the different types of anxiety disorders and how anxiety or depressive disorders can be self-perpetuating.
+- Apply your knowledge of anxiety, obsessive-compulsive, and depressive disorders, to be alert to people who might benefit from some help, and to be able to identify different forms of schizophrenia.
+- Describe how different neurotransmitters affect individuals with schizophrenia and the genetic and environmental contributions to this disorder.
+- Analyze claims that schizophrenia is related to genius or violent behaviour.
+
+### Learning Activities
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+- Read the relevant sections of Chapter 15 of your textbook
+- Review the Chapter 15 - Notes (intended to support your understanding of your readings)
+- Read the articles *Psychological Problems and Disorders,* *Anxiety Disorders,* and *Criticism of America’s Diagnostic Bible- The DSM*
+- Read and Reflect about the articles *Information about Depression* and *Mental Illness in Children*
+- Read and Reflect about *Schizophrenia*
+- Read and Reflect about *Personality Disorders*
+- Complete the Key Terms Quiz (ungraded)
+
+:::
+
+::: {.note icon="true"}
+
+***Note***
+
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+:::
+
+::: {.note}
+
+***Assessment***
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
+
+### Resources {.unnumbered}
+
+Here are the resources you will need to complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.
+- Other resources will be provided online.
+
+## Looking at What is Normal and Anxiety Disorders
+
+We begin this topic by considering the following excerpt:
+
+*I avoid it whenever I can. In fact, I fear those days in which I have to experience it—going to the dentist. I know this is a common fear, but the reason for my fear is different from most people’s. When I go to the dentist, I pace back and forth in the waiting room, my heart races, I start to sweat and I have some trouble breathing. I know some people have problems with needles, or drills—not so for me. You see, my problem is with X-rays. I know, you are probably thinking, "what could be the problem with x-rays—this guy must really be a baby". Well, the problem is that I have one of the strongest gag reflexes that my dentist has ever seen (at least so he tells me). When the dentist puts the lead backing in my mouth (you know the cardboard thing that makes sure you don’t get cancer, or brain damage, or produce deformed children--at least this is what my dentist tells me), I choke on the piece and gag it up. In addition to being terribly uncomfortable, it is highly embarrassing—not to mention a little scary for all those children in the waiting room listening to the guy "dying" in the dentist’s chair. My dentist has tried everything—cutting the backing so it is smaller, having a nurse talk to me to distract my attention, having a nurse down the hall flip the X-ray switch as soon as the backing is in my mouth. Nothing seems to work, and over the past 20 years of going to the dentist, I have become more and more anxious with the experience. Only one solution has seemed to work—letting me put the backing in my mouth myself and taking the picture really fast.* (TWU psychology professor, personal communication)*
+
+### What is Normal? {.unnumbered}
+
+As the textbook points out, the definition of what is normal varies depending on culture and circumstances. As you read about various disorders, you may be struck by how similar “disordered” behavior is to normal behavior. (You should also beware of the “medical student syndrome;” the tendency to feel you have the problem you are studying.) In fact, disordered thought and behavior is usually just exaggerated normal behavior perhaps displayed at inappropriate times. For example, how would you diagnose someone who walks back and forth waving his arms and shouting one minute, and sits down and weeps uncontrollably the next? You might think he had a serious mental problem...*that is until you found out he was a basketball coach on the sidelines of a big game
+
+Here is a list of comparisons between normal personality characteristics on the left, and the same type of behavior classified as a personality disorder on the right *(originally published in Harper’s, February 1997, by L.J. Davis).* You will learn more about personality disorders in a later section, but for now, you can probably see that the right, “disordered” column could just represent a different perspective on the left, “normal” column:
+
+::: {#fig-U10ximage}
+
+![](assets/u10/U10_image.jpg){fig-alt="" .lightbox fig-align="left"}
+
+<!-- Image missing caption and alt text--> 
+
+:::
+
+*image of chart listing of personality style and personality disorder*
+
+***This is not to say that psychological diagnoses have no validity. The point is that diagnosis is difficult and sometimes controversial.***
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+The following articles augment your understanding of the descriptions of the disorders discussed in the textbook and provide opportunity to understand more about anxiety disorders. Due to the pervasiveness of disorders, especially anxiety related problems, this information could prove invaluable in helping yourself and others find hope and help in challenging circumstances. There is also an excellent write up on the many valid criticisms of being overly dependent on the DSM as a resource.
+
+- [**Understanding Psychological Disorders**](https://www.healthline.com/health/psychological-disorders){target="_blank"}
+- [**What are Anxiety Disorders**](https://www.psychiatry.org/patients-families/anxiety-disorders/what-are-anxiety-disorders){target="_blank"}
+- [**Criticism of America's Diagnostic Bible - The DSM**](https://www.oregoncounseling.org/criticism-of-americas-diagnostic-bible-the-dsm){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Consider what you have learned in this section. Use the following questions to guide your reflection:
+
+- ***Would you expect Christians to be more mentally healthy than non-Christians? Why or why not?***
+- ***What about people with other religious/spiritual beliefs?***
+- ***What about people with no religious/spiritual beliefs?***
+
+*Be prepared to share your thoughts and insights with other members of the class*
+
+:::
+
+## Mood Disorders
+
+Before we consider mood disorders, take moment to read through the following case:
+
+*Jane (not her real name) was a married church-going woman. She seemed to live a normal, uneventful life. Her family, however, was living a private hell. At times, Jane would be so depressed that she didn’t want to get out of bed. She would mope around the house. She didn’t want to see anyone or visit anyone. Her children and husband tried to lift her spirits, but their efforts were all in vain. She believed she was worthless, useless, and her life was meaningless. At other times, Jane was the life of the party. She would make great plans to change the world. She would give huge sums of money to charity and she would go on pointless, spending frenzies. Her husband was forced to cancel their credit cards for fear of personal bankruptcy. When Jane found out about the cards being cancelled she reacted violently. She told her husband that he was old, ugly and worthless, and that she could be with anyone she wanted. In fact, she stated that all the young men are staring at her—"If I wasn’t a committed Christian, I’d be leave you to be with one of those young men, they all want me." Her family could no longer stand Jane’s mood swings—she was either "pathetic" or "unbearable". After years of mood fluctuations, Jane was finally diagnosed as suffering from Bipolar Mood Disorder. Following medical treatment and counselling, Jane’s moods stabilized and the family was again able to live peacefully.*
+
+## Depression
+
+Depression is one of the most common psychological problems of all—striking Christians and non-Christians alike. Mental health workers sometimes refer to it as “the common cold” of psychological disorders.
+
+In depression we once again see the link between normal and abnormal behavior. We all feel sad or down sometimes. A diagnosis of depression, however, is an extreme and continuing sadness. You will see more about the criteria for this diagnosis in the textbook and the online resources.
+
+## Heartsick
+
+*Depression Hurts the Heart
+
+Experts have long thought depression could be bad for your heart. A new study demonstrates just how dangerous it can be. Brenda Penninx, a gerontologist at Wake Forest University in Winston-Salem, N.C., and colleagues followed 2,847 people over 55—both with and without heart disease—for four years to trace the effects of depression.
+
+In the end, people with major depression were at least three times as likely as patients who were not depressed to die of heart disease. Even subjects with mild depression experienced a fatality rate that was 50 percent higher than normal.
+
+*Penninx isn’t sure exactly what the connection is, but since depression can raise stress, and stress triggers an outpouring of the hormone cortisol, this could cause heart rate and blood pressure to rise. Other factors could play a part: Depressed people are less likely to exercise or eat right than those who don’t suffer from the malady. “Depression deserves a lot more attention than it usually gets,” Penninx warns. "It’s a huge cardiac risk factor, so it’s crucial to take care of your emotions.""* —Health (Quoted in Readers Digest, Feb. 2002, p. 27)*
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+How do you know the difference between depression and normal sadness? In this activity, you are given an overview of depression that explains the causes, describes the diagnostic criteria, and offers some treatment options. Additionally, though children may suffer from a disorder, there are additional challenges in noticing it in them due to their immature language, cognitive, and emotion processing abilities and developmental stage. The second resource provides an overview of recognizing the signs that a child is struggling due to a disorder.
+
+- [**What is Depression?**](https://www.psychiatry.org/patients-families/depression/what-is-depression){target="_blank"}
+- [**Mental Illness in Children**](https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/mental-illness-in-children/art-20046577){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Consider the how the following questions relate to what you have learned in this section:
+
+- ***Can you think of some examples of biblical characters that apparently suffered from a mood disorder? Describe their behavior?***
+- ***What do their examples suggest about possible causes? (Hint: Elijah, David, Saul, others?)***
+
+*If you are not familiar with biblical personages, give an example from literature or contemporary public life.*
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Schizophrenia
+
+Schizophrenia is one of the more devastating psychological illnesses. Schizophrenia is not common, however, it seems to be universal, appearing in cultures all over the world and across history. Some of our earliest writings describe people who seem to have lost touch with reality, who “hear voices,” and who produce bizarre speech and behaviours. At some earlier times in history, a person experiencing such symptoms may have been suspected of demon possession or some form of witchcraft. At other times and places, such people might be revered as shamans or as having special connections to the spirit world, and may well have played important roles in the community. Importantly, spiritual contributions to schizophrenia’s symptoms are still considered in some religious and cultural interpretations of this disorder.
+
+### Schizophrenia in the Bible {.unnumbered}
+
+*But when his heart was lifted up, and his mind hardened in pride, he was deposed from his kingly throne, and they took his glory from him. And he was driven from the sons of men, and his heart was made like the beasts, and his dwelling was with the wild asses; they fed him with grass like oxen, and his body was wet with the dew of heaven, till he knew that the Most High God ruled in the kingdom of men, and that he appointeth over it whomsoever he will.* Daniel 5:20-21
+
+The bible gives relatively few accounts of people troubled by mental illness as we would call it today. The above account is of Belshazar, son of Nebuchadnezzar who was killed after losing his mental faculties. Interestingly, his father, Nebuchadnezzzar seemed to suffer from a similar loss of functioning:
+
+*O King Nebuchadnezzar, to thee it is spoken, The kingdom is departed from thee. And they shall drive thee from men, and thy dwelling shall be with the beasts of the field; they shall make thee to eat grass like oxen, and seven times shall pass over thee, until thou know that the Most High ruleth in the kngdom of men, and giveth it to whomsoever he will. The same hour was the thing fulfilled upon Nebuchadnezzar, and he was driven from men, and did eat grass like oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles’ feathers, and his nails like birds’ claws.* Daniel, 4:31b-33
+
+### The Split in Schizophrenia {.unnumbered}
+
+This strange behavior and apparent loss of contact with reality we would probably consider schizophrenia today. Schizophrenia appears in all cultures at about the same rate. Schizophrenia is one of the most serious and debilitating of the psychological disorders. As mentioned in the textbook, schizophrenia is often confused with dissociative identity disorder (multiple personality disorder, popularly known as split personality). ***Schizophrenics do not have a split personality. And it is not correct to refer to someone with a “split personality” as schizophrenic.*** The “split” (schism) that schizophrenics experience is a split from reality. Schizophrenics may suffer from disorganized thought, paranoid delusions, hallucinations, and many other unusual thought patterns.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+Schizophrenia is a truly fascinating condition that continues to draw much attention. This activity presents current in-depth research and general information concerning schizophrenia that will illuminate the complexity of the development and treatment of this disorder.
+
+- [**Schizophrenia**](http://schizophrenia.com/){target="_blank"}
+
+:::
+
+### Activity: Question for Consideration
+
+::: {.learning-activity}
+
+Take a moment to reflec on what you have learned using the question below:
+
+- ***Before the development of modern psychology, how do you think people suffering from schizophrenia were treated? How much better is treatment today?***
+
+*Be prepared to share your thoughts and insights with other members of the class.*
+
+:::
+
+## Personality Disorders
+
+Personality disorders are relatively common disorders where the person can function normally, but shows evidence of some difficulty or abnormality in social functioning. Unlike other disorders, the person does not seem to feel there is a difficulty.
+
+### Antisocial Personality {.unnumbered}
+
+Antisocial Personality Disorder (APD) is a pattern of disregard for, and violation of, the rights of others. It can be seen in individuals who have a profound lack of empathy or emotional connection with others, a disregard for others’ rights or preferences, and a tendency toward imposing their own desires, often violently, onto others regardless of the consequences for other people or, often when younger, other animals. APD (sometimes referred to as psychopathy) tends to be highly resistant to treatment, in part because individuals with APD are not alarmed or distressed by their actions (although others frequently are), and they are thus rarely, if ever, motivated to change. The following is a short example to illustrate how some people who suffer from APD might present themselves:
+
+A former professor at UBC, Dr. Robert Hare (an internationally known expert on antisocial personality disorders) often conducted research with prisoners diagnosed with antisocial personality disorder. He frequently took graduate students with him to prison to assist in this research. To illustrate the ability of the prisoners to “con” even bright graduate students, he told them that on the way back from prison inevitably the students would tell him that the prisoner they had been dealing with was innocent. They were sure there had been a mistake, and the prisoner had been falsely convicted. Such is the charm and persuasive power of the antisocial personality.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+Recall from Chapter 12 that our personalities allow others to predict and anticipate our responses to situations. A person with a “healthy” personality demonstrates a range of coping responses and styles when placed in a stressful situation. However, a disordered personality does not have this kind of adaptability and flexibility. At times, the person doesn’t feel they like they have any problems, at other times, the lack of adaptability and the limited repertoire of coping responses can result in distress for the person and for those around him or her. In this activity, you can gain more insight into defined patterns of personality disorders.
+
+- [**Personality Disorders**](https://www.camh.ca/en/health-info/mental-illness-and-addiction-index/personality-disorders){target="_blank"}
+
+:::
+
+### Activity: Chapter 15 Key Terms Quiz
+
+::: {.learning-activity}
+
+In order to review some of the major terms from Chapter 15 in your textbook, take the following unmarked quiz. Although you will not be evaluated on these terms, they will assist you in the assessments for this course.
+
+<iframe src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=84" width="936" height="678" frameborder="0" allowfullscreen="allowfullscreen" title="Psych 106 - Unit 10 Quiz"></iframe><script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+- ***Do you ever wonder if someone you know seems to have a personality disorder? What are some indications that you have seen that make you curious if there may be a problem? (If you don’t know anyone personally, you can describe someone you know about or have seen in a movie/TV show.)***
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Assessment {.unnumbered}
+
+::: {.note}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+:::
+
+## Checking Your Learning {.unnumbered}
+
+::: {.check}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define the key terminology associated with defining and classifying psychological disorders, personality and dissociative disorders, anxiety, obsessive-compulsive, and depressive disorders, and schizophrenia.
+- Describe advantages and criticisms associated with the Diagnostic and Statistical Manual of Mental Disorders (DSM-5).
+- Apply your knowledge of the mental disorders defense to decide if defendants are criminally responsible for their actions.
+- Analyze whether the benefits of labelling psychological disorders outweigh the disadvantages, the status of dissociative identity disorder as a legitimate diagnosis, and whether maladaptive aspects of specific phobias might arise from perfectly normal, healthy behaviours.
+- Apply your knowledge of antisocial personality disorder to explain how it could help people succeed in certain professions.
+- Describe the different types of anxiety disorders and how anxiety or depressive disorders can be self-perpetuating.
+- Apply your knowledge of anxiety, obsessive-compulsive, and depressive disorders, to be alert to people who might benefit from some help, and to be able to identify different forms of schizophrenia.
+- Describe how different neurotransmitters affect individuals with schizophrenia and the genetic and environmental contributions to this disorder.
+- Analyze claims that schizophrenia is related to genius or violent behaviour.
+
+:::

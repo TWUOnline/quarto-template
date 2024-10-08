@@ -1,0 +1,320 @@
+# Social Psychology - Part 1
+
+## Overview {-}
+
+No single factor has more impact on shaping the quality and direction of your life over virtually every aspect of your existence than relationships. In a way, everyone is a social psychologist. People constantly form ideas/opinions about why a person or a group of people are acting the way they are. Social psychology is similar to what people find themselves naturally doing except it uses scientific tools to study these hypotheses (the ideas/opinions). Social psychologist are primarily interested in examining the different ways that individual’s effect groups of people and the way groups of people effect individual’s. In this unit you will be introduced to some historical studies and main concepts in this field. Topics covered in this chapter include social influences on behaviour, social impressions and judgements, the relationship between attitudes and behaviour, and effective communication. Unit 6 (Part 1) looks at attributes and actions, conformity, obedience, and compliance. Unit 7 (Part 2) examines prejudice and aggression, and, though not specifically covered in the textbook, yet important to social psychology, attraction and altruism.
+
+### Topics {-}
+
+This unit is divided into the following topics:
+
+1. Attributes and Actions  
+2. Conformity  
+3. Obedience  
+4. Compliance  
+
+### Learning Outcomes {-}
+
+By the end of this unit, student's will be able to:
+
+- Define, and apply, the key terminology associated with social influence, social cognition, and on attitudes, behaviour, and effective communication.  
+- Describe why individuals conform to others’ behaviours, how individuals and groups can influence behaviours, and how we form first impressions and how these impressions influence us.  
+- Apply your knowledge of the bystander effect to ensure that you will be helped if you are in an emergency, of social cognition to help overcome prejudice and discrimination, and of the central route to describe how a message should be designed.  
+- Analyze whether guards who participate in abuse are inherently bad people, or if their behaviour is the product of social influences and whether people who commit discriminatory acts are necessarily prejudiced.  
+- Describe how behaviours influence attitudes in terms of cognitive dissonance theory.  
+
+### Activity Checklist: {-}
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+```{block2, type='reflect'}
+
+<span class="blockhead">Learning Activities</span>
+
+- Read the relevant sections of Chapter 13 of your textbook
+- Review the Chapter 13 - Notes (intended to support your understanding of your readings) 
+- Read about *Attribution Theory* and *Cognitive Dissonance*  
+- Read and Reflect on the two articles *Social Influence* and *Conformity and Obedience*
+- Read the four resources on ethical guidelines when performing research
+- Explore the two articles on the *Influence of Social Media* and *Cults*
+
+```
+
+```{block2, type='caution'}
+
+***Note***  
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+```
+
+```{block2, type='assessment'}
+
+***Assessment***  
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+```
+
+
+### Resources {-}
+
+Here are the resources you will need to complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed. 
+- Other resources will be provided online.  
+
+## Attributes and Actions
+
+### The Ultimate Attribution Error {-}
+
+If you study attribution further, perhaps in a “Social Psychology” course, you find that there are several errors in attribution common to our perceptions of behavior. The ultimate attribution error is a combination of biases that influences our interpretation of behavior in our friends and our foes. The ultimate attribution error is our tendency to use internal attributions to explain socially desirable actions by members of our own group and socially undesirable actions by members of an opposing group. The same bias leads us to use external attributions to explain socially undesirable actions of our own group and socially desirable actions of our foes (Hewstone, 1988; Pettigrew, 1979, 1980 ; Taylor and Jaggi, 1974 ).
+
+A study by Donald Taylor and V. Jaggi (1974) illustrates this bias among south Indian subjects. Taylor and Jaggi found that Hindu subjects attributed socially desirable actions to the good character of Hindus, but attributed the same actions in Muslims to environmental circumstances. In addition, Hindu subjects blamed socially undesirable actions on Hindus' circumstances and Muslims' character. We commit the ultimate attribution error when we say, "Our soldiers fight because they have to" (external attribution), but "Our enemies fight because they are warlike" (internal attribution). And, "Our soldiers are naturally brave”; “Our enemies are forced to do daring deeds."
+
+The ultimate attribution error tends to perpetuate our false stereotypes and prejudices. Our biased interpretations have a plausible ring because the reasons for our enemies’ actions are usually somewhat ambiguous and open to various interpretations. In addition, our friends fall into the same error and support our views. Consequently, we continue to see behavior the way we expect or would like it to be, and people we don’t like never get a chance to prove us wrong. *(from Invitation to Social Psychology by Ronald Philipchalk)*
+
+### Actions and Attitudes {-}
+
+"You can't legislate morality" is a commonsense chestnut that social psycholo­gists have found not to be true. Attitudes do follow behavior. Eliot Aronson makes a persuasive argument that racial prejudiced attitudes and behaviors in the have actually responded dramatically and positively to civil rights legisla­tion and to court actions in the last several decades. In addition, he discusses sev­eral other methods that have been successfully used to reduce prejudice and discrimination, including his "jigsaw" technique, designed for use with grade school children. *Aronson, E. (1992). The social animal (6th ed.). New York: W. H. Freeman.*
+
+<!-- [plugin:content-inject](_activities) -->
+
+### Activity: Read and Reflect {-}
+
+```{block2, type='reflect'}
+
+Attributes, and our perception of attributes, has been the focus of this lesson. Take a moment to read through the following resources and consider how they connect to what you have learned:
+
+ - [**Attribution Theory**](https://www.verywellmind.com/attribution-social-psychology-2795898){target="_blank”}  
+ - [**Cognitive Dissnonance**](https://www.simplypsychology.org/cognitive-dissonance.html){target="_blank”}  
+
+These articles bring to light phenomena that tend to occur automatically (without conscious processing) for most people. Now that the concepts of attribution and cognitive dissonance are in your awareness it could be valuable to thoughtfully consider which attribution style you tend towards (dispositional or situational) and how that style influences how you treat others and how others respond to you. And, then ask, what am I doing with my cognitive dissonance? Do I tend to change my attitudes to fit my behaviours or do I adjust my behaviours to be alignment with my attitudes, values, and beliefs?
+
+```
+
+### Activity: Questions for Consideration {-}
+
+```{block2, type='reflect'}
+
+Consider the following questions:
+
+- ***Describe a time when you were forced to act in a certain way, and then later found you had come to enjoy what you were doing. That is, your attitude followed your actions.***  
+- ***Could this happen with religious attitudes and beliefs too?***  
+*Be prepared to share your thoughts and insights with other members of the class*
+
+```
+
+## Conformity
+
+“Oh, God, the terrible tyranny of the majority.” *(from Fahrenheit 451 by Ray Bradbury, p. 97)*
+
+### Conformity vs. Compliance & Obedience {-}
+
+In this lesson, and the next two, we will be looking at social influence. Because this is a large and interesting topic we will discuss three types of social influence separately: conformity, compliance, and obedience. Conformity, our topic for today, refers to going along with other people without anyone explicitly asking you to. Compliance refers to going along with the request of another person when you have a choice not to. Being influenced by a salesperson to buy something is an example of compliance. Obedience refers to going along with an order when no choice is offered, as in the army.
+
+### Norms {-}
+
+Group expectations or norms exert a powerful influence on our behavior. We generally go along with what people expect of us not because we have to but because resistance is so uncomfortable. You can experience the power of group norms in controlling your behavior if you attempt to violate a norm for acceptable behavior (e.g., go the front of a line and edge in; ask someone for their seat on a bus or subway; sit close to a stranger in a public place when other seats are available).
+
+### Using Conformity {-}
+
+At the lowest level of social influence people are observed to go along with what other people are doing, often without being asked. Adults are frequently critical of adolescents for conforming to erratic youthful fashions, while they are often just as bound to their own conservative guidelines (why else would anyone where a necktie?). Conformity is a common and usually harmless part of everyday life; yet it can lead to complacent and even erroneous judgments. In a classic study of conformity approximately one-third of the subjects gave what they knew to be the wrong answer when four other "subjects" (actually confederates of the experimenter) gave the same wrong answer (Asch, 1952, 1955). Although frequently innocuous, conformity can be harmful when it is inappropriate.
+
+Are Christians abusing the power of conformity when they pre- arrange for volunteers to "go forward" at an altar call in order to increase the number of non-Christians who will respond? Or are they merely being sensitive to the pressures that the non-Christian feels to conform to those who remain in their seats? Should Christians use this technique of influence? *(from Psychology and Christianity by Ronald Philipchalk, p212)*
+
+### Conformity & Culture {-}
+
+Researcher Gary Lee and his associates found significant differences among 122 cultures in the emphasis given to conformity. Conformity differences de­velop as a result of socialization of children into parental values. Parents in cul­tures emphasizing conformity relied more heavily on physical punishment than parents in cultures emphasizing self-reliance.
+
+### Mach Test {-}
+
+The "Mach Test" is a twenty-item inventory designed to reveal Machiavellian tenden­cies, a manipulative kind of social skill. Based on Machiavelli's writings, the in­stru­ment purports to identify people who, under social pressure, are able to retain their composure, while others are losing control. You can get an idea of your mach score, and thus presumably your tendency to use and be influenced by social influence, at:
+
+- [**Mach Test**](https://openpsychometrics.org/tests/MACH-IV/){target="_blank”}  
+
+<!-- [plugin:content-inject](_activities) -->
+
+### Activity: Read and Reflect {-}
+
+```{block2, type='reflect'}
+
+We investigated conformity, and the role it plays. The following resources will help support your understanding:
+
+ - [**Introduction to Social Influence**](http://www.workingpsychology.com/intro.html){target="_blank”}  
+ - [**Conformity AND Obedience**](https://webspace.ship.edu/cgboer/conformity.html){target="_blank”}  
+
+ *Due to the pervasiveness of social influence, it cannot be overstated how important it is to understand the concepts and techniques associated with it. The purpose of these resources is to allow you to grow in your ability to be persuasive and to recognize when tools of influence are being used on you. It will also allow you to be more mindful of what/who you are conforming to and why it is that you are doing so. If you are really adventurous you may even want to take this knowledge to help you or someone else adopt a new attitude, belief, or action.*
+
+```
+
+### Activity: Questions for Consideraton {-}
+
+```{block2, type='reflect'}
+
+Take a moment to consider the following questions in light of what you have learned in this section:
+
+- ***What pressures for conformity exist in your community? On your campus?***  
+- ***What happens to people who do not conform?***  
+- ***Is conformity good or bad? What would society be like without conformity?*** 
+  
+*Be prepared to share your thoughts with other members of the class*
+
+```
+
+## Obedience
+
+Obedience refers to the strongest level of social influence, the level at which an order is given and no choice is assumed. For example, we are expected to obey the law; we are not assumed to have a choice.
+
+The study of obedience has proven somewhat unsettling for those with an optimistic view of human nature. Under orders, people have been willing to **(a)** subdue a helpless protesting individual with electric shock labeled extremely dangerous (Milgram, 1963); **(b)** administer a drug to a patient at double the recommended dosage, when the drug had not been approved by the hospital and when, contrary to regulations, the orders were given by an unfamiliar physician over the phone (Hofling et al., 1966), **(c)** place cute puppies in a restraining harness and give them strong electric shock (Sheridan and King, 1972). However, rather than uncovering a sadistic or evil type of individual these studies indicate that in the momentum of the situation, and under legitimate authority, people will perform acts which they would otherwise find abhorrent.
+
+The ominous parallel with so-called "war crimes" is clear. Soldiers from many countries and in various wars have committed heinous acts of cruelty and slaughter against innocent men, women, and children. Yet they were not particularly evil or sadistic men; they were simply following orders. The research on obedience raises the chilling possibility that anyone of us would do the same thing in the same situation.
+
+The potentially destructive power of religious authority was clearly demonstrated in 1978. In Jonestown, Guyana, more than 900 followers of religious-cult leader Jim Jones obeyed his orders and committed suicide by drinking poison. Christian leaders need to beware of the awesome power of their position, particularly when they claim to speak as the voice of God. *(from Psychology and Christianity by Ronald Philipchalk, p. 214-215)*
+
+### Avoiding Destructive Obedience {-}
+
+How can you protect yourself from participating in destructive obedience? Actually, you may have already taken the first step. Growing evidence suggests that when people learn about research findings such as these, they tend to change their behavior to take this knowledge into account (Sherman, 1980). There are, however, several more active steps you can take to reduce your vulnerability to malevolent authority.
+
+***First***, you can question the legitimacy of the authority. Ask yourself if the person giving the orders really has the right to command you to do what he or she is asking. Special uniforms, insignias, and titles can create an aura of authority even where none exists. For example, Brad Bushman found that 72 % of pedestrians gave change to a young man when ordered to by a woman in uniform, compared to 48 % when the woman was dressed in business clothes. Bushman found that the nature of the uniform did not even have to be related to the order being given (Bushman, 1984, 1988).
+
+***Second***, ask yourself if your obedience might cause harm to someone else. Remember that even if you act under legitimate authority you are still responsible for any harm you produce.
+
+***Third***, talk to others about your misgivings. This can not only strengthen your personal resolve, but it may also convince others to join you as well. In one field experiment, 21 out of 22 nurses were prepared to obey an unfamiliar physician whose order violated hospital policy and possibly endangered the patients. The nurses had no chance to consult with anyone else (Hofling et al., 1966). In a second study, however, when the nurses were given the opportunity to contact their supervisors and other nurses, only 2 out of 18 were willing to obey (Rank & Jacobson, 1977).
+
+Milgram also demonstrated the effect of support for disobedience. In one experiment he employed two additional confederates. They posed as co-teachers who, along with the real subject, gave shocks to the "learner." One confederate refused to continue at 150 volts, the other confederate broke off at 210 volts. With this type of additional support, 90 % of the subjects refused to go all the way to the maximum shock—total obedience was reduced to 10 % (Milgram, 1974).
+
+***Finally***, if you decide to defy authority, you might take a lesson from the conformity research and remember the power of calm, reasonable dissent. One of the most famous literary examples of defiance, Herman Melville's Bartleby, the Scrivener, illustrates this "gentle rebellion:"
+
+<!-- [plugin:content-inject](../_6-1) -->
+
+*"Bartleby,"* said I, *"Ginger Nut is away; just step round to the Post Office, won't you?* (it was but a three minute walk), *and see if there is anything for me."*
+
+*"I would prefer not to."*
+
+*"You will not?"*
+
+*"I prefer not."*
+
+I staggered to my desk, and sat there in a deep study. My blind inveteracy returned. Was there any other thing in which I could procure myself to be ignominiously repulsed by this lean, penniless wight?—my hired clerk? What added thing is there, perfectly reasonable, that he will be sure to refuse to do?
+
+*"Bartleby"* - No answer
+
+*“Bartleby,”* in a louder tone.   - No answer.
+
+*"Bartleby,"* I roared.
+
+Like a very ghost, agreeably to the laws of magical invocation, at the third summons, he appeared at the entrance of his hermitage.
+
+*"Go to the next room, and tell Nippers to come to me."*
+
+*"I prefer not to,"* he respectfully and slowly said, and mildly disappeared.
+
+Bartleby manages to defy his employer and yet keep his job because his meek reply is so disarming. At times a more aggressive stance may be necessary, but remember, resistance is always possible. Obedience should not be blind. *(from Invitation to Social Psychology by Ronald Philipchalk)*
+
+
+<!-- [plugin:content-inject](_activities) -->
+
+### Activity: Read and Reflect {-}
+
+```{block2, type='reflect'}
+
+This unit, we learned about obedience. We saw that obedience is strongest level of social influence. Read through the following resources and consider how they relate to what you have learned:
+
+- [**Milgram experiment facts for kids**](https://kids.kiddle.co/Milgram_experiment){target="_blank”}
+- [**Canadian Code of Ethics for Psychologists**](https://cpa.ca/docs/File/Ethics/CPA_Code_2017_4thEd.pdf){target="_blank”}  
+- [**Ethical Principles of Psychologists and Code of Conduct**](https://www.apa.org/ethics/code/index){target="_blank”}  
+
+*As mentioned earlier, it is not necessary to read each resource thoroughly. What is important is to gain comprehension of the importance of using ethical guidelines when doing research on conformity, compliance, and obedience. Start to ponder how necessary is it to involve the use of deception in research. Ask yourself how you would feel if you were actually part of an experiment that was measuring compliance and you were deceived about what the researchers were actually doing? Also, while reading this information have you been able to recognize areas of your life where you are unquestionably following an authority figure? When answering questions like this I would encourage you to not be overly critical of yourself or others, rather, just notice where certain phenomena are present in your life and if you would like to do anything about it.*
+
+```
+
+### Activity: Questions for Consideration {-}
+
+```{block2, type='reflect'}
+
+Read through the following and consider the questions below:
+
+*When people read about Stanley Milgram's experiments on obedience to au­thor­ity, they are often puzzled at the ethics of this research. You have probably have heard of these studies before and already have some views about the ap­propriate­ness of the procedures. All psychologists follow ethical guidelines in their research established by national governing bodies (e.g., CPA, APA). At the heart of these state­ments about ethics are the responsibilities to: protect the subject's welfare, avoid deception, provide anonymity, and provide therapy or relief from any unin­tended results of the experiment. Each of these general principles applies to the Milgram studies. Do you believe that the studies could be conducted today, given what we know now about ethics and about Milgram's results?*
+
+- ***Does the severity of the problem studied—in this case destructive obedience—justify more extreme steps to manipulate and deceive experimental subjects?***  
+- ***Under what circumstances do you personally think that deceiving subjects in a scientific experiment might be ethically warranted or justified?***
+
+*Be prepared to share your thoughts with other members of the class*
+
+```
+
+## Compliance
+
+<!-- [plugin:content-inject](../_6-2) -->
+
+This fictitious letter, based upon actual appeals I have received, contains several examples of techniques of persuasion. Without criticizing the writer's motives, a social psychologist could identify examples of card stacking, plain folks, foot-in-the-door, and other effective procedures of persuasion that we will discuss below.
+
+Compliance refers to an intermediate level of influence. Here we have the familiar situation where a request is made of us, but it is assumed that we have a choice; we don't have to comply with the persuasive communication. In the letter we see the use of several techniques which have been found to increase the effectiveness of a persuasive communication:
+
+1. ***Card Stacking*** is the selection of only those examples which support the proponent's argument (Mr. Smith's example is presented as if it were typical).  
+2. ***The Band Wagon Effect*** gives the impression that many other people are involved, and that everyone is doing it ("thousands of others are standing with you").  
+3. ***A Testimonial*** is a personal example of the successful application of the proponent's argument (Mr. Smith provides a concrete example of what might be expected).  
+4. ***Plain Folks*** refers to the association of the person or product with simple ordinary people ("this poor country boy").  
+5. ***The foot-in-the-door technique*** is the attempt to get you to comply in a small way, knowing that this greatly increases your chance of complying to a larger request (in our example reading the letter, using the "prayer square," or sending a very small donation are small requests which could be followed up with requests for larger gifts).  
+6. ***Name Calling*** is a technique which persuades people to reject something which they may know nothing about ("the forces of evil").  
+7. ***Transfer*** is the association of a person or product with something that people already feel strongly about ("God," "family," "children").  
+
+These and other techniques have been shown to greatly increase the effectiveness of a persuasive communication. They are often quite apparent in appeals by religious leaders for financial support. Should Christians use these techniques of influence? *(from Psychology and Christianity by Ronald Philipchalk, p. 211, 213)*
+
+<!-- [plugin:content-inject](_activities) -->
+
+### Activity: Read and Reflect {-}
+
+```{block2, type='reflect'}
+
+In this Topic we studied compliance and its use as a tool of influence. Take a moment to read through the following resources to further your understanding:
+
+- [**Social Media and Its Stark Influence on Society **](https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1004&context=writ){target="_blank”}  
+- [**Cults: Questions and Answers**](https://cultrecovery101.com/cults-questions-and-answers/){target="_blank”}  
+
+*The purpose of the information being shared in this topic and through these resources is to help you recognize who and/or what you are allowing to be an influence in your life? Asking the question, “Who is teaching me how to be influential and what direction is that influence taking me in?” can be invaluable in helping you examine how you are spending your time and if you are truly satisfied in the direction of your life. Remember, tools of influence are just that – tools. Any tool can be used towards benefit or detriment, it just depends on how it is being applied.*
+  
+```
+
+### Activity: Questions for Consideration {-}
+
+```{block2, type='reflect'}
+
+Take a moment to reflect on what you have learned this week. Use the following questions to guide your reflection:
+
+- ***Have you ever been taught a sales technique in your job experience? If so, explain...***  
+
+If you have not been taught a sales technique, you certainly have experienced many as a consumer. Can you give an example? Here is one:
+
+***One of the standard ways that door-to-door salespersons will try to get you to buy something is the so-called foot-in-the-door technique: They will ask you to do them a small favor. Having done so, you will have to justify your own behavior to yourself by think­ing nice things about the seller. Hence, you are more likely to comply when they ask you to sign on the dotted line.***
+  
+*Be prepared to share your thoughts and insights with other members of the class*
+
+```
+
+## Assessment {-}
+
+```{block2, type='assessment'}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+  
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+```
+
+## Checking your Learning {-}
+
+```{block2, type='progress'}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define the key terminology associated with social influence, social cognition, and on attitudes, behaviour, and effective communication.  
+
+- Describe why individuals conform to others’ behaviours, how individuals and groups can influence behaviours, and how we form first impressions and how these impressions influence us.  
+
+- Apply your knowledge of the bystander effect to ensure that you will be helped if you are in an emergency, of social cognition to help overcome prejudice and discrimination, and of the central route to describe how a message should be designed.  
+
+- Analyze whether guards who participate in abuse are inherently bad people, or if their behaviour is the product of social influences and whether people who commit discriminatory acts are necessarily prejudiced.  
+
+- Describe how behaviours influence attitudes in terms of cognitive dissonance theory.  
+
+```

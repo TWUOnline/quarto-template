@@ -1,5 +1,161 @@
-# # A title for Unit 4
+# The Developing Person - Part 2
 
-This is a book created from markdown and executable code.
+## Overview {.unnumbered}
 
+Building upon Unit 3, this unit (Part 2) will focus on the cognitive, physical, and social changes faced during young (and emerging) adulthood, middle adulthood, and late adulthood.
 
+*Please note - although it is not covered in the text, Topic 2 discusses the important, and inevitable, subject of dying and death.*
+
+### Topics {.unnumbered}
+
+This unit is divided into the following topics:
+
+1. Adulthood
+2. Death and Dying
+
+### Learning Outcomes {.unnumbered}
+
+By the end of this unit, student's will be able to:
+
+- Define the key terminology concerning adulthood and aging.
+- Describe the key areas of growth experiences by emerging adults.
+- Explain age-related disorders such as Alzheimer’s disease.
+- Describe how cognitive abilities change with age.
+- Apply effective communication principles to the challenge of improving your own relationships.
+- Analyze the stereotype that old age is a time of unhappiness.
+
+### Learning Activities
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+- Read the relevant sections of Chapter 10 of your textbook
+- Review the Chapter 10 - Notes (intended to support your understanding of your readings)
+- Read about *Erikson’s Eight Psychosocial Stages* that highlight the importance of relationships in healthy aging.
+- Read and Reflect: Explore the resources that focus on again and dying and consider how these concepts affect individuals.
+
+:::
+
+::: {.note icon="true"}
+
+***Note***
+
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+:::
+
+::: {.note}
+
+**Assessment**
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
+
+### Resources {.unnumbered}
+
+Here are the resources you will need to complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.
+- Other resources will be provided online.
+
+## Adulthood
+
+### Psychosocial Development {.unnumbered}
+
+There are many changes we experience during the time we call adulthood. According to Erikson's theory of psychosocial development, adults move through three important stages during which they must resolve important psychosocial conflicts:
+
+- Early Adulthood
+- Middle Adulthood
+- Late Adulthood
+
+**In Early Adulthood** (20-40 years of age) the psychosocial crisis is one of intimacy versus isolation. Although it is often perceived as critical whether or not the person develops an intimate relationship with a lifelong partner, Erikson believed that although this is one component of intimacy in this stage, other types of intimacy are also important—like developing intimate relationships with workmates, colleagues, and even one’s children. If one fails to develop a sense of intimacy during this stage, he or she will feel isolation.
+
+**In Middle Adulthood** (40-65 years of age) the psychosocial crises is one of generativity versus stagnation. What is generativity? Erikson used the term gererativity to describe the process by which a person feels like he or she is making a lasting contribution in the world. Usually, generativity involves giving something back to the next generation. People at this stage can feel generative in many ways—coaching a softball team, being a scout leader, teaching children in Sunday School, been a big brother/sister, etc. If a person fails to develop a sense of generativity during this stage, he or she will feel a sense of stagnation.
+
+**In Late Adulthood** (65+ years of age) the psychosocial crisis is one of ego integrity versus despair. If the individual looks back on his or her life and feels a sense of pride in the accomplishments he or she has made, then the individual will feel a sense of ego integrity. However, if the person looks back on his or her life and does not see the significance of his or her accomplishments, then he or she will feel a sense of despair at the meaninglessness of his or her life.
+
+### Guilt {.unnumbered}
+
+One of the most significant developments in childhood, from both a secular and Christian point of view, is a conscience with its attendant guilt. Is guilt simply a conditioned emotional response (as the behaviorist might say)? Is it the result of conflict with the superego (as a psychoanalyst would say)? Is it the failure to live up to our self-concept (as the humanist might say)? Is it the voice of the Holy Spirit? Or is it some combination of these? (For help on this issue and an important distinction between false and true guilt see Counts and Narramore (1970), Narramore (1984), Tournier (1962).) *(from Psychology and Christianity, by Ronald Philipchalk, p. 146)*
+
+The textbook discusses moral development in childhood and adolescence. However, many adults are troubled by questions of right and wrong, and in particular, by feelings of guilt. The Christian authors noted above suggest that many guilt feelings are not true guilt but false guilt carried over from childhood experiences. Understanding how conscience and guilt feelings develop can help to liberate us from unnecessary false guilt inappropriately attributed to God.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+This activity involves some reading and reflection around Erikson’s Eight Psychosocial Stages and an article from Harvard University illuminating the importance of relationships in healthy aging.
+
+- [**Erik Erikson’s Stages of Social-Emotional Development**](https://childdevelopmentinfo.com/child-development/erickson/#gs.d8mpcv){target="_blank"}
+- [**Good Genes are Nice, but Joy is Better**](https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-healthy-and-happy-life/){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Take some time to consider what you have learned in this section. Think about the following questions:
+
+- **What do you hope to accomplish during your “adult development” years?**
+  - *(If you are past these years, what are you most pleased with?)*
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Death and Dying
+
+### Death {.unnumbered}
+
+Secular psychologists see death as final. Christians, however, see resurrection beyond, with death being but another step in that direction. What implications do these beliefs have for the process of dying?
+
+As medical technology has advanced death has become more and more difficult to define. We need to focus our attention less on preserving the physical and more on preserving the personhood of the individual. This means giving greater attention to our concept of the dying person created in the image of God (as the abortion issue has forced us to do at the other end of life). When is personhood sacrificed to technical efficiency? Should we advocate a more "natural death?" What is "natural death?" How far does one go in "allowing" natural death? *(from Psychology and Christianity, by Ronald Philipchalk, p. 146)*
+
+### Hospice {.unnumbered}
+
+> You matter because of who you are. You matter to the last moment of your life, and we will do all we can not only to help you die peacefully, but also to live until you die. *(Dame Cicely Saunders)*
+
+During the Crusades of the Middle Ages a hospice provided lodging for travelers: a place of refuge and comfort. So in 1967, when Dame Cicley Saunders opened a facility in London to provide care and comfort to dying people and their families, St. Christopher’s hospice was an appropriate name. *(Courtesy of the Langley Hospice Society)*
+
+*If you would like to know more about the hospice movement in this area, you can contact the Langley Hospice Society at 604-530-1115.*
+
+### Cultural Variations {.unnumbered}
+
+The following issues are often subject to cul­tural variations:
+
+- Adolescence is unknown in some cultures
+- Adolescent struggles and conflict are much less in some cultures (e.g., )
+- Stage theories may not apply in other cultures
+- Ageism, especially with regard to intellectual abilities, is reduced, unknown, or even reversed in some cultures where the wisdom of old age is venerated
+- The "social clock" may be set differently in other cultures
+- Attitudes toward death vary greatly between cultures
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+## Assessment {.unnumbered}
+
+::: {.note}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+:::
+
+## Checking Your Learning {.unnumbered}
+
+::: {.check}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define the key terminology concerning adulthood and aging.
+- Describe the key areas of growth experiences by emerging adults.
+- Explain age-related disorders such as Alzheimer’s disease.
+- Describe how cognitive abilities change with age.
+- Apply effective communication principles to the challenge of improving your own relationships.
+- Analyze the stereotype that old age is a time of unhappiness.
+
+:::

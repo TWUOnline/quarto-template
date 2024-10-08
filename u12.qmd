@@ -1,0 +1,213 @@
+# Therapy - Part 2
+
+## Overview {.unnumbered}
+
+Our final unit expands upon Unit 11 and introduces the exciting, and ever expanding, world of therapy. Today, psychotherapeutic techniques are used to address a range of human conditions, from helping people find hope in overwhelmingly challenging circumstances to people exploring ways to optimize their potentials. Having a therapeutic relationship can be tremendously valuable in a person’s life as a therapist should be non-judgmental and have no other agenda than to help a person reach their therapeutic goals. This final unit of the course will continue to build upon Unit 11 by discussing the effectiveness of therapy, some of the biological treatment options, and some tips on preventing problems.
+
+### Topics {.unnumbered}
+
+This unit will be divided into the following topics:
+
+1. Evaluating Therapy
+2. Biological Treatments
+3. Preventing Problems
+
+### Learning Outcomes {.unnumbered}
+
+By the end of this unit, student's will be able to:
+
+- Define the key terminology associated with mental health treatment, psychological therapies, and biological treatments.
+- Describe the major barriers to seeking help for psychological disorders, arguments for and against involuntary treatment, and general approaches to conducting major types of psychotherapy.
+- Apply your knowledge to suggest what approach to therapy is likely most appropriate for a given situation, to identify major therapeutic techniques, and which drug therapies could be used for different psychological conditions.
+- Analyze whether self-help options, such as popular books, are a useful therapy option, the pros and cons of the major types of psychotherapy and whether St. John’s Wort, a popular herbal remedy for depression, works.
+- Describe how the drugs described in this module, and the other major medical approaches to therapy, affect brain functioning.
+
+### Learning Activities
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+- Read the relevant sections of Chapter 16 of your textbook
+- Review Chapter 16 - Notes (intended to support your understanding of your readings)
+- Read and reflect about the section from the *American Psychological Association*
+- Read and reflect about the articles *Electroconvulsive Therapy and Other Depression Treatments* and *International Society for Neuroregulation and Research*
+- Read and reflect about the articles *Psychology Help Center,* *How to Choose a Therapist,* and *Rights and Responsibilities in Psychotherapy*
+
+:::
+
+::: {.note icon="true"}
+
+***Note***
+
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+:::
+
+::: {.note}
+
+***Assessment***
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
+
+### Resources {.unnumbered}
+
+Here are the resources you will need to complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.
+- Other resources will be provided online.
+
+## Evaluating Therapy
+
+### Therapy? {.unnumbered}
+
+In a previous chapter, we looked at various ways of understanding personality. In the first part of this chapter we have been considering different therapies that grow out of these personality theories. Now it is time to ask the question, “Does it work? Is psychotherapy effective?” The answer seems to be “Yes,” but there are qualifications. First, many people who do not receive treatment get better anyway. And second, placebo treatments also produce improvements, as do non-professional caring relationships. As David Myers says,
+
+*“All types of psychotherapy seem to offer three benefits: new hope, a fresh perspective, and an empathic, trusting, caring relationship.” (p. 592)*
+
+When you stop and think about it, isn't this what a good friend offers? Maybe if we all experienced (and offered) this kind of friendship, therapists wouldn’t be so much in demand.
+
+### Therapy in Other Cultures {.unnumbered}
+
+The process of psychotherapy generally assumes a cultural value of sharing your inner feelings and problems with another individual. David Ho observes that in the culture of Hong Kong, it is a sign of weakness to talk about one's problems and to reveal much of one's self. This cultural background influences the style of therapy and the process of psychotherapy. How would you proceed if you were a therapist?
+
+Paul Pedersen (1985; 1987; 2000) suggests that we do not need to look at cultures outside North America to see differences in the process of psychotherapy. He sug­gests that different sub cultural minorities within North America approach psy­chotherapy with different values and different expectations. Native North American cultures, Asian immigrants, Hispanics, and Afro-Americans have different approaches to the pro­cess of psychotherapy. A therapist needs to be aware of these cultural differ­ences to perform effectively in the therapeutic situation.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+As mentioned earlier, this activity gives you an opportunity to explore the American Psychological Association (APA) website. In many ways, the APA leads the discipline and profession of psychology. It is an excellent resource for finding information on a number of areas of psychology, contemporary issues in psychology, a plethora of resources for self-help. They also have the opportunity for students to become student affiliates and enjoy member privileges that will contribute to your development as a professional. Follow the link below:
+
+- [**American Psychological Association**](https://www.apa.org/){target="_blank"}
+
+:::
+
+### Activity: Question for Consideration
+
+::: {.learning-activity}
+
+Consider the following:
+
+- ***Do you think an empathic, trusting, caring friend could be as effective as a trained psychotherapist or counselor?***
+
+*Be prepared to share your thoughts and insights with other members of the class*
+
+:::
+
+## Biological Treatments
+
+Though there are a number of treatments options within the field of psychology, there are two basic treatment models:
+
+1. The Wellness Model
+2. The Medical Model.
+
+The Wellness Model will look intently, and holistically, at a number of areas of a person’s life (thoughts/emotions, relationships, work/academics, developmental stage, nutrition, activity/leisure, and sleep, to name a few) and illuminate the client’s strengths and resources to help them find a way to overcome challenges and lead a more fulfilling life. Many of the psychotherapeutic approaches looked at, thus far, operate on this model.
+
+The Medical Model, however, is based on symptom recognition, (differential) diagnosis, prognosis, and often a pharmacological support and possibly an invasive or non-invasive procedure. The topic of biological treatments is based on the medical model.
+
+### Medical Treatments {.unnumbered}
+
+Although psychotherapy in its various forms has grown in importance over the past generation, people are still more inclined to seek the help of medical professionals over mental health professionals for their psychological concerns. One of the greatest changes in the way we have treated psychological disorders has been through the discovery and use of various drugs. In this section, we consider the various biomedical therapies that are available for psychological disorders.
+
+### Not a Panacea {.unnumbered}
+
+All of the biological therapies produce side effects, some of them permanent. Since the brain cannot regenerate itself, psychosurgery is irreversible; ECT destroys brain cells, producing memory loss, some of which is permanent; virtually all drugs have side effects besides the dependency produced, and some of these are permanent. (For example, one class of antipsychotic drugs, the phenothiazines, can produce a permanent and irreversible muscle disorder, particularly after massive long-term use. This disorder, called tardive dyskinesia, is evidenced by involuntary movements of the face, limbs, and trunk.) Furthermore, the unknown basis of the effects of many of these techniques (e.g., ECT, and some drugs), and the exploratory nature of others (psychosurgery) should make us at least a little skeptical. (A further controversy surrounding the use of physiological therapies, particularly, ECT, concerns their forced administration to involuntary patients.)
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+It is important, when considering biological treatments, to receive input from more than one professional and to do adequate research on the treatment to understand the potential risks and benefits. This activity serves as a resource for electroconvulsive therapy (ECT), transcranial magnetic stimulation (TMS), and vagus nerve stimulation (VNS) as treatments for depression. It also has a link to explore an alternative therapy known as neurotherapy/neurofeedback, which is a safe (when administered by a well-trained professional), non-invasive option for a number of different developmental and psychological matters. To learn more, read below:
+
+- [**Electroconvulsive Therapy and Other Depression Treatments**](https://www.camh.ca/en/health-info/mental-illness-and-addiction-index/electroconvulsive-therapy){target="_blank"}
+- [**International Society for Neuroregulation and Research**](https://isnr.org/){target="_blank"}
+
+:::
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+Consider the following questions in context of what you have learned about in this section:
+
+- ***As biological influence in psychological disorders becomes more obvious, what are the implications for psychologists and "talk therapy?”***
+- ***Will biological therapies eventually replace old style talk therapies?***
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Preventing Problems
+
+***A Little Help When You Need It...***
+
+The textbook discusses the value of prevention on a broad level, including environmental changes. Here, we take a more personal look at how you might go about dealing with major problems or just simple blockages in your pathway to growth.
+
+We all need help from time to time, whether we get it from family, friends, or paid professionals. Professional help can be a real boost. It might be testing to clarify career directions, sharing a relationship issue with a sympathetic listener, or in-depth study of a long-term problem. A trained helper provides an objective perspective and an empathic ear.
+
+### An Ounce of Prevention {.unnumbered}
+
+Being aware of the possible causes of psychological problems as well as the appropriate treatments can help you avoid similar difficulties in your own life. For example you can:
+
+- Not bury and deny strong emotions (psychodynamic view)
+- Take responsibility for your feelings & promote growth (humanistic view)
+- Associate positive consequences with desirable actions and negative results with undesirable ones (behavioral view)
+- Avoid negative self-talk in favor of positive (cognitive view)
+- Cultivate empathic, trusting, caring relationships
+- Take steps to ensure a healthy body
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+Looking intently at how you are spending your time and taking preventative steps to contribute to your mental/emotional health and overall well-being is a great gift to give to yourself (and ultimately others). This activity offers a resource where you can find information on a variety of (usually research-based) preventative strategies. Moreover, if you decide that you would like to explore therapy for yourself, there are resources here to inform you as to how to find a suitable therapist and what some of your rights and responsibilities are in therapy.
+
+- [**Psychology Help Center**](https://www.apa.org/helpcenter/){target="_blank"}
+- [**How to Choose a Therapist**](http://psychcentral.com/therapst.htm){target="_blank"}
+- [**Rights and Responsibilities in Psychotherapy**](https://psychcentral.com/blog/your-patient-rights-in-therapy#1){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Consider the following questions:
+
+- ***What role do your religious or other beliefs play in your efforts to avoid psychological difficulties and promote growth?***
+- ***Do your beliefs affect your choice of the kind of help you would look for?***
+
+*Be prepared to share your thoughts and insights with other members of the class*
+
+:::
+
+## Assessment {.unnumbered}
+
+::: {.note}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+:::
+
+## Checking Your Learning {.unnumbered}
+
+::: {.check}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define, and apply, the key terminology related to health psychology, stress and illness, and coping and well-being.
+- Describe how genetic and environmental factors influence obesity, how physiological reactions that occur under stress, and how the immune system is connected to stress responses.
+- Apply your knowledge of persuasion and health to examine the effectiveness of different types of cigarette warnings, and of the beneficial effects of optimism to help you reframe stressful situations as positive opportunities.
+- Analyze whether media depictions of smoking affect smoking in adolescents, the claim that ulcers are caused by stress, and whether activities such as relaxation techniques, meditation, and biofeedback actually help people cope with stress and problems.
+- Describe how control over the environment and positive and negative styles of coping influences well-being.
+
+:::

@@ -1,140 +1,194 @@
-# A title for Unit 1
+# Thought and Language
 
-Welcome to [COURSE]
+## Overview {.unnumbered}
 
-## Topics {.unnumbered}
+**Welcome to PSYC 106: Introduction to Psychology**
+
+This course will examine many different aspects of behaviour - from microscopic internal structures and functions to group and social processes. Though this journey covers many topics, the central theme of our exploration will be to understand why, and how, we behave the way we do. In Unit 1, we will start to explore how psychology can help you see the world in a different way and can help you understand why other people behave the way they do. One of the reasons psychology is such an exciting field is that it is easy to see how this field of study relates to your own life. You live out psychology; you feel emotions, you take in sensations, and you produce behaviours such as thoughts and actions. Additionally, human behaviour is complex and can be interpreted in numerous ways. Every topic in psychology could be examined from any one of these interdependent perspectives: biological, cognitive (thinking), and sociocultural (know as the biopsychosocial model). What is more is that for many people the spiritual perspective is an essential consideration, too. Therefore, to begin using psychology as a lens from which to understand behaviour it will be important for you to know what psychology is, what psychologists do, and how to critically evaluate your beliefs using the tools of psychological science.
+
+### Topics {.unnumbered}
 
 This unit is divided into the following topics:
-1.
-2.
-3.
 
+1. What is Psychology?
+2. What Do Psychologists Do?
+3. Thinking Critically with Psychological Science
 
-### Unit Learning Outcomes {.unnumbered}
+### Learning Outcomes {.unnumbered}
 
-When you have completed this unit, you will be able to:
+When you have completed this unit, you should be able to:
 
-- Describe…
-- Contrast…
-- Analyze…
-- Determine…
-- Create…
+- Define the key terminology of the scientific method.
+- Define important historical terminology from the field of psychology.
+- Describe the steps of the scientific method, the concept of scientific literacy, and how various philosophical and scientific fields became major influences on psychology.
+- Apply the biopsychosocial model to behaviour, the steps in critical thinking, and your knowledge to distinguish among the different specializations in psychology.
+- Analyze the use of the term scientific theory and how the philosophical ideas of empiricism and determinism are applied to human behaviour.
 
-### Learning Activities {.unnumbered}
+### Learning Activities
 
-Here is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
 
-1. Read…
-2. Watch…
-3. Explore…
-4. Complete the ungraded quiz.
-
+- Read and Reflect – Chapter 1
+- Review the Unit 1 – Course Notes (found on Course Notes tab)
+- Complete the Exploring Career Opportunities activity
+- Complete the Ethics in Psychology activity
+- Complete the Terminology Practice activity.
 
 ::: {.note icon="true"}
 
-Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
+***Note*** The course units follow topics in the textbook, Revel for An Introduction to Psychological Science by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
 
 :::
 
-### Assessment {.unnumbered} 
+::: {.note}
 
-Please see the Assessment section in Moodle for assignment details.
+**Assessment**
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
 
 ### Resources {.unnumbered}
 
-Here are the resources you will need to complete this unit.
+Here are the resources you will need to complete this unit:
 
-- (Textbook)
-- Other online resources will be provided in the unit.
+- Krause, M., Corts, D., & Smith, S. C. (2024). Revel for An Introduction to Psychological Science, 4th Canadian Edition. Pearson Ed.
+- Other resources will be provided online.
 
-## Title for Topic 1
+## What is Psychology
 
-We begin Unit 1…
+Before you read the textbook, write a brief definition of psychology. (Or if you’ve already read the textbook try to remember how you would have defined psychology before you read it.) According to your definition, how is psychology different from other academic areas that would study humans, for example philosophy, or literature, or history? If you said, “Psychology is different because it uses the scientific method,” give yourself a pat on the back. Your textbook explains the scientific method.
 
-*(add content)*
+The following simple parable from Philipchalk’s social psychology textbook illustrates three “helpful” approaches to a problem, including a simple experiment:
 
-### Activity: Title (e.g. Read, Reflect and View) {-}
+> Once upon a time there were three brothers. One day while they were working in their father’s field, they saw an old man coming along the road. The old man greeted them, and then struggled on along the road, limping terribly. After that, every day at the same time, the brothers greeted the old man and watched as he hobbled by. When a month had passed, they were so impressed that they each did something. The first brother wrote a compelling story about perseverance in the face of the ravages of old age. It encouraged many people. The second brother painted a moving portrait of the old man, stooped over and limping along. People were inspired. The third brother, who had observed the old man very closely, asked him one day if he could exchange shoes with him. The old man was surprised, but he gladly agreed. When the old man walked away he did not limp. The next day the third brother gave the old man his shoes back and watched as he limped on his way. On the third day, the brother again exchanged shoes with the old man. Then he took the old man’s shoes to a shoemaker and had them repaired. When the brother gave them back to the old man he was delighted. The old man put on the shoes, thanked the brother, and walked away without a limp.
+
+Although each brother made a positive contribution, the third brother solved the man’s problem because he discovered its cause. To do this, he used the scientific method and he conducted an experiment (Philipchalk, 1994).
+
+I find psychology to be one of the most interesting areas of study for a number of reasons. First, because it is adventurous enough to study the complexities of people, and people like you and I are interesting. Second, I like the range of topics available to be studied in psychology - psychologists, as you will see, study everything from nerve conduction in single cells all the way to the influence of groups on our behaviour; anything a human does can be studied in this discipline. Finally, prudent psychologists suspend their speculations and opinions as they look for evidence for their ideas. If they do not find sufficient evidence, they have the humility to change their ideas. When growing in knowledge about topics not yet entirely understood, humility is essential. Now, let us return to the scientific method and how psychology began.
+
+## How Did Psychology Begin?
+
+One definition of psychology is that it is the application of the scientific method to the questions of philosophy. With that hint in mind, how far back do you think we could trace the roots of psychology? You will find answers to this question in the textbook, and also at sites such as the following:
+
+- [Classics in the History of Psychology](https://psychclassics.yorku.ca/){target="_blank"}
+- [Psychology (for a history of psychology in Canada)](https://www.thecanadianencyclopedia.ca/en/article/psychology){target="_blank"}
+
+A more basic, tongue-in-cheek, answer to the question is the following: The first person interested in psychology was either the first person trying to understand the first person or the second person who was trying to figure out the first person!
+
+### Activity: Questions for Consideration
 
 ::: {.learning-activity}
 
-*(add content)*
+Take a moment to consider what you read in your exploration of the resources above – use the following questions to guide your reflection:
 
-View the following resources about …
+- What draws people to study psychology? (It is one of the most popular majors in North American universities).
+- What drew you to study psychology?
+- Some people argue that the scientific method is appropriate for studying inanimate objects and simple organisms but not appropriate for studying complex human behavior. What are the strengths and weaknesses of applying the scientific method to the study of people?
+- Some postmodernists argue that since complete objectivity is impossible, science is not an appropriate route to the understanding of human thought and behavior. How would you respond to this criticism?
 
-Next, watch the following videos that illustrate…
-
-**Questions to Consider**
-
-After completing the activities above, consider the following questions:
-
-- This is a question?
+*Be prepared to share your thoughts and insights with other members of the class*
 
 :::
 
-## Title for Topic 2
+## What Do Psychologists Do?
 
-*(add content)*
+Ask most people to name two or three famous psychologists and one of the first named will be Sigmund Freud. This reflects the common idea that most psychologists try to analyze people and figure out underlying motives so that they can help to solve deep-seated problems. In fact, less than half of all psychologists work in clinical settings studying the causes, diagnoses, and treatment of mental disorders. Many psychologists study human development, learning, memory and other mental processes. Others conduct research on groups and social influence. Some psychologists work in schools, others in government, and still others in industry. All of these psychologists are either trying to understand people better, or trying to help them, or both.
 
-…
+For simplicity, the different ways of approaching psychology can be grouped into three broad categories:
 
-### Activity: Title {-}
+- Those that focus on the physical, biological bases of behavior.
+- Those that concentrate on mental processes that control our actions.
+- Those that emphasize the external environmental influences on what we think and do.
+
+Which approach is best? The best approach is all of them. They all add something to our understanding of ourselves. It is best to see the many ways of studying human behavior as different perspectives rather than competing points of view. Like different perspectives on a landscape, they provide depth and dimensionality to our understanding. Why is Jenna blushing? From an external, environmental point of view we might say, “Because she just spilled her drink on herself.” From an internal, mental perspective we could respond,” Because she feels embarrassed.” Finally, from a biological perspective we could say, “Because her autonomic nervous system has signalled the blood vessels in her face to dilate.” Each explanation is correct, and each adds to our understanding of Jenna’s behavior. We might say that each explains Jenna’s behavior at a different level.
+
+### Activity: Exploring Career Opportunities
 
 ::: {.learning-activity}
 
-e.g. Case study
+The resources below are intended to provide you with opportunity to explore the “What do Psychologists do?” question more deeply. The first of the following resources will help you to make the most of your undergraduate time in psychology and clarify some of the postgraduate educational and vocational options available to you. The second site discusses some of the kinds of topics towards which psychologists focus their research and practice. The goal of resources like these is to help you determine which direction you may most enjoy in the field of psychology.
 
-*(add content)*
+- [Careers in Psychology](https://www.psywww.com/careers/index.html){target="_blank"}
+- [Canadian Psychological Association - Careers](https://cpa.ca/students/career/){target="_blank"}
 
-Note that you may be asked to review this case or similar cases in your class discussion groups. You may want to prepare by relating the case to your readings. Specifically, identify the ethical issues and terms to help explain the case.*
+After exploring the different opportunities, consider the following questions:
 
-*[Note for Facilitator’s Guide: Use the case study above as a class or group discussion prompt. Remind students to complete this activity before the class session.]*
+- For what careers would a psychology major be helpful?(The internet has information on this.)
+- What are the steps necessary to become a psychologist in private clinical practice?
+- What’s the difference between a psychologist and a psychiatrist?
+- Which perspective or level of explanation do you personally find the most interesting? Why?
+- Why are some people wary of psychology?(A well-known televangelist once said, “You can’t be a Christian and a psychologist.”) What dangers do they see in studying psychology? Is there any justification for their fears?
+
+*Be prepared to share your thoughts and insights with other members of the class.*
 
 :::
 
-## Title for Topic 3
+## Thinking Critically with Psychological Science - Limits of Psychology
 
-*(add content)*
+**Isn’t is just common sense?**
 
-…
+As a behavioral science, psychology fits the description of all science attributed to Einstein—“nothing more than the refinement of everyday knowledge.” Psychology often refines what we already know, or at least suspected. For example, everyday knowledge tells us, “Opposites attract.” Psychology will tell us some of the conditions under which this is true and when it is not. But everyday knowledge also says, “Never too old to learn,” and “You can’t teach an old dog new tricks.” So which is it? Through careful study of relevant conditions, psychology can help us decide. (If you are interested in the folk wisdom of familiar sayings, and perhaps want to look for contradictory sayings, try Proverbs That Contradict Each Other)
 
-### Activity: Title {-}
+Sometimes you may feel that psychologists’ discoveries are things you knew all along. In fact psychologists have studied this phenomenon too! They call it the hindsight bias. The hindsight bias is the feeling you get, after you learn something new, that you knew it all along (Hawkins & Hastie, 1990). However, I think that many of the things you will discover are somewhat surprising and unexpected, and you will enjoy this “refinement of everyday knowledge.”
+
+**Isn’t it potentially dangerous?**
+
+Like all knowledge, the value (or danger) of psychological knowledge is in how it is used. The following are potential misuses of psychological knowledge:
+
+1. An understanding of some of the causes of behavior might lead to the inaccurate conclusion that all behavior could be explained and predicted if we had enough knowledge. We are robots, not free individuals.
+2. Psychological findings might be generalized beyond the situations in which they were found to be valid.
+3. Knowing some of the explanations for behavior takes away the mystery and wonder of human action.
+4. Understanding the causes of behavior can lead to the manipulation of people, perhaps even without their awareness.
+5. Psychological explanations leave no room for important religious beliefs.
+
+### Activity: Ethics in Psychology
 
 ::: {.learning-activity}
 
-*(See [Assessment ideas](https://multi-access.twu.ca/assessment/assessment-ideas) for other ways to engage students in the topics.)*
+What kind of ethical questions do you think might arise in the study of psychology? Should there be limits to the use of animals to learn about basic mental or physical processes? What limits and guidelines would you suggest? What about research with humans? It is probably obvious that research should not inflict harm. But could even asking certain questions cause a certain amount of distress in some people? What about deception? Should it ever be used? If so, when and why? When does field research (the observation of people in natural settings) become an invasion of their privacy?
+
+You can find a complete listing of ethical guidelines for research in psychology at:
+
+- [Canadian Psychology Association](https://cpa.ca/aboutcpa/committees/ethics/codeofethics/){target="_blank"}
+- [American Psychology Association](https://www.apa.org/ethics/code/index){target="_blank"}
+
+After reading about ethics in psychology, consider the following question:
+
+- Do you think you would ever use deception in your research? If so, when would you use it?
 
 :::
 
-### Activity: Key Terms Quiz (ungraded) {-}
+### Activity: Terminology Practice
 
 ::: {.learning-activity}
 
-To review the concepts from this unit, take the following quiz.  This activity is ungraded and is designed to help prepare you for the assessments in this course.
+Take a moment to self-assess how well you know some of the concepts introduced in this unit. While this activity is not formally graded, it can help support your understanding of the content.
 
-Match the following terms to their correct definition.
-
-1. **Term**– definition…
-2. **Term**– definition…
-3. **Term**– definition…
+<iframe scrolling="yes" src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=95" allowfullscreen="allowfullscreen" width="100%" height="1000" frameborder="0" title="Unit 1 - Terminology Practice"></iframe> <script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 :::
 
-## Unit Summary {.unnumbered}
+## Assessment {.unnumbered}
 
-In this first unit, you have had the opportunity to learn about…
+::: {.note}
 
-*(add content)*
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the “Assessment” tab.**
 
-### Checking Your Learning {.unnumbered}
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
 
-::: {.learning-activity}
+:::
 
-Before you move on to the next unit, you may want to check that you are able to:
+## Checking Your Learning {.unnumbered}
 
-- Describe…
-- Contrast…
-- Analyze…
-- Determine…
-- Create…
+Before you move on to the next unit, you may want to check to make sure that you are able to:
+
+::: {.check}
+
+- Define the key terminology of the scientific method.
+- Define important historical terminology from the field of psychology.
+- Describe the steps of the scientific method, the concept of scientific literacy, and how various philosophical and scientific fields became major influences on psychology.
+- Apply the biopsychosocial model to behaviour, the steps in critical thinking, and your knowledge to distinguish among the different specializations in psychology.
+- Analyze the use of the term scientific theory and how the philosophical ideas of empiricism and determinism are applied to human behaviour.
 
 :::

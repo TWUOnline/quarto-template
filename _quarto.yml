@@ -9,7 +9,7 @@ published-title: "Last Modified"
 #author-title: "Authors"
 
 book:
-  title: "Template"
+  title: "PSYC 106"
   author: "TWU Online"
   date: "last-modified"
   date-format: "MMM D, YYYY"
@@ -22,6 +22,12 @@ book:
     - u4.qmd
     - u5.qmd
     - u6.qmd
+    - u7.qmd
+    - u8.qmd
+    - u9.qmd
+    - u10.qmd
+    - u11.qmd
+    - u12.qmd
 
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
 #    - references.qmd
@@ -65,9 +71,9 @@ format:
         <script type="application/javascript" src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>
         <link rel = "shortcut icon" href = "https://twuonline.github.io/course-materials/quarto/favicon.ico" />
         
-# Format - PDF
-  pdf:
-    documentclass: scrreprt
+# # Format - PDF
+#   pdf:
+#     documentclass: scrreprt
 
 # Format - Doc
   docx:

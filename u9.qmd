@@ -1,0 +1,217 @@
+# Stress and Coping
+
+## Overview {.unnumbered}
+
+In Unit 9, you will gain more insight into stress and coping. Together, Units 8 and 9 span information from Chapter 14 in your textbook, giving you a broad overview of the field of health psychology.
+
+Health psychologists study both positive and negative impacts that humans’ behaviour and decisions have on their health, survival, and well-being. The need for this field has increased considerably over the 20th century, as most premature deaths are attributable to lifestyle factors. Over this chapter you will gain knowledge about the interaction of all the levels of analysis (biological, psychological, sociocultural, and spiritual) with regards to your health. You will learn about the biological/physiological responses to stress and how a poor response to stress leaves a person more vulnerable to illness and slowing recovery time from illness and injury.
+
+You will also see how having at least some degree of control helps people with coping and outlook. When control is threatened, people use compensatory responses, such as detecting order within random images. You will also be informed that coping, using a positive or negative style, is related to personality (e.g., optimism versus pessimism). Positive coping increases resilience—the ability to recover from adversity, and even benefit from the experience, as is the case with post-traumatic growth. Whereas, coping via negative affectivity and pessimism can have both psychological and physiological disadvantages. Finally, you will be advised as to how religion/spirituality, relaxation techniques, meditation, and biofeedback actually help people cope with stress and problems which can lead to human flourishing.
+
+### Topics {.unnumbered}
+
+This unit will be divided into the following topics:
+
+1. Stress
+2. Health Psychology
+
+### Learning Outcomes {.unnumbered}
+
+By the end of this unit, student's will be able to:
+
+- Define, and apply, the key terminology related to health psychology, stress and illness, and coping and well-being.
+- Describe how genetic and environmental factors influence obesity, how physiological reactions that occur under stress, and how the immune system is connected to stress responses.
+- Apply your knowledge of persuasion and health to examine the effectiveness of different types of cigarette warnings, and of the beneficial effects of optimism to help you reframe stressful situations as positive opportunities.
+- Analyze whether media depictions of smoking affect smoking in adolescents, the claim that ulcers are caused by stress, and whether activities such as relaxation techniques, meditation, and biofeedback actually help people cope with stress and problems.
+- Describe how control over the environment and positive and negative styles of coping influences well-being.
+
+### Learning Activities
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+- Read the relevant sections of Chapter 14 of your textbook
+- Review the Chapter 14 - Slides (intended to support your understanding of your readings)
+- Complete the Personal Reflection activity (ungraded)
+- Watch and reflect upon the *How to Make Stress Your Friend* video
+- Read the article from *Psychology Today*
+- Complete the Key Terms Quiz (ungraded)
+
+:::
+
+::: {.note icon="true"}
+
+***Note***
+
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+:::
+
+::: {.note}
+
+***Assessment***
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
+
+### Resources {.unnumbered}
+
+Here are the resources you will need to complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.
+- Other resources will be provided online.
+
+## Stress
+
+Many health professionals and researchers have devised scales to measure stress. For some of these you might check out:
+
+- [***Teach Health***](http://www.teachhealth.com/#stressscale){target="_blank"}
+
+This site also contains useful information on stress. Stress is a popular topic, so you will find lots of information on the internet; for example, you can find tips on reducing stress at:
+
+- [***Caring for Your Mental Health***](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health){target="_blank"}
+
+Many experts suggest meditation as a way to reduce stress. If you would like to investigate the topic of Christians and meditation further, I would encourage you to look into the Insight Timer app at:
+
+- [***Insight Timer***](https://insighttimer.com/meditation-topics/christianity){target="_blank"}
+
+Insighttimer.com also has some excellent general meditation resources for improving one’s health over a number of different domains.
+
+## Aggression, Submission, and Assertion
+
+Much of the stress we experience comes from problems we have with other people. Unfortunately, many people see only two alternatives in dealing with interpersonal conflict: aggression or submission. Are there other ways? Assertiveness represents a third alternative but one that is often confused with aggression. Assertive statements are not attacks. Rather, they communicate one's own perceptions and emotions. Such responses often take the form of "***I-statements***": I feel _________ when you do _________. Being assertive tends to defuse conflict situations because it gives both parties more complete information to work with—so it helps alleviate stress.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Personal Reflection
+
+::: {.learning-activity}
+
+Now that you have some understanding concerning the differences between aggression, submission, and assertion, look at the situations below and devise all three kinds of responses to each one. *Be prepared to share your insights with other members of the class*
+
+***Situation #1:*** *Someone is crowding in front of you in line at the grocery store.*
+
+- Aggressive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Submissive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Assertive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+***Situation #2:*** *After a physical exam the doctor gives you a prescription without telling you what the diagnosis is, what the medicine is for, or what the side effects might be. When you ask for this information, the doctor brushes off your question.*
+
+- Aggressive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Submissive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Assertive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+***Situation #3:*** *A boyfriend or girlfriend wants to end your relationship.*
+
+- Aggressive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Submissive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Assertive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+***Situation #4:*** *The boss tells you that your work has been of poor quality and that you will shape up or be fired.*
+
+- Aggressive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Submissive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Assertive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+***Situation #5:*** You have received a grade that is much lower than you feel you deserved on an essay examination.*
+
+- Aggressive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Submissive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Assertive Response: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Finally, consider the following:
+
+- ***Are any of your responses affected by your religious beliefs? How so?***
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Consider the following question - how does it connect to what you have learned in this section:
+
+- ***Each of us has some minor annoyances that add to our stress level more than they should. What gets you stressed out? What are your everyday "pet peeves" (annoyances)? Does the stress that these things produce seem justified? What are some things you can do to decreases your stress responses to these situations?***
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Health Psychology
+
+As mentioned in the Overview, health psychologists study both positive and negative impacts that humans’ behaviour and decisions have on their health, survival, and well-being. Below are a couple of examples describing the impact of having some form of reward that perpetuates the use of a behaviour (whether healthy or unhealthy) and the power of remaining committed to making the changes you want to see.
+
+1. A primary concern of health psychology is not to find new cures, but to get peo­ple to use the solutions that are available. Smoking, drug use, overeating, and gambling are just some of the destructive behaviors in which people engage be­cause they say they don't have the willpower to quit. We might say because they want to engage in them. Why? Generally, we have to conclude that there are rewards for engaging in these behaviors. You might want to examine some of your behaviors, especially ones that could be considered "maladaptive", in light of what rewards are maintaining them.
+2. E. Scott Geller has written extensively in the area of motivating healthful behav­ior. His research covers alcohol use, driving while impaired, highway safety, and seat belt use. For several years he has personally carried on a campaign to get air­lines to make a seat belt announcement at the end of each flight (Geller, 1989). Sometime during the flight Geller gives a pilot or flight attendant a small card.
+
+In addition to attractive graphics, the card contains the following message:
+
+***Airline Announcement*** - *Now that you have worn a seat belt for the safest part of your trip, the flight crew would like to remind you to buckle-up during your ground transportation.*
+
+Geller reports that in one 4 1/2 year time period, for 33.7 percent of the flights on which he gave out this card, the requested announcement was made. Some air­lines even made the buckle-up reminder a regular part of their end-of-flight an­nouncements. On the other hand, one airline distributed a memo to its staff stating "ignore the request of the Virginia Tech professor with the blue card." Geller had his cards reprinted on yellow stock and continued to distribute the requests! *Geller, E. S. (1989). The airline lifesaver: In pursuit of small wins. Journal of Applied Behavior Analysis, 22(3)*
+
+This summary of Geller’s past activities demonstrates that with motivation and persistence, you can change not only your own behaviours, but also, those of large corporations. If you have been on an airplane recently, you have likely noticed that the universally communicated announcement to have your seatbelt fastened during landing and transport back to the terminal.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+In this activity you will watch Dr. Kelly McGonigal’s *TED talk* titled, ***"How to Make Stress your Friend."*** This video is groundbreaking research to help people transform their perspective on stress:
+
+<div style='max-width: 640px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="640" height="360" src=https://embed.ted.com/talks/lang/en/kelly_mcgonigal_how_to_make_stress_your_friend" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+After watching the video, take a few minutes to read about Dr. Gil Greengross’ research that challenges the widely held belief that humour is good for your health. Here is the link to his Psychology Today article:
+
+- [***Psychology Today***](https://www.psychologytoday.com/intl/blog/humor-sapiens/201805/humor-may-not-be-so-good-your-health){target="_blank"}
+
+:::
+
+### Activity: Chapter 14 Key Terms Quiz
+
+::: {.learning-activity}
+
+In order to review some of the major terms from Chapter 14 in your textbook, take the following unmarked quiz. Although you will not be evaluated on these terms, they will assist you in the assessments for this course.
+
+<iframe src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=83" width="936" height="706" frameborder="0" allowfullscreen="allowfullscreen" title="Psych 106 - Unit 9 Quiz"></iframe><script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Reflect on the following questions:
+
+- ***Who is ultimately responsible for how you react to different situations and circumstances in your life? How do you know this?***
+- ***Is there a good time to just laugh something off?***
+- ***What are some potential stress related consequences of habitually turning to humour when dealing with stress?***
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Assessment {.unnumbered}
+
+::: {.note}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+:::
+
+## Checking Your Learning {.unnumbered}
+
+::: {.check}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define and apply the key terminology related to health psychology, stress and illness, and coping and well-being.
+- Describe how genetic and environmental factors influence obesity, how physiological reactions that occur under stress, and how the immune system is connected to stress responses.
+- Apply your knowledge of persuasion and health to examine the effectiveness of different types of cigarette warnings, and of the beneficial effects of optimism to help you reframe stressful situations as positive opportunities.
+- Analyze whether media depictions of smoking affect smoking in adolescents, the claim that ulcers are caused by stress, and whether activities such as relaxation techniques, meditation, and biofeedback actually help people cope with stress and problems.
+- Describe how control over the environment and positive and negative styles of coping influences well-being.
+
+:::

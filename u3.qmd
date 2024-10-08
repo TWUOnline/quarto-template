@@ -1,5 +1,287 @@
-# # A title for Unit 3
+# The Developing Person - Part 1
 
-This is a book created from markdown and executable code.
+## Overview {.unnumbered}
 
+Now that we have covered over some broad and influential topics in psychology, we begin our focus on human development. The focus of the content for this unit, will be on Chapter 10 in your textbook. As you turn ahead, you will notice that Chapter 10 contains a large amount of information - because of this, we will be covering it in this unit, and the next (Unit 4).
 
+In this Unit (Part 1), you will learn about various strategies for researching human development, normal and abnormal prenatal development, and various cognitive, physical, and social developmental factors for infancy, childhood, and adolescence.
+
+### Topics {.unnumbered}
+
+This unit is divided into the following topics:
+
+ 1. Prenatal Development
+ 2. Infancy and Childhood
+ 3. Adolescence
+
+### Learning Outcomes {.unnumbered}
+
+By the end of this unit, student's will be able to:
+
+- Define the key terminology related to prenatal and infant physical development, infancy and childhood, and adolescent development.
+- Understand advantages and disadvantages to different research designs in developmental psychology.
+- Understand the cognitive changes that occur during infancy and childhood, and the importance of attachment and the different styles of attachment.
+- Understand the process of identity formation, relationships, and moral emotions during adolescence.
+- Apply your understanding to identify the best ways expectant parents can ensure the health of their developing fetus, how to promote learning, and how to categorize moral reasoning.
+- Analyze the effects of preterm birth, how to effectively discipline children, and adolescent judgment and risk taking.
+
+### Learning Activities
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+- Read the relevant sections of Chapter 10 of your textbook
+- Review Chapter 10 - Notes (intended to support your understanding of your readings)
+- Read about *Designer Babies* and reflect on the controversial topic
+- Reflect and take the *Cognitive Change* test
+- Complete the Terminology Practice flip-card activity (ungraded)
+
+:::
+
+::: {.note icon="true"}
+
+***Note***
+
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+:::
+
+::: {.note}
+
+***Assessment***
+
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+:::
+
+### Resources {.unnumbered}
+
+Here are some additional resources that will help you complete this unit:
+
+- Krause, M., Corts, D., & Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.
+- Other resources will be provided online.
+
+## Prenatal Development
+
+### Physical Development {.unnumbered}
+
+Prenatal development is a time of rapid growth and change. This rapid change continues throughout the first few years of life. Development during early life is clearly a function both of nature and of the environment.
+
+<!-- [plugin:content-inject](_alert){target="_blank"} --> 
+
+### Activity: Questions to Consider
+
+::: {.learning-activity}
+
+After you have read the first few pages of this chapter you should be able to answer the following questions:
+
+- **How is the gender of an offspring determined?**
+- **What differentiates zygotes from embryos and embryos from fetuses?**
+
+*These questions are intended for personal reflection - you are not intended to submit anything for assessment - but be prepared to share your thoughts with other members of the class*
+
+:::
+
+### Designer Babies {.unnumbered}
+
+It is beginning to look inevitable that, however fierce the debate, the technology to make designer babies will happen - maybe just 20 years from now. Geneticists claim to have found the gene for good-parenting, genes for obesity, Alzheimer's, red hair, and even happiness. Incredibly, scientists have even constructed an artificial human chromosome, which could carry any genes a geneticist - or prospective parents - desired.
+
+Embryo A technique called Pre-implantation Genetic Diagnosis (PGD) is already being used to screen embryos for genetic diseases. Embryos created outside the body using in vitro fertilization are tested to see whether they carry a genetic disorder before being transferred to the uterus. It's deeply controversial whether parents should ever be allowed to select embryos just because they're genetically different.
+
+At the moment the technique is used for therapeutic purposes only, to screen for children who may have a deadly genetic disease. Even if some parents and their doctors were willing to use PGD for cosmetic or enhancement purposes, which remains absolutely taboo, the technique is limited in a crucial way - PGD can only select an embryo with genes inherited from the parents.
+
+**Bottled Genes?** *One day parents may be able to pick any gene they desire from a range of bottled genes and have it put into their embryos. (quoted from "Designer Babies" website)*
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Designer Babies
+
+::: {.learning-activity}
+
+This activity involves some reading and reflection around the topic of genetic engineering. As this is a contemporary issue, it will be valuable to familiarize yourself with some of the complexities of this technology and think critically about some of the ethical challenges. Your task is to read the following resources and carefully consider the implications of this technology:
+
+- [**Editing the DNA of Embryos with CRISPR**](https://www.statnews.com/2019/09/16/could-editing-the-dna-of-embryos-with-crispr-help-save-people-who-are-already-alive/){target="_blank"}
+- [**Designer Babies, CRISPR, & Genetic Engineering**](https://www.geneticsandsociety.org/internal-content/designer-babies-crispr-genetic-engineering){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Take some time to think about the following scenario and questions before you move on:
+
+Modern techniques of conception and human genetic engineering raise important new issues for human development. A pamphlet containing the following message was left at doorsteps in TWU professor Philipchalk's neighborhood:
+
+::: {#fig-U3xT1xLearningACtivitity}
+
+![](assets/u3/U3_T1_LearningACtivitity.JPG){fig-alt="" .lightbox fig-align="left"}
+
+:::
+
+::: {.content-visible when-format="docx"}
+//todo
+Prote: Image missing caption and alt text.
+:::
+
+Image showing an example of surrogacy message
+
+(*You may also wish to consider how the “Designer Babies” topic connects to this activity as well.*)
+
+- ***How do you feel about this request?***
+- ***What problems might you anticipate?***
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Infancy and Childhood
+
+### A Child’s View of God {.unnumbered}
+
+> One evening on a camping trip several years ago, my wife and I listened outside the tent as our five-year-old Joelle and three-year-old Matthew tried to get to sleep. Always the “mother,” Joelle attempted to dispel her little brother’s fear of bears and other wild creatures by reminding him that Jesus was watching over them. Not content with generalities, Matt responded, “Does Jesus got a gun?” (*Psychology and Christianity by Ronald Philipchalk*, p. 141)
+
+As any Sunday School teacher knows, children see God differently from adults—often in very concrete terms (protection requires a gun!). Studying cognitive development can help us to understand as well as teach children at their own level.
+
+### The Process of Cognitive Change {.unnumbered}
+
+Our textbook provides a good summary of the structure (stages) of cognitive development. The section, however, does not address the process by which a person moves from one stage to the next. Piaget believed that the key to cognitive development is something called cognitive conflict or cognitive disequilibrium. For cognitive development to proceed, the individual must constantly re-evaluate his or her schemas. According to Piaget, we develop schemas from an early age of life. Schemas are our cognitive representations of the world. Schemas help us to organize our experiences. They also allow us to make predictions about what outcomes might result from particular behaviours. Schemas are very important in helping us to understand and to adapt to the world.
+
+Although schemas are important in helping us to understand the world, they are not always accurate. People at all ages can have mental representations of the world that are not correct.
+
+***Can you think of any examples of inaccurate schemas?***
+
+Although people at all ages can have inaccurate mental representations of the world, children are especially prone to view the world in an incorrect way. The reason children may view the world in an incorrect way is because the structure of their cognitive processing is developing. Piaget believed that inaccurate schemas are changed only when they are challenged in the cognitive structure of the child. This challenge has been termed cognitive conflict.
+
+Basically, the process of cognitive change works as follows:
+
+- People are motivated to maintain a state of cognitive equilibrium.
+- When a child encounters information from the world and the information is inconsistent with his or her schema, the new piece of information creates a state of disequilibrium or cognitive conflict.
+- ***Equilibrium*** may be restored through one of the two processes of adapation called assimilation and accommodation.
+- ***Assimilation*** occurs when a child re-organizes the new information in such a way as to make the new piece of information consistent with his or her preexisting schema of the world.
+- ***Accommodation*** occurs when a child alters his or her schema such that the new piece of information can now be incorporated into the new schema.
+
+Thus the process of accommodation produces the greatest cognitive change. Can you think of examples of both assimilation and accommodation? Here is an example:
+
+**Equilibrium-Preexisting Schema:** Child has grown up in an environment where all people he interacted with were of the same race (mom, dad, siblings, grandma, grandpa, etc.) Child has seen people of other racial groups, but has never interacted with them. Child develops the schema that people tend to like others who are of the same race as him or her.
+
+**Cognitive Conflict Produced:** At four years of age the child begins to attend preschool. At this time he starts to interact with children of various races. The child begins to develop a friendship with a child of a different race. This friendship creates cognitive conflict for the child: "How can I like someone who is a different color?" To resolve this cognitive conflict, the child has two options:
+
+***Option A***- **Assimilation:** In order to maintain his or her preexisting schema, the child re-organizes the information such that the other child is not perceived to be so dissimilar after all: "Maybe he is a different color from me, but we both speak English. We must not be so dissimilar after all."
+
+***Option B***- **Accommodation:** The child's preexisting schema is altered such that the new information can be incorporated into a new way of perceiving the world, "Maybe I can be friends with someone who is different from me."
+
+### Cognitive Equilibrium is Restored {.unnumbered}
+
+Although cognitive equilibrium is restored via either assimilation or accommodation, assimilation serves to maintain an inaccurate schema (that differences inhibit the development of friendships) whereas accommodation serves to produce cognitive change and hence produces a more accurate representation of the world (that differences do not inhibit the development of friendships).
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity:Cognitive Change
+
+::: {.learning-activity}
+
+The first three links below are articles that are intended to give you an opportunity to reflect on your own considerations around development. The last link is a test - along with the first three links, it is intended to provide some insights about your developmental trajectory in light of your crisis resolution, attachment style, and parenting styles:
+
+- [**Erik Erikson’s Stages of Social-Emotional Development**](http://www.childdevelopmentinfo.com/development/erickson.shtml ){target="_blank"}
+- [**Attachment Issues in Children: Causes, Symptoms, Treatment**](https://www.helpguide.org/articles/childhood-issues/attachment-issues-in-children.htm){target="_blank"}
+- [**Seven Tips for Stepfamily Success**](https://www.gottman.com/blog/seven-tips-for-stepfamily-success/){target="_blank"}
+- [**What is Your Parenting Style**](https://www.3smartcubes.com/pages/tests/parentingstyle/parentingstyle_instructions/){target="_blank"}
+
+:::
+
+### Activity: Questions for Consideration
+
+::: {.learning-activity}
+
+Before moving on, take a moment to consider the following questions:
+
+ - **What is God like for children of different levels of cognitive development? If you can, give some examples from children you know....**
+ - **Would children even have an idea of God if they were not taught it?**
+
+*Be prepared to share your thoughts with other members of the class*
+
+:::
+
+## Adolescence
+
+John has just turned 13. Over the past year he has experienced may changes. He has grown over six inches and he has developed acne over his face and back. Not only is he changing physically, he is also experiencing a wave of emotional, spiritual, cognitive, and sexual changes. John has become self-focused and very self-critical. In addition, he is beginning to think abstractly and to challenge adults' "dominion" on knowledge. John is also on a quest to understand "who he is" and "what his place is in the world". John's quest for an identity makes him more vulnerable to peer pressure and to the influence of radical groups and cults. During this time that we call adolescence, John will make many decisions that will have a profound effect on the direction his life will take.
+
+*Does any of the above sound familiar?*
+
+Before you begin reading the textbook section on adolescence, think back to your own adolescence. As you think about your experience of adolescence, use the following questions to guide your reflection:
+
+- What physical changes did you experience in adolescence?
+- How did these physical changes make you feel?
+- In what ways did your view of the world change during adolescence?
+- How did your way of treating other people change during adolescence?
+- What was most important to you during adolescence?
+- To what extent is "who you are today" a function of "who you became during adolescence"?
+
+### No Adolescence? {.unnumbered}
+
+In other times and in other cultures to­day, adolescence does not exist as a significant and distinct period of develop­ment. This might seem surprising and difficult to imagine. Think of how modern society would be different, or if it could even exist, without a period of adolescence. What are the advantages and disadvantages of having an adolescent period?
+
+### Identity {.unnumbered}
+
+The concept of identity is a rich topic for consideration. The most familiar aspect of identity is occupational identity, since much of “who we are” in our society rests on the kind of work we do. Perhaps you can readily relate to this in your choice of major. Less familiar, but equally important, is ideological identity. Ideologi­cal identity, including both religious and political orientations, may un­dergo a tremen­dous upheaval during your student years. Do you have the same political beliefs as your parents? What about religious beliefs? Conflict and questioning of parental beliefs and values may be a necessary part of establishing your personal iden­tity—even if the beliefs and values you ultimately adopt are the same as those of your parents.
+
+<!-- [plugin:content-inject](_activities){target="_blank"} --> 
+
+### Activity: Read and Reflect
+
+::: {.learning-activity}
+
+In this section we explore adolescence and the changes in development we go through. Below are some resources that help to help support your understanding - consider how they connect to the content examined above:
+
+- [**Journal of Adolescence**](https://www.sciencedirect.com/journal/journal-of-adolescence){target="_blank"}
+- [**Erik Erikson’s Stages of Social-Emotional Development**](https://childdevelopmentinfo.com/child-development/erickson/#gs.d8mpcv){target="_blank"}
+- [**Connecting Parents, Teens, & Jesus in a Disconnected World**](https://axis.org/){target="_blank"}
+
+:::
+
+### Activity: Chapter 10 Terminology Practice
+
+::: {.learning-activity}
+
+In order to review some of the major terms from Chapter 10 in your textbook, practice using the activity below. Although you will not be evaluated on these terms, they will assist you in the assessments for this course:
+
+  <iframe src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=84" width="936" height="847" frameborder="0" allowfullscreen="allowfullscreen" title="Psych 106 - Unit 10 Quiz"></iframe><script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+:::
+
+### Activity: Question for Consideration
+
+::: {.learning-activity}
+
+Consider what you have learned in this section and take a moment to reflect on the following question:
+
+- **Would you want to live your adolescence over again if you could? Why or why not?**
+
+*Be prepared to share your thoughts and insights with other members of the class.*
+
+:::
+
+## Assessment {.unnumbered}
+
+::: {.note}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+:::
+
+## Checking Your Learning {.unnumbered}
+
+::: {.check}
+
+Before you move on to the next unit, check that you are able to:
+
+- Define the key terminology related to prenatal and infant physical development, infancy and childhood, and adolescent development.
+- Understand advantages and disadvantages to different research designs in developmental psychology.
+- Understand the cognitive changes that occur during infancy and childhood, and the importance of attachment and the different styles of attachment.
+- Understand the process of identity formation, relationships, and moral emotions during adolescence.
+- Apply your understanding to identify the best ways expectant parents can ensure the health of their developing fetus, how to promote learning, and how to categorize moral reasoning.
+- Analyze the effects of preterm birth, how to effectively discipline children, and adolescent judgment and risk taking.
+
+:::

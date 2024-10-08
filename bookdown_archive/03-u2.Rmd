@@ -1,0 +1,251 @@
+# Intelligence Testing
+
+## Overview {-}
+
+In this unit, you will learn about techniques and tools for measuring intelligence, different theories as to what constitutes intelligence, and the biological, environmental, and behavioural factors that influence intelligence.
+
+### Topics {-}
+
+This unit is divided into the following topics:
+
+1. What is Intelligence?  
+2. Extremes of Intelligence  
+3. Nature-Nature and IQ  
+
+### Learning Outcomes {-}
+
+By the end of this unit, students will be able to:
+
+- Know and define the key terminology associated with understanding intelligence, intelligence testing, and heredity, environment, and intelligence.  
+- Understand the reasoning behind the eugenics movements and its use of intelligence tests, why intelligence is divided into fluid and crystallized types, and the genetic basis of intelligence.  
+- Apply the concepts of entity theory and incremental theory to help kids succeed in school, to identify examples from the triarchic and multiple theories of intelligence, and to recognize environmental and behavioural effects on intelligence to understand how to enhance your own cognitive abilities.  
+- Analyze why it is difficult to remove all cultural bias from intelligence testing and whether teachers should spend time tailoring lessons to each individual student’s learning style.  
+
+### Activity Checklist: {-}
+
+Here is a checklist of learning activities you will benefit from in completing this unit. You may find it useful for planning your work.
+
+```{block2, type='reflect'}
+
+<span class="blockhead">Learning Activities</span>
+  
+- Read Chapter 9 of your textbook
+- Review Chapter 9 - Notes (intended to support your understanding of your readings) 
+- Explore the Intelligence Testing Resources
+- Perform the I.Q. Testing (from provided resources)
+- Complete the Chapter 9 Key Terms Quiz (ungraded)
+
+```
+
+
+```{block2, type='caution'}
+
+***Note***  
+  
+The course units follow topics in the textbook, *Revel for An Introduction to Psychological Science* by Krause et al. (4th Edition). For each unit, please read the pertinent chapter(s) before completing the assessment for the unit.
+
+```
+
+```{block2, type='assessment'}
+
+***Assessment***  
+  
+In this course you demonstrate your understanding of the course learning outcomes in different ways, including papers, projects, discussions and quizzes. Please see the Assessment section in Moodle for assignment details and due dates.
+
+```
+
+### Resources {-}
+
+Here are the resources you will need to complete this unit.
+
+- Krause, M., Corts, D., Smith, S. C. (2024). *Revel for An Introduction to Psychological Science, 4th Canadian Edition.* Pearson Ed.  
+- Other resources will be provided online.  
+
+## What is Intelligence?
+
+### Intelligence {-}
+
+As David Myers points out, intelligence is a slippery concept. We all have an idea of what it refers to, but we cannot agree on a single definition. Perhaps the most helpful advice is to remember, as Myers points out, that “intelligence is a socially constructed concept. Cultures deem ‘intelligent’ whatever attributes enable success in those cultures” (2010). Historically, in North American culture, the idea of intelligence performance on an IQ test. The composition of these tests reflected North American culture’s emphasis on particular mental abilities, specifically, those associated with success in an academic setting. More recently, we have come to realize that there are many kinds of intelligence. In this unit we will consider some varieties of intelligence, or multiple intelligences.
+
+### Types of Intelligence {-}
+
+#### Emotional Intelligence {-}
+
+I have to admit that when I first heard of emotional intelligence (EI) I was skeptical. It sounded like popular psychology - someone trying to make a buck preying on our need for self-knowledge. However, upon further investigation I found that EI was linked to social intelligence (the ability to understand and relate to people), a concept developed by the pioneering psychologist E.L. Thorndike in 1920. And upon still further investigation, I found EI made a lot of sense.
+
+#### Sternberg's Three Components of Intelligence {-}
+
+Robert Sternberg wanted to show that intelligence was more than just one general ability (known as *g theory*). He believed our intelligence is best classified into three areas that predict real - world success: ***analytical, creative, and practical.*** The following article does a great job explaining the Triarchic Theory of Intelligence and its three sub-theories. It also makes note of the criticisms that have been brought against this theory. *To better understand Sternberg’s Three Components of Intelligence follow the link below:*
+
+- [**Three Components of Intelligence**](https://www.thoughtco.com/triarchic-theory-of-intelligence-4172497){target="_blank”}
+
+#### Howard Gardner’s Nine Types of Intelligence  {-}
+
+Howard Gardner put together a robust, research-based theory of Multiple Intelligences. He put forth an understanding of intelligence promoting our abilities are best classified into nine independent intelligences, which include a broad range of skills beyond traditional school smarts. This illuminating read can help you understand what your primary intelligences are. Follow the link below:
+
+- [**Theory of Multiple Intelligences**](https://www.niu.edu/citl/resources/guides/instructional-guide/gardners-theory-of-multiple-intelligences.shtml){target="_blank”}
+
+### Activity: Read and Learn {-}
+
+```{block2, type='reflect'}
+
+To add to your exploration of this topic, take a moment to read the following articles:
+  
+- [**Emotional Intelligence Consortium Website**](http://www.eiconsortium.org/){target="_blank”} 
+
+- [**EQI Web Resource**](https://eqi.org/eitoc.htm){target="_blank”}  
+
+*Consider how these articles connect to what you have learned in this section.*
+  
+```
+
+### Activity: Intelligence Testing  {-}
+
+```{block2, type='reflect'}
+
+In this section we examined Intelligence Testing. One of the important concepts we learned was that Intelligence Testing can be controversial due to its socially constructed nature.
+Below is a link to a website that will allow you to take some Intelligence Tests for yourself. As you work through each test, and see the results, think about why we might consider these types of tests beneficial, and why they might be considered controversial.
+
+- [**Emotional Intelligence Test**](https://www.queendom.com/tests/){target="_blank”}
+
+```
+
+### Activity: Questions for Consideration  {-}
+
+```{block2, type='reflect'}
+
+This section focused on Intelligence Testing. As we have seen, Intelligence Testing is best implemented after careful consideration.
+
+Take a moment to reflect on the following questions:
+  
+- ***How do you feel about the EMOTIONAL INTELLIGENCE TESTS? Did you learn anything? If so, what were the important areas that were illuminated by the test?*** 
+- ***Is ‘emotional intelligence’ a valid concept worth measuring?*** 
+- ***Do you believe E-IQ is more important than "intelligence" as measured by IQ scores for success and happiness in your life?”***  
+
+*Be prepared to share your thoughts and insights with other members of the class*
+  
+```
+
+## Extremes of Intelligence
+
+### IQ Testing {-}
+
+In this section we continue to build upon our understanding of intelligence and testing to focus on Intelligence tests and those who score at the "extremes." Intelligence tests are the most common tool used to measure intelligence. Intelligence test are one method of assessing an individual’s mental aptitudes and comparing them with those of others using numerical scores. These scores are then plotted on a normal (bell) curve to estimate where a person’s intelligence rates in relation to a standardized population. The extremes of intelligence is the understanding that on one end of the continuum are those with intellectual disabilities and on the other end are those who are geniuses.
+
+```{block2, type='caution'}
+
+**Online Articles of Interest** 
+  
+To supplement our understanding of this topic, take a moment to explore the following resources:
+  
+- [**The Arc**](https://thearc.org/){target="_blank”}
+
+- [**MENSA International**](https://www.mensa.org){target="_blank”}
+
+```
+
+<!-- [plugin:content-inject](_activities) -->
+
+### Activity: IQ Testing {-}
+
+```{block2, type='reflect'}
+
+After considering the above, and having read the textbook’s discussion of intelligence testing, you might want to try some tests yourself. The value in doing this is not that you will get an accurate idea of your IQ score, but rather that you might get a better understanding for some of the problems in testing. As you try some of the tests at the following sites, remind yourself of the problems of test standardization, validity, and reliability. How well do you think these tests measure up?
+  
+- [**Queendom IQ Test**](https://www.queendom.com/tests/index.htm){target="_blank”}
+- [**Mensa IQ Challenge**](https://www.mensa.org/public/mensa-iq-challenge){target="_blank”}
+
+```
+
+### Activity: Question for Consideration {-}
+
+```{block2, type='reflect'}
+
+Take a moment to reflect on intelligence from a Christian perspective. Read the following passage and carefully consider the questions below to help prepare for our discussion:
+  
+The Bible says, in James; Chapter 2:
+  
+*My brothers, as believers in our glorious Lord Jesus Christ, don't show favoritism. Suppose a man comes into your meeting wearing a gold ring and fine clothes, and a poor man in shabby clothes also comes in. If you show special attention to the man wearing fine clothes and say, "Here's a good seat for you," but say to the poor man, "You stand there" or "Sit on the floor by my feet," have you not discriminated among yourselves and become judges with evil thoughts?*
+
+- ***Could we be guilty of favoritism in esteeming more intelligent people above less intelligent people? In society? In Church?***
+
+*Be prepared to share your thoughts and insights with other members of the class*
+
+```
+
+## Nature-Nature and IQ
+
+While the debate rages over the relative contributions of nature and nurture to IQ, no one denies that heredity (nature) plays some role. The question arises then, “So what?” Are we going to try to control (and presumably increase) IQ through genetic engineering or some other method of eugenics (*Eugenics is the search for hereditary factors that give people an evolutionary advantage; translated it can mean “good genes” or “good origin”*)? Are we going to control who should have children and how many, allowing the most intelligent parents to have more children and restricting the less intelligent? When the genetic basis for IQ (or some other component of intelligence) is identified, will parents select embryos with greater potential? For more on this topic see the following quote and the website from which it came.
+
+“If we are concerned for the future of the (hopefully) millions of generations still to be born, we must realize that their fate lies to a considerable extent in the breeding practices of those who are currently alive.” *(Intelligence and Eugenics)*
+
+<span class="blockhead">What Will You Do?</span>
+
+If or when you have children, will you ban screens (TV, smart phone, tablet, laptop) as a “brain rotter” and read to them every day? Or will you just let nature take its course and allow both screens and reading?
+
+<span class="blockhead">Test Biases?</span>
+
+IQ tests are generally valid for their original purpose—as predictors of academic performance. Controversy arises when IQ scores are taken to mean overall intelligence and even overall worth. IQ scores consistently predict that some cultural and racial groups will do better at school than will other groups. These differences are an indication of bias not in the IQ tests but in the backgrounds and academic settings that first create and then magnify differences.
+
+```{block2, type='caution'}
+
+**Online Articles of Interest** 
+  
+To supplement our understanding of this topic, take a moment to read through the following:
+  
+- [**The Adoption History Project**](https://darkwing.uoregon.edu/~adoption/topics/naturenurturestudies.htm){target="_blank”}
+
+- [**Nature-Nature and IQ**](http://unisci.com/stories/20012/0417014.htm){target="_blank”}
+
+```
+
+<!-- [plugin:content-inject](_activities) -->
+
+### Activity: Ch. 9 Key Terms Quiz {-}
+
+```{block2, type='reflect'}
+
+In order to review some of the major terms from Chapter 9 in your textbook, take the following unmarked quiz. Although you will not be evaluated on these terms, they will assist you in the assessments for this course:
+  
+<iframe src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=83" width="760" height="819" frameborder="0" allowfullscreen="allowfullscreen" title="Psych 106 - Unit 9 Quiz"></iframe><script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+  
+```
+
+### Activity: Questions for Consideration{-}
+
+```{block2, type='reflect'}
+
+Consider the following scenario (and questions):
+  
+*If you suggest that Asians have darker skin than Caucasians, you are not considered racist; this is an obvious fact with a genetic basis. However, if you suggest that Asians are more intelligent than Caucasians (as IQ tests show), or that African Americans are less intelligent, watch out
+
+- ***What is different about these two claims that makes us accept one and not the other? Is it the role of nature versus nurture? Or is it more closely tied to the high value our culture places on intelligence, and especially IQ scores?***
+- ***If IQ were unimportant would it matter if one racial or gender group tended to score higher than another group? Would you be considered racist or sexist for suggesting this?***
+  
+*Be prepared to share your thoughts and insights with other members of the class.*
+  
+```
+
+## Assessment {-}
+
+```{block2, type='assessment'}
+
+Refer to the course schedule for graded assignments you are responsible for submitting. **All graded assignments, and their due dates, can be found on the "Assessment" tab.**
+  
+In addition to any graded assignments you are responsible for submitting, be sure to complete all the Learning Activities that have been provided throughout the content - these are intended to support your understanding of the content.
+
+
+```
+
+## Checking your Learning {-}
+
+```{block2, type='progress'}
+
+Before you move on to the next unit, check that you are able to:
+  
+- Define the key terminology associated with understanding intelligence, intelligence testing, and heredity, environment, and intelligence.  
+- Understand the reasoning behind the eugenics movements and its use of intelligence tests, why intelligence is divided into fluid and crystallized types, and the genetic basis of intelligence.  
+- Apply the concepts of entity theory and incremental theory to help kids succeed in school, to identify examples from the triarchic and multiple theories of intelligence, and to recognize environmental and behavioral effects on intelligence to understand how to enhance your own cognitive abilities.  
+- Analyze why it is difficult to remove all cultural bias from intelligence testing and whether teachers should spend time tailoring lessons to each individual student’s learning style.
+
+```
