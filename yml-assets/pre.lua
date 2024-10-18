@@ -7,7 +7,7 @@ if quarto.doc.is_format("html") then
       return quarto.Callout({
         type = "note",
         content = div.content,
-        title = div.attributes.title and ("Learning Activity: " .. div.attributes.title) or "Learning Activity",
+        title = div.attributes.title or " ",
         appearance = div.attributes.appearance or "default",
         icon = false
       })

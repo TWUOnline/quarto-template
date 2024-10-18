@@ -161,7 +161,7 @@ After reading about ethics in psychology, consider the following question:
 
 ### Activity: Terminology Practice
 
-::: {.learning-activity}
+::: {.learning-activity title="this is the title"}
 
 Take a moment to self-assess how well you know some of the concepts introduced in this unit. While this activity is not formally graded, it can help support your understanding of the content.
 
