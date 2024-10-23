@@ -1,5 +1,0 @@
----
-title: schedule
-visible: false
----
-
