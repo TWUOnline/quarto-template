@@ -1,4 +1,4 @@
-# version 2.6
+# version 2.7
 
 project:
   type: book
@@ -22,12 +22,6 @@ book:
     - u4.qmd
     - u5.qmd
     - u6.qmd
-#    - u7.qmd
-#    - u8.qmd
-#    - u9.qmd
-#    - u10.qmd
-#    - u11.qmd
-#    - u12.qmd
 
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
 #    - references.qmd

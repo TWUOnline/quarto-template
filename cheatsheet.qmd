@@ -1,0 +1,146 @@
+# Quarto Cheatsheet {.unnumbered}
+
+Below are some examples of content that can be used in course production.
+
+## Notes {.unnumbered}
+
+There are 2 options for notes, notes with or without icons.
+
+### Note with an icon {.unnumbered}
+
+::: {.note icon="true"}
+
+A note **with** an icon
+
+:::
+
+### Note without an Icon {.unnumbered}
+
+::: {.note}
+
+A note **without** an icon
+
+:::
+
+## blockquotes {.unnumbered}
+
+> "Your brand is what people say about you when you're not in the room."  
+>  ***-- Jeff Bezos***
+
+## Accordions {.unnumbered}
+
+::: {.accordion title="This is an Accordion."}
+
+An accordion may contain extra content such as worked examples or sample answers. Accordions should be used sparingly.
+
+:::
+
+## Images {.unnumbered}
+
+Images are handled differently depending on if they are fig-images (figures) or dec-images (decorative).
+
+### Fig-image {.unnumbered}
+
+- Should contain a caption
+- Should have a unique fig id (*\"#fig-u1_1\"*)
+- You can reference any fig-image by its unique fig id from anywhere in the course
+  - (example: @fig-u1_1)
+- Should contain alt text
+- Should contain source metadata (at least source-text)
+- May use a lightbox. 
+  - Adding a lightbox makes the image expandable with a click or tap.
+
+![This is a caption for a fig-image](assets/u1/livingroom1.jpg){#fig-u1_1 .lightbox fig-alt="The alt text" source-text="Adapted from *A living room picture*" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+
+### Dec-image {.unnumbered}
+
+- Should not contain a caption
+- Should not have a fig id
+- Should contain alt text
+- Should contain source metadata (at least source-text)
+- May use a lightbox. 
+  - Adding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.
+
+
+![](assets/u1/livingroom2.jpg){fig-alt="The alt text" source-text="Adapted from *A living room picture*" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+
+
+## Figure Blocks {.unnumbered}
+
+Below is a figure block containing 2 fig-images. It has a 2 column layout, so the 2 images will appear side by side.
+
+::: {#fig-block_u1_1 layout-ncol="2"}
+
+![A caption for the first image](assets/u1/livingroom3.jpg){#fig-u1_4 .lightbox fig-alt="The alt text" source-text="Adapted from *A living room picture*" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+
+![A caption for the second image](assets/u1/livingroom4.jpg){#fig-u1_5 .lightbox fig-alt="The alt text" source-text="A living *room picture*" source-link="https://www.pexels.com/photo/round-brown-wooden-table-between-two-chairs-and-ottoman-chair-2079246/" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+
+
+This is the caption of the figure block
+
+:::
+
+### Tables {.unnumbered}
+
+Below is a table. All tables should be contained within a figure block. Figures containg tables should not use columns.
+
+::: {#fig-table_u1_1}
+
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
+This is the caption for the figure
+
+:::
+
+
+
+## Learning Activites {.unnumbered}
+
+You can set the estimated time of an activity. If you do not set the time, the field will not display.
+
+### Activity: Title of the Activity
+
+::: {.learning-activity time="20"}
+
+This is a learning activity containing an h5p activity. It has an estimated time set to 20 minutes.
+
+<iframe src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=612" width="958" height="563" frameborder="0" allowfullscreen="allowfullscreen" title="LDRS 662_Unit 1_4Rs"></iframe><script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+::: {.note}
+
+This is a note within an activity.
+
+:::
+
+
+
+#### Questions to Consider {.unnumbered}
+
+1. Is this a question?
+2. Is this a second question?
+
+:::
+
+::: {.prote}
+
+This is a prote. Protes (production notes) are only visible in *.qm*d or *.docx* files.
+
+:::
+
+
+## Check Your Learning {.unnumbered}
+
+::: {.check}
+
+**Before you move on to the next unit you may want to check that you are able to:**
+
+- Describe the place of leadership in results
+- Explain the discipline of results-based leadership
+- Contrast a team-based leadership style with other approaches to leadership
+
+:::
+
