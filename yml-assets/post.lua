@@ -3,23 +3,20 @@
 
 ------------------- HTML -------------------
 -- Add Image Source below images
+
 local function ImageSource_html_handler()
-    -- Add parseText function at the beginning
     local function parseText(text)
         local elements = {}
         local current_text = ""
         local in_italics = false
         
-        -- Check if entire text is wrapped in asterisks
         if text:match("^%*.*%*$") then
-            text = text:sub(2, -2)  -- Remove outer asterisks
+            text = text:sub(2, -2)
             return {pandoc.Emph({pandoc.Str(text)})}
         end
         
-        -- Handle partial italics
         for part in text:gmatch("([^*]+)%*?") do
             if in_italics then
-                -- Add emphasized text
                 if current_text ~= "" then
                     table.insert(elements, pandoc.Str(current_text))
                     current_text = ""
@@ -31,7 +28,6 @@ local function ImageSource_html_handler()
             in_italics = not in_italics
         end
         
-        -- Add any remaining text
         if current_text ~= "" then
             table.insert(elements, pandoc.Str(current_text))
         end
@@ -39,15 +35,12 @@ local function ImageSource_html_handler()
         return elements
     end
 
-    -- Helper function to create source information
     local function createSourceInfo(img)
         local source_content = {
             pandoc.Strong({pandoc.Emph({pandoc.Str("Source: ")})})
         }
         
-        -- Handle source text/link
         if img.attributes["source-link"] then
-            -- Create source as link using source-link as URL and source-text as text
             local link_text = img.attributes["source-text"] or img.attributes["source-link"]
             local parsed_text = parseText(link_text)
             local source_link = pandoc.Link(
@@ -58,14 +51,12 @@ local function ImageSource_html_handler()
             )
             table.insert(source_content, source_link)
         elseif img.attributes["source-text"] then
-            -- Just add source title if no source-link exists
             local parsed_text = parseText(img.attributes["source-text"])
             for _, element in ipairs(parsed_text) do
                 table.insert(source_content, element)
             end
         end
     
-        -- Handle author information
         if img.attributes["source-author"] then
             table.insert(source_content, pandoc.Str(" by "))
             if img.attributes["source-author-link"] then
@@ -85,7 +76,6 @@ local function ImageSource_html_handler()
             end
         end
     
-        -- Handle copyright information
         if img.attributes["source-copyright"] then
             if #source_content > 1 then
                 table.insert(source_content, pandoc.Str("."))
@@ -99,7 +89,6 @@ local function ImageSource_html_handler()
             end
         end
     
-        -- Handle license information
         if img.attributes["source-license-text"] then
             if #source_content > 1 then
                 table.insert(source_content, pandoc.Str("."))
@@ -109,13 +98,13 @@ local function ImageSource_html_handler()
             end
             table.insert(source_content, pandoc.Space())
             
-                       if img.attributes["source-license-link"] then
+            if img.attributes["source-license-link"] then
                 local parsed_license = parseText(img.attributes["source-license-text"])
                 local license_link = pandoc.Link(
                     parsed_license,
                     img.attributes["source-license-link"],
                     "",
-                    {target="_blank"}
+				{target="_blank"}
                 )
                 
                 table.insert(source_content, license_link)
@@ -127,7 +116,6 @@ local function ImageSource_html_handler()
             end
         end
     
-        -- Add final period if there's content
         if #source_content > 1 then
             table.insert(source_content, pandoc.Str("."))
         end
@@ -139,86 +127,87 @@ local function ImageSource_html_handler()
         return result
     end
   
-    -- Image handler function
     local function handleImage(el)
-        if not (el.attributes["source-text"] or el.attributes["source-link"] or 
-                el.attributes["source-author"] or el.attributes["source-copyright"] or 
-                el.attributes["source-license-text"]) then
-            return el
-        end
-        
-        -- Get parent element
-        local parent = el.parent
-        if parent and parent.t == "Link" then
-            -- For images in links, just return the image
-            return el
-        elseif parent and parent.t == "Div" then
-            -- For images in Divs (like in figures), modify the Div's content
-            local source_inlines = createSourceInfo(el)
-            parent.content = {
-                pandoc.Para({el, table.unpack(source_inlines)})
-            }
-            return parent
-        else
-            -- For standalone images, add source info
-            local source_inlines = createSourceInfo(el)
-            return {el, table.unpack(source_inlines)}
-        end
-    end
-  
-    -- Link handler function
-    local function handleLink(el)
-        -- Check if this link contains an image with source
-        local img
-        for _, item in ipairs(el.content) do
-            if item.t == "Image" and 
-               (item.attributes["source-text"] or item.attributes["source-link"] or 
-                item.attributes["source-author"] or item.attributes["source-copyright"] or 
-                item.attributes["source-license-text"]) then
-                img = item
-                break
-            end
-        end
-        
-        if img then
-            -- Return a sequence with the link (containing only the image) followed by source info
-            local source_inlines = createSourceInfo(img)
-            return {
-                pandoc.Link({img}, el.target, el.title, el.attr),
-                table.unpack(source_inlines)
-            }
-        end
         return el
     end
-  
-    -- Div handler function
-    local function handleDiv(el)
-        -- Check if this div contains an image with source
-        if #el.content > 0 and el.content[1].t == "Para" then
-            local para = el.content[1]
-            for _, item in ipairs(para.content) do
-                if item.t == "Image" and 
-                   (item.attributes["source-text"] or item.attributes["source-link"] or 
-                    item.attributes["source-author"] or item.attributes["source-copyright"] or 
-                    item.attributes["source-license-text"]) then
-                    local source_inlines = createSourceInfo(item)
-                    el.content = {
-                        pandoc.Para({item, table.unpack(source_inlines)})
-                    }
+
+    local function handlePara(el)
+        if el.parent and el.parent.attr and el.parent.attr.classes then
+            for _, class in ipairs(el.parent.attr.classes) do
+                if class == "figure" or class == "quarto-figure" then
                     return el
                 end
             end
         end
+        
+        if #el.content == 1 then
+            local img = nil
+            
+            if el.content[1].t == "Image" then
+                img = el.content[1]
+            elseif el.content[1].t == "Link" then
+                for _, item in ipairs(el.content[1].content) do
+                    if item.t == "Image" then
+                        img = item
+                        break
+                    end
+                end
+            end
+            
+            if img and (img.attributes["source-text"] or img.attributes["source-link"] or 
+               img.attributes["source-author"] or img.attributes["source-copyright"] or 
+               img.attributes["source-license-text"]) then
+                local source_inlines = createSourceInfo(img)
+                local source_para = pandoc.Para(source_inlines)
+                return {el, source_para}
+            end
+        end
+        
         return el
     end
-  
-    -- Return the transformation functions
+
+    local function handleDiv(el)
+        if el.attr and el.attr.classes and 
+           (el.attr.classes:includes("lightbox") or el.attr.classes:includes("quarto-float")) then
+            
+            local function findImageWithSource(content)
+                for _, item in ipairs(content) do
+                    if item.t == "Image" and 
+                       (item.attributes["source-text"] or item.attributes["source-link"]) then
+                        return item
+                    elseif item.t == "Link" and item.content then
+                        for _, subitem in ipairs(item.content) do
+                            if subitem.t == "Image" and 
+                               (subitem.attributes["source-text"] or subitem.attributes["source-link"]) then
+                                return subitem
+                            end
+                        end
+                    elseif item.content then
+                        local found = findImageWithSource(item.content)
+                        if found then return found end
+                    end
+                end
+                return nil
+            end
+            
+            local img = findImageWithSource(el.content)
+            if img then
+                local source_inlines = createSourceInfo(img)
+                local source_para = pandoc.Para(source_inlines)
+                return {el, source_para}
+            end
+        end
+        
+        return el
+    end
+
     return {
         Image = handleImage,
-        Link = handleLink,
-        Div = handleDiv
+        Para = handlePara,
+        Div = handleDiv,
     }
 end
+
 
 
 local function RemoveFigcaption_dec_images_handler()
@@ -262,6 +251,42 @@ local function RemoveFigcaption_dec_images_handler()
         Div = handleFigure
     }
 end
+
+local function restructure_image_source()
+    local function handlePara(el)
+        
+        -- Check if this paragraph contains a span with class "image-source"
+        local hasImageSourceSpan = false
+        local spanContent = nil
+        
+        for _, item in ipairs(el.content) do
+            if item.t == "Span" and item.attr and item.attr.classes and 
+               (item.attr.classes:includes("image-source") or 
+                item.attr.classes:find("image-source")) then
+                hasImageSourceSpan = true
+                spanContent = item.content
+                break
+            end
+        end
+        
+        if hasImageSourceSpan and spanContent then
+            -- Create new paragraph with raw HTML tags
+            return pandoc.RawBlock('html', 
+                '<p class="image-source">' .. 
+                pandoc.write(pandoc.Pandoc({pandoc.Para(spanContent)}), 'html'):match('<p>(.*)</p>') ..
+                '</p>'
+            )
+        end
+        
+        return el
+    end
+    
+    return {
+        Para = handlePara
+    }
+end
+  
+
 
 -- Makes accordions tab-able
 local function Accordion_html_handler()
@@ -835,6 +860,7 @@ for section_name, style in pairs(STYLES.sections) do
 if quarto.doc.is_format("html") then
   return {
     ImageSource_html_handler(),
+    restructure_image_source(),
     RemoveFigcaption_dec_images_handler(),
     Accordion_html_handler(),
   }

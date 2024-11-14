@@ -728,13 +728,6 @@ local function figure_reference_pre_handler()
   }
 end
 
-
-
-
-
-
-
-
 ------------------- Calls -------------------
 
 if quarto.doc.is_format("html") then

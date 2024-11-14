@@ -1,4 +1,4 @@
-# version 2.7
+# version 2.8
 
 project:
   type: book
@@ -16,12 +16,7 @@ book:
   search: true
   chapters:
     - index.qmd
-    - u1.qmd
-    - u2.qmd
-    - u3.qmd
-    - u4.qmd
-    - u5.qmd
-    - u6.qmd
+    - cheatsheet.qmd
 
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
 #    - references.qmd

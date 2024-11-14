@@ -50,7 +50,7 @@ Images are handled differently depending on if they are fig-images (figures) or 
 - May use a lightbox. 
   - Adding a lightbox makes the image expandable with a click or tap.
 
-![This is a caption for a fig-image](assets/u1/livingroom1.jpg){#fig-u1_1 .lightbox fig-alt="The alt text" source-text="Adapted from *A living room picture*" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+![This is a caption for a fig-image](assets/cheatsheet/cat.jpg){#fig-u1_1 fig-alt="Cat Sitting on a Wooden Table" .lightbox source-text="Cat Sitting on a Wooden Table" source-link="https://www.pexels.com/photo/cat-sitting-on-a-wooden-table-12918996/" source-author="Jasmine Pang" source-author-link="https://www.pexels.com/@jasmine-pang-232852617/" source-copyright="2022, Jasmine Pang" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
 ### Dec-image {.unnumbered}
 
@@ -62,7 +62,7 @@ Images are handled differently depending on if they are fig-images (figures) or 
   - Adding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.
 
 
-![](assets/u1/livingroom2.jpg){fig-alt="The alt text" source-text="Adapted from *A living room picture*" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+![](assets/cheatsheet/croissants.jpg){fig-alt="Delicious Fresh Croissants sitting on trays" source-text="Delicious Fresh Croissants" source-link="https://www.pexels.com/photo/delicious-fresh-croissants-at-sardinian-cafe-28871875/" source-author="Efrem Efre" source-author-link="https://www.pexels.com/@efrem-efre-2786187/" source-copyright="2024, Efrem Efre" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
 
 ## Figure Blocks {.unnumbered}
@@ -71,9 +71,9 @@ Below is a figure block containing 2 fig-images. It has a 2 column layout, so th
 
 ::: {#fig-block_u1_1 layout-ncol="2"}
 
-![A caption for the first image](assets/u1/livingroom3.jpg){#fig-u1_4 .lightbox fig-alt="The alt text" source-text="Adapted from *A living room picture*" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+![This is a caption for the first fig-image](assets/cheatsheet/tram.jpg){#fig-u1_2 fig-alt="Red Tram" .lightbox source-text="Vintage Red Tram on Streets of Prague" source-link="https://www.pexels.com/photo/vintage-red-tram-on-streets-of-prague-28999320/" source-author="Aakash Goel" source-author-link="https://www.pexels.com/@ohaakash/" source-copyright="2022, Aakash Goel" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
-![A caption for the second image](assets/u1/livingroom4.jpg){#fig-u1_5 .lightbox fig-alt="The alt text" source-text="A living *room picture*" source-link="https://www.pexels.com/photo/round-brown-wooden-table-between-two-chairs-and-ottoman-chair-2079246/" source-author="*Colin Madland*" source-author-link="https://madland.ca/" source-copyright="2009, TWU University" source-license-text="CC-BY 4.0" source-license-link="https://creativecommons.org/licenses/by/4.0/deed.en"}
+![This is a caption for the second fig-image](assets/cheatsheet/livingroom.jpg){#fig-u1_3 fig-alt="Modern living room interior with furniture and assorted plants" .lightbox source-text="Modern living room interior" source-link="https://www.pexels.com/photo/modern-living-room-interior-with-furniture-and-assorted-plants-4740484/" source-author="Ksenia Chernaya" source-author-link="https://www.pexels.com/@kseniachernaya/" source-copyright="2020, Ksenia Chernaya" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
 
 This is the caption of the figure block
@@ -95,7 +95,6 @@ Below is a table. All tables should be contained within a figure block. Figures 
 This is the caption for the figure
 
 :::
-
 
 
 ## Learning Activites {.unnumbered}
