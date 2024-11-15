@@ -36,12 +36,16 @@ local function ImageSource_html_handler()
     end
 
     local function createSourceInfo(img)
+        local function isNotEmpty(str)
+            return str and str ~= ""
+        end
+    
         local source_content = {
             pandoc.Strong({pandoc.Emph({pandoc.Str("Source: ")})})
         }
         
-        if img.attributes["source-link"] then
-            local link_text = img.attributes["source-text"] or img.attributes["source-link"]
+        if isNotEmpty(img.attributes["source-link"]) then
+            local link_text = isNotEmpty(img.attributes["source-text"]) and img.attributes["source-text"] or img.attributes["source-link"]
             local parsed_text = parseText(link_text)
             local source_link = pandoc.Link(
                 parsed_text,
@@ -50,16 +54,16 @@ local function ImageSource_html_handler()
                 {target="_blank"}
             )
             table.insert(source_content, source_link)
-        elseif img.attributes["source-text"] then
+        elseif isNotEmpty(img.attributes["source-text"]) then
             local parsed_text = parseText(img.attributes["source-text"])
             for _, element in ipairs(parsed_text) do
                 table.insert(source_content, element)
             end
         end
     
-        if img.attributes["source-author"] then
+        if isNotEmpty(img.attributes["source-author"]) then
             table.insert(source_content, pandoc.Str(" by "))
-            if img.attributes["source-author-link"] then
+            if isNotEmpty(img.attributes["source-author-link"]) then
                 local parsed_author = parseText(img.attributes["source-author"])
                 local author_link = pandoc.Link(
                     parsed_author,
@@ -76,7 +80,7 @@ local function ImageSource_html_handler()
             end
         end
     
-        if img.attributes["source-copyright"] then
+        if isNotEmpty(img.attributes["source-copyright"]) then
             if #source_content > 1 then
                 table.insert(source_content, pandoc.Str("."))
             end
@@ -89,22 +93,21 @@ local function ImageSource_html_handler()
             end
         end
     
-        if img.attributes["source-license-text"] then
+        if isNotEmpty(img.attributes["source-license-text"]) then
             if #source_content > 1 then
                 table.insert(source_content, pandoc.Str("."))
                 table.insert(source_content, pandoc.Space())
                 table.insert(source_content, pandoc.Emph({pandoc.Str("License:")}))
                 table.insert(source_content, pandoc.Space())
             end
-            table.insert(source_content, pandoc.Space())
             
-            if img.attributes["source-license-link"] then
+            if isNotEmpty(img.attributes["source-license-link"]) then
                 local parsed_license = parseText(img.attributes["source-license-text"])
                 local license_link = pandoc.Link(
                     parsed_license,
                     img.attributes["source-license-link"],
                     "",
-				{target="_blank"}
+                    {target="_blank"}
                 )
                 
                 table.insert(source_content, license_link)
