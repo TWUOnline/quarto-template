@@ -831,19 +831,26 @@ for section_name, style in pairs(STYLES.sections) do
     local end_pattern = "<End " .. section_name .. ">"
     
     if line == begin_pattern or line == end_pattern then
+        local function escape_xml(s)
+            return s:gsub('&', '&amp;')
+                   :gsub('<', '&lt;')
+                   :gsub('>', '&gt;')
+                   :gsub('"', '&quot;')
+                   :gsub("'", '&apos;')
+        end
         local xml_open = string.format(
-            '<w:r><w:rPr><w:color w:val="%s"/><w:sz w:val="%d"/><w:szCs w:val="%d"/>%s</w:rPr><w:t>',
-            style.color,
-            style.size,
-            style.size,
-            style.bold and '<w:b/>' or ''
-        )
-        
-                            return pandoc.Para({
-                        pandoc.RawInline('openxml', xml_open),
-                        pandoc.Str(line),
-                        pandoc.RawInline('openxml', '</w:t></w:r>')
-                    })
+    '<w:r><w:rPr><w:color w:val="%s"/><w:sz w:val="%d"/><w:szCs w:val="%d"/>%s</w:rPr><w:t xml:space="preserve">%s</w:t></w:r>',
+    style.color,
+    style.size,
+    style.size,
+    style.bold and '<w:b/>' or '',
+    escape_xml(line)
+)
+
+return pandoc.Para({
+    pandoc.RawInline('openxml', xml_open)
+})
+
                 end
             end
             
@@ -857,6 +864,8 @@ for section_name, style in pairs(STYLES.sections) do
             OrderedList = style_line
         }
     end
+
+
 
 ------------------- Calls -------------------
 
