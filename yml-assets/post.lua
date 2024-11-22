@@ -787,40 +787,98 @@ if elem.t == "Para" and elem.content then
     local has_meta = false
     local new_content = {}
     
+    -- Helper function for XML escaping
+    local function escape_xml(s)
+        return s:gsub('&', '&amp;')
+               :gsub('<', '&lt;')
+               :gsub('>', '&gt;')
+               :gsub('"', '&quot;')
+               :gsub("'", '&apos;')
+    end
+    
+    -- Generate OpenXML for text with specific style
+    local function create_styled_text(text, style, is_link)
+        if is_link then
+            return string.format(
+                '<w:hyperlink r:id="%s"><w:r><w:rPr>%s<w:sz w:val="%d"/><w:szCs w:val="%d"/>%s<w:rStyle w:val="Hyperlink"/></w:rPr><w:t xml:space="preserve">%s</w:t></w:r></w:hyperlink>',
+                style.link_id or "",
+                style.color and string.format('<w:color w:val="%s"/>', style.color) or '',
+                style.size,
+                style.size,
+                style.bold and '<w:b/>' or '',
+                escape_xml(text)
+            )
+        else
+            return string.format(
+                '<w:r><w:rPr>%s<w:sz w:val="%d"/><w:szCs w:val="%d"/>%s</w:rPr><w:t xml:space="preserve">%s</w:t></w:r>',
+                style.color and string.format('<w:color w:val="%s"/>', style.color) or '',
+                style.size,
+                style.size,
+                style.bold and '<w:b/>' or '',
+                escape_xml(text)
+            )
+        end
+    end
+    
+    -- Process meta content
+    local paragraphs = {}
+    local current_inlines = {}
+    
     for _, inline in ipairs(elem.content) do
         local text = pandoc.utils.stringify(inline)
+        
         if text:match("<meta>") then
             has_meta = true
             in_meta_block = true
         elseif text:match("</meta>") then
             in_meta_block = false
+            -- Flush any remaining content
+            if #current_inlines > 0 then
+                table.insert(paragraphs, pandoc.Para(current_inlines))
+                current_inlines = {}
+            end
         elseif in_meta_block then
+            local style
             if inline.t == "Strong" then
-                local style = STYLES.meta.strong
-                table.insert(new_content,
-                    pandoc.RawInline('openxml', 
-                        string.format('<w:r><w:rPr><w:b/><w:sz w:val="%d"/><w:szCs w:val="%d"/></w:rPr><w:t>', 
-                            style.size, style.size)))
-                table.insert(new_content, inline)
-                table.insert(new_content,
-                    pandoc.RawInline('openxml', '</w:t></w:r>'))
+                style = STYLES.meta.strong
             else
-                local style = STYLES.meta.default
-                table.insert(new_content,
+                style = STYLES.meta.default
+            end
+            
+            if inline.t == "SoftBreak" or inline.t == "LineBreak" then
+                -- Instead of creating a new paragraph, add a line break within the current paragraph
+                if #current_inlines > 0 then
+                    table.insert(current_inlines, pandoc.RawInline('openxml', '<w:r><w:br/></w:r>'))
+                end
+            elseif inline.t == "Link" then
+                -- Handle links
+                local link_text = pandoc.utils.stringify(inline.content)
+                table.insert(current_inlines, 
                     pandoc.RawInline('openxml', 
-                        string.format('<w:r><w:rPr><w:sz w:val="%d"/><w:szCs w:val="%d"/></w:rPr><w:t>', 
-                            style.size, style.size)))
-                table.insert(new_content, inline)
-                table.insert(new_content,
-                    pandoc.RawInline('openxml', '</w:t></w:r>'))
+                        create_styled_text(link_text, style, true)))
+            else
+                -- Handle regular text
+                local content_text = pandoc.utils.stringify(inline)
+                table.insert(current_inlines, 
+                    pandoc.RawInline('openxml', 
+                        create_styled_text(content_text, style, false)))
             end
         else
-            table.insert(new_content, inline)
+            table.insert(current_inlines, inline)
+            if inline.t == "SoftBreak" or inline.t == "LineBreak" then
+                table.insert(paragraphs, pandoc.Para(current_inlines))
+                current_inlines = {}
+            end
         end
     end
+
+-- Add any remaining content
+if #current_inlines > 0 then
+    table.insert(paragraphs, pandoc.Para(current_inlines))
+end
     
     if has_meta then
-        return pandoc.Para(new_content)
+        return paragraphs
     end
 end
 
