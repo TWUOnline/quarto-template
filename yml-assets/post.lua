@@ -97,7 +97,7 @@ local function ImageSource_html_handler()
             if #source_content > 1 then
                 table.insert(source_content, pandoc.Str("."))
                 table.insert(source_content, pandoc.Space())
-                table.insert(source_content, pandoc.Emph({pandoc.Str("License:")}))
+                table.insert(source_content, pandoc.Emph({pandoc.Str("License Text:")}))
                 table.insert(source_content, pandoc.Space())
             end
             
@@ -293,50 +293,57 @@ end
 
 -- Makes accordions tab-able
 local function Accordion_html_handler()
-  local accordion_count = 0
+    local accordion_count = 0
+    
+    return {
+        Div = function(el)
+            if el.classes:includes("accordion") then
+                accordion_count = accordion_count + 1
+                local id = "accordion-" .. accordion_count
+                local target = "." .. id .. "-contents"
+                
+                -- Get title from attributes, use default if nil or empty
+                local title = el.attributes.title
+                if not title or title:match("^%s*$") then
+                title = "Click/Tap to expand."
+                end
+                -- Remove title from attributes
+                el.attributes.title = nil
+                
+                -- Create a new div with the accordion structure
+                local new_div = pandoc.Div({
+                  pandoc.RawBlock('html', string.format([[
+                    <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="%s" aria-controls="%s" aria-expanded="false" aria-label="Toggle callout">
+                        <div class="callout-icon-container">
+                            <i class="callout-icon no-icon"></i>
+                        </div>
+                        <div class="callout-title-container flex-fill">
+                            %s
+                        </div>
+                        <button class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></button>
+                    </div>
+                    <div id="%s" class="%s callout-collapse collapse">
+                        <div class="callout-body-container callout-body">
+                  ]], target, id, title, id, id .. "-contents")),
+                  -- Insert original content here
+                  table.unpack(el.content),
+                  -- Close the divs
+                  pandoc.RawBlock('html', [[
+                        </div>
+                    </div>
+                  ]])
+                })
+                
+                -- Add the outer classes
+                new_div.classes = {"callout", "callout-style-simple", "accordion", "callout-note", "no-icon", "callout-titled"}
+                
+                return new_div
+            end
+            return el
+        end
+    }
+  end
   
-  return {
-      Div = function(el)
-          if el.classes:includes("accordion") then
-              accordion_count = accordion_count + 1
-              local id = "accordion-" .. accordion_count
-              local target = "." .. id .. "-contents"
-              
-              -- Get title from attributes or use default
-              local title = el.attributes.title or "Click/Tap to expand."
-              -- Remove title from attributes
-              el.attributes.title = nil
-              
-              -- Convert content to HTML
-              local content = pandoc.write(pandoc.Pandoc(el.content), 'html')
-              
-              -- Create the new HTML structure
-              local html = string.format([[
-                  <div class="callout callout-style-simple accordion callout-note no-icon callout-titled">
-                      <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="%s" aria-controls="%s" aria-expanded="false" aria-label="Toggle callout">
-                          <div class="callout-icon-container">
-                              <i class="callout-icon no-icon"></i>
-                          </div>
-                          <div class="callout-title-container flex-fill">
-                              %s
-                          </div>
-                          <button class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></button>
-                      </div>
-                      <div id="%s" class="%s callout-collapse collapse">
-                          <div class="callout-body-container callout-body">
-                              %s
-                          </div>
-                      </div>
-                  </div>
-              ]], target, id, title, id, id .. "-contents", content)
-              
-              -- Return as RawBlock
-              return pandoc.RawBlock('html', html)
-          end
-          return el
-      end
-  }
-end
 
 ------------------- Docx -------------------
 -- Utility function for HTML decoding
@@ -548,7 +555,6 @@ end
 
 -- Callouts handling function
 local function callouts_docx_handler()
-
     local function format_time(time)
       if not time then
         return ""
@@ -559,7 +565,7 @@ local function callouts_docx_handler()
       end
     end
   
-    local function create_custom_div(type, content, icon, time, is_learning_activity)
+    local function create_custom_div(type, content, icon, time, is_learning_activity, is_accordion, title)
         -- Create the opening line as separate parts
         local opening_parts = {}
         table.insert(opening_parts, pandoc.Str("<Begin "))
@@ -574,7 +580,7 @@ local function callouts_docx_handler()
         table.insert(closing_line, pandoc.Str(type))
         if icon then
             table.insert(closing_line, pandoc.Str("-with-icon"))
-          end
+        end
         table.insert(closing_line, pandoc.Str(">"))
         
         local result_content = {
@@ -591,6 +597,16 @@ local function callouts_docx_handler()
               pandoc.Str("</meta>")
             })
           )
+        elseif is_accordion then
+          table.insert(result_content, 
+            pandoc.Para({
+              pandoc.Str("<meta>"),
+              pandoc.Strong({pandoc.Str("Title")}),
+              pandoc.Strong({pandoc.Str(": ")}),
+              pandoc.Str(title or ""),
+              pandoc.Str("</meta>")
+            })
+          )
         end
         
         table.insert(result_content, pandoc.Div(content))
@@ -600,7 +616,7 @@ local function callouts_docx_handler()
         
         in_callout = false
         return result
-      end
+    end
   
     local function process_div(div)
       if in_callout then
@@ -628,7 +644,9 @@ local function callouts_docx_handler()
             div.content,
             div.attributes.icon,
             div.attributes.time,
-            class == "learning-activity"
+            class == "learning-activity",
+            class == "accordion",
+            div.attributes.title
           )
         end
       end
@@ -642,7 +660,8 @@ local function callouts_docx_handler()
         return pandoc.walk_block(result, {Div = process_div})
       end
     }
-  end
+end
+
 
 -- Callouts handling function
 local function add_styles_docx_handler()

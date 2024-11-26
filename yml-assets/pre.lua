@@ -90,6 +90,8 @@ local function responsive_tables_html_handler()
   }
 end
 
+
+
 ------------------- PDF -------------------
 -- Callout handler function
 local function callouts_pdf_handler()
@@ -286,8 +288,8 @@ end
     ["source-author"] = "Author",
     ["source-author-link"] = "Author URL",
     ["source-copyright"] = "Copyright",
-    ["source-license-text"] = "License",
-    ["source-license-link"] = "License Url",
+    ["source-license-text"] = "License Text",
+    ["source-license-link"] = "License URL",
 }
   local function create_metadata_block(metadata)
     local ordered_keys = {
@@ -500,8 +502,8 @@ end
     ["source-author"] = "Author",
     ["source-author-link"] = "Author URL",
     ["source-copyright"] = "Copyright",
-    ["source-license-text"] = "License",
-    ["source-license-link"] = "License Url",
+    ["source-license-text"] = "License Text",
+    ["source-license-link"] = "License URL",
   }
   local function find_image(content)
     if content.t == "Image" then
