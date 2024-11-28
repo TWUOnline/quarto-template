@@ -283,7 +283,7 @@ end
     ["fig-caption"] = "Caption",
     ["fig-alt"] = "Alt Text",
     ["lightbox"] = "Has Lightbox",
-    ["source-text"] = "Source Title",
+    ["source-text"] = "Source Text",
     ["source-link"] = "Source URL",
     ["source-author"] = "Author",
     ["source-author-link"] = "Author URL",

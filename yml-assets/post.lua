@@ -663,7 +663,7 @@ local function callouts_docx_handler()
 end
 
 
--- Callouts handling function
+-- style handling function
 local function add_styles_docx_handler()
     local STYLES = {
         meta = {
@@ -816,27 +816,15 @@ if elem.t == "Para" and elem.content then
     end
     
     -- Generate OpenXML for text with specific style
-    local function create_styled_text(text, style, is_link)
-        if is_link then
-            return string.format(
-                '<w:hyperlink r:id="%s"><w:r><w:rPr>%s<w:sz w:val="%d"/><w:szCs w:val="%d"/>%s<w:rStyle w:val="Hyperlink"/></w:rPr><w:t xml:space="preserve">%s</w:t></w:r></w:hyperlink>',
-                style.link_id or "",
-                style.color and string.format('<w:color w:val="%s"/>', style.color) or '',
-                style.size,
-                style.size,
-                style.bold and '<w:b/>' or '',
-                escape_xml(text)
-            )
-        else
-            return string.format(
-                '<w:r><w:rPr>%s<w:sz w:val="%d"/><w:szCs w:val="%d"/>%s</w:rPr><w:t xml:space="preserve">%s</w:t></w:r>',
-                style.color and string.format('<w:color w:val="%s"/>', style.color) or '',
-                style.size,
-                style.size,
-                style.bold and '<w:b/>' or '',
-                escape_xml(text)
-            )
-        end
+    local function create_styled_text(text, style)
+        return string.format(
+            '<w:r><w:rPr>%s<w:sz w:val="%d"/><w:szCs w:val="%d"/>%s</w:rPr><w:t xml:space="preserve">%s</w:t></w:r>',
+            style.color and string.format('<w:color w:val="%s"/>', style.color) or '',
+            style.size,
+            style.size,
+            style.bold and '<w:b/>' or '',
+            escape_xml(text)
+        )
     end
     
     -- Process meta content
@@ -872,9 +860,10 @@ if elem.t == "Para" and elem.content then
             elseif inline.t == "Link" then
                 -- Handle links
                 local link_text = pandoc.utils.stringify(inline.content)
+                local link_url = inline.target
+                local styled_content = pandoc.RawInline('openxml', create_styled_text(link_text, style))
                 table.insert(current_inlines, 
-                    pandoc.RawInline('openxml', 
-                        create_styled_text(link_text, style, true)))
+                    pandoc.Link({styled_content}, link_url))
             else
                 -- Handle regular text
                 local content_text = pandoc.utils.stringify(inline)
@@ -941,7 +930,6 @@ return pandoc.Para({
             OrderedList = style_line
         }
     end
-
 
 
 ------------------- Calls -------------------
