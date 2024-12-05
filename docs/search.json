@@ -1,82 +1,162 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COURSE NAME",
+    "section": "",
+    "text": "Welcome\nThis is the course book for COURSE NUMBER. This book is divided into thematic units of study to help you engage with the materials. The course resources and learning activities are designed not only to help prepare you for the course assessments, but also to give you opportunities to practice various skills.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#course-activities",
+    "href": "index.html#course-activities",
+    "title": "COURSE NAME",
+    "section": "Course Activities",
+    "text": "Course Activities\nBelow is some key information on features you may see throughout the course.\n\n\n\n\n\n\n\n\n\n\nThis box will prompt you to engage in course concepts by:\n\nViewing resources and reflecting on your experience and/or learning.\nChecking your understanding to make sure you are ready for what follows. Ways to check your learning might include self-check quizzes or questions for discussion.\n\n\n\n\n\n\n\nWorking through course activities will help you to meet the learning outcomes and successfully complete your assessments.\n\n\n\n\n\nBelow is an accordion.\n\n                    \n                        \n                            \n                        \n                        \n                            This is an accordion. Click/tap this banner to show/hide the content.\n                        \n                        \n                    \n                    \n                        \n                  \nAn accordion may contain extra content such as worked examples or sample answers.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "u1.html",
+    "href": "u1.html",
+    "title": "1  Overview",
+    "section": "",
+    "text": "Topics\nWelcome to [COURSE]\nThis unit is divided into the following topics: 1. 2. 3.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "u1.html#topics",
+    "href": "u1.html#topics",
+    "title": "1  Overview",
+    "section": "",
+    "text": "Unit Learning Outcomes\nWhen you have completed this unit, you will be able to:\n\nDescribe…\nContrast…\nAnalyze…\nDetermine…\nCreate…\n\n\n\nLearning Activities\nHere is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.\n\nRead…\nWatch…\nExplore…\nComplete the ungraded quiz.\n\n\n\n\n\n\n\nWorking through course activities will help you to meet the learning outcomes and successfully complete your assessments.\n\n\n\n\n\nAssessment\nPlease see the Assessment section in Moodle for assignment details.\n\n\nResources\nHere are the resources you will need to complete this unit.\n\n(Textbook)\nOther online resources will be provided in the unit.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "u1.html#title-for-topic-1",
+    "href": "u1.html#title-for-topic-1",
+    "title": "1  Overview",
+    "section": "1.1 Title for Topic 1",
+    "text": "1.1 Title for Topic 1\nWe begin Unit 1…\n(add content)\n\nActivity: Title (e.g. Read, Reflect and View)\n\n\n\n\n\n\n\n\n\n\n(add content)\nView the following resources about …\nNext, watch the following videos that illustrate…\nQuestions to Consider\nAfter completing the activities above, consider the following questions:\n\nThis is a question?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "u1.html#title-for-topic-2",
+    "href": "u1.html#title-for-topic-2",
+    "title": "1  Overview",
+    "section": "1.2 Title for Topic 2",
+    "text": "1.2 Title for Topic 2\n(add content)\n\nActivity: Title\n\n\n\n\n\n\n\n\n\n\ne.g. Case study\n(add content)\n\n\n\n\n\n\nNote that you may be asked to review this case or similar cases in your class discussion groups. You may want to prepare by relating the case to your readings. Specifically, identify the ethical issues and terms to help explain the case.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "u1.html#title-for-topic-3",
+    "href": "u1.html#title-for-topic-3",
+    "title": "1  Overview",
+    "section": "1.3 Title for Topic 3",
+    "text": "1.3 Title for Topic 3\n(add content)\n…\n\nActivity: Title\n\n\n\n\n\n\n\n\n\n\n(See Assessment ideas for other ways to engage students in the topics.)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "u1.html#summary",
+    "href": "u1.html#summary",
+    "title": "1  Overview",
+    "section": "Summary",
+    "text": "Summary\nIn this first unit, you have had the opportunity to learn about…\n(add content)\n\n\n\n\n\n\nChecking Your Learning\n\n\n\nBefore you move on to the next unit, you may want to check that you are able to:\n\nDescribe…\nContrast…\nAnalyze…\nDetermine…\nCreate…",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
     "objectID": "cheatsheet.html",
     "href": "cheatsheet.html",
-    "title": "Quarto Cheatsheet",
+    "title": "2  Quarto Cheatsheet",
     "section": "",
-    "text": "Notes\nBelow are some examples of content that can be used in course production.\nThere are 2 options for notes, notes with or without icons.",
+    "text": "2.1 Notes\nBelow are some examples of content that can be used in course production.\nThere are 2 options for notes, notes with or without icons.",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#notes",
     "href": "cheatsheet.html#notes",
-    "title": "Quarto Cheatsheet",
+    "title": "2  Quarto Cheatsheet",
     "section": "",
     "text": "Note with an icon\n\n\n\n\n\n\nA note with an icon\n\n\n\n\n\nNote without an Icon\n\n\n\n\n\n\nA note without an icon",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#blockquotes",
     "href": "cheatsheet.html#blockquotes",
-    "title": "Quarto Cheatsheet",
-    "section": "blockquotes",
-    "text": "blockquotes\n\n“Your brand is what people say about you when you’re not in the room.”\n– Jeff Bezos",
+    "title": "2  Quarto Cheatsheet",
+    "section": "2.2 blockquotes",
+    "text": "2.2 blockquotes\n\n“Your brand is what people say about you when you’re not in the room.” – Jeff Bezos",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#accordions",
     "href": "cheatsheet.html#accordions",
-    "title": "Quarto Cheatsheet",
-    "section": "Accordions",
-    "text": "Accordions\n                  \n                      \n                          \n                              \n                          \n                          \n                              This is an Accordion.\n                          \n                          \n                      \n                      \n                          \n                              An accordion may contain extra content such as worked examples or\nsample answers. Accordions should be used sparingly.",
+    "title": "2  Quarto Cheatsheet",
+    "section": "2.3 Accordions",
+    "text": "2.3 Accordions\n\n                    \n                        \n                            \n                        \n                        \n                            This is an Accordion.\n                        \n                        \n                    \n                    \n                        \n                  \nAn accordion may contain extra content such as worked examples or sample answers. Accordions should be used sparingly.",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#images",
     "href": "cheatsheet.html#images",
-    "title": "Quarto Cheatsheet",
-    "section": "Images",
-    "text": "Images\nImages are handled differently depending on if they are fig-images (figures) or dec-images (decorative).\n\nFig-image\n\nShould contain a caption\nShould have a unique fig id (“#fig-u1_1”)\nYou can reference any fig-image by its unique fig id from anywhere in the course\n\n(example: Figure 1)\n\nShould contain alt text\nShould contain source metadata (at least source-text)\nMay use a lightbox.\n\nAdding a lightbox makes the image expandable with a click or tap.\n\n\n\n\n\nFigure 1: This is a caption for a fig-image\n\n\n\n\n\n\nSource: Cat Sitting on a Wooden Table by Jasmine \"Pang\". Copyright: 2022, Jasmine\nPang. License: Pexels License.\n\n\nDec-image\n\nShould not contain a caption\nShould not have a fig id\nShould contain alt text\nShould contain source metadata (at least source-text)\nMay use a lightbox.\n\nAdding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.\n\n\n\nSource: Delicious Fresh Croissants by Efrem\nEfre. Copyright: 2024, Efrem Efre. License: Pexels\nLicense.",
+    "title": "2  Quarto Cheatsheet",
+    "section": "2.4 Images",
+    "text": "2.4 Images\nImages are handled differently depending on if they are fig-images (figures) or dec-images (decorative).\n\nFig-image\n\nShould contain a caption\nShould have a unique fig id (“#fig-u1_1”)\nYou can reference any fig-image by its unique fig id from anywhere in the course\n\n(example: Figure 2.1)\n\nShould contain alt text\nShould contain source metadata (at least source-text)\nMay use a lightbox.\n\nAdding a lightbox makes the image expandable with a click or tap.\n\n\n\n\n\nFigure 2.1: This is a caption for a fig-image\n\n\n\n\n\n\nSource: Cat Sitting on a Wooden Table by Jasmine Pang. Copyright: 2022, Jasmine\nPang. License Text: Pexels License.\n\n\nDec-image\n\nShould not contain a caption\nShould not have a fig id\nShould contain alt text\nShould contain source metadata (at least source-text)\nMay use a lightbox.\n\nAdding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.\n\n\n\nSource: Delicious Fresh Croissants by Efrem\nEfre. Copyright: 2024, Efrem Efre. License Text:\nPexels\nLicense.",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#figure-blocks",
     "href": "cheatsheet.html#figure-blocks",
-    "title": "Quarto Cheatsheet",
-    "section": "Figure Blocks",
-    "text": "Figure Blocks\nBelow is a figure block containing 2 fig-images. It has a 2 column layout, so the 2 images will appear side by side.\n\n\n\nFigure 2: This is the caption of the figure block\n\n\n\n\n\n\n\n(a) This is a caption for the first fig-image\n\n\n\n\n\n\nSource: Vintage Red Tram on Streets of Prague by Aakash\nGoel. Copyright: 2022, Aakash Goel. License: Pexels\nLicense.\n\n\n\n\n\n(b) This is a caption for the second fig-image\n\n\n\n\n\n\nSource: Modern living room interior by Ksenia\nChernaya. Copyright: 2020, Ksenia Chernaya.\nLicense: Pexels License.\n\n\n\n\n\n\nTables\nBelow is a table. All tables should be contained within a figure block. Figures containg tables should not use columns.\n\n\n\nFigure 3: This is the caption for the figure\n\n\n\n\n\n\n\nMonth\nSavings\n\n\n\n\nJanuary\n$250\n\n\nFebruary\n$80\n\n\nMarch\n$420",
+    "title": "2  Quarto Cheatsheet",
+    "section": "2.5 Figure Blocks",
+    "text": "2.5 Figure Blocks\nBelow is a figure block containing 2 fig-images. It has a 2 column layout, so the 2 images will appear side by side.\n\n\n\nFigure 2.2: This is the caption of the figure block\n\n\n\n\n\n\n\n(a) This is a caption for the first fig-image\n\n\n\n\n\n\nSource: Vintage Red Tram on Streets of Prague by Aakash\nGoel. Copyright: 2022, Aakash Goel. License Text:\nPexels\nLicense.\n\n\n\n\n\n(b) This is a caption for the second fig-image\n\n\n\n\n\n\nSource: Modern living room interior by Ksenia\nChernaya. Copyright: 2020, Ksenia Chernaya. License\nText: Pexels License.\n\n\n\n\n\n\nTables\nBelow is a table. All tables should be contained within a figure block. Figures containg tables should not use columns.\n\n\n\nFigure 2.3: This is the caption for the figure\n\n\n\n\n\n\n\nMonth\nSavings\n\n\n\n\nJanuary\n$250\n\n\nFebruary\n$80\n\n\nMarch\n$420",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#learning-activites",
     "href": "cheatsheet.html#learning-activites",
-    "title": "Quarto Cheatsheet",
-    "section": "Learning Activites",
-    "text": "Learning Activites\nYou can set the estimated time of an activity. If you do not set the time, the field will not display.\n\nActivity: Title of the Activity\n\n\n\n\n\n\nEstimated Time: 20 mins\n\n\n\nThis is a learning activity containing an h5p activity. It has an estimated time set to 20 minutes.\n\n\n\n\n\n\n\n\n\nThis is a note within an activity.\n\n\n\n\nQuestions to Consider\n\nIs this a question?\nIs this a second question?",
+    "title": "2  Quarto Cheatsheet",
+    "section": "2.6 Learning Activites",
+    "text": "2.6 Learning Activites\nYou can set the estimated time of an activity. If you do not set the time, the field will not display.\n\n2.6.1 Activity: Title of the Activity\n\n\n\n\n\n\nEstimated Time: 20 mins\n\n\n\nThis is a learning activity containing an h5p activity. It has an estimated time set to 20 minutes.\n\n\n\n\n\n\n\n\n\nThis is a note within an activity.\n\n\n\n\n\n\nQuestions to Consider\n\nIs this a question?\nIs this a second question?",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   },
   {
     "objectID": "cheatsheet.html#check-your-learning",
     "href": "cheatsheet.html#check-your-learning",
-    "title": "Quarto Cheatsheet",
-    "section": "Check Your Learning",
-    "text": "Check Your Learning\n\n\n\n\n\n\nChecking Your Learning\n\n\n\nBefore you move on to the next unit you may want to check that you are able to:\n\nDescribe the place of leadership in results\nExplain the discipline of results-based leadership\nContrast a team-based leadership style with other approaches to leadership",
+    "title": "2  Quarto Cheatsheet",
+    "section": "2.7 Check Your Learning",
+    "text": "2.7 Check Your Learning\n\n\n\n\n\n\nChecking Your Learning\n\n\n\nBefore you move on to the next unit you may want to check that you are able to:\n\nDescribe the place of leadership in results\nExplain the discipline of results-based leadership\nContrast a team-based leadership style with other approaches to leadership",
     "crumbs": [
-      "Quarto Cheatsheet"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quarto Cheatsheet</span>"
     ]
   }
 ]

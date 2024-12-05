@@ -1,4 +1,4 @@
-# A title for Unit 1
+# Overview
 
 Welcome to [COURSE]
 
@@ -55,7 +55,7 @@ We begin Unit 1…
 
 ### Activity: Title (e.g. Read, Reflect and View) {-}
 
-::: {.learning-activity title="this is the title"}
+::: {.learning-activity}
 
 *(add content)*
 
@@ -75,19 +75,19 @@ After completing the activities above, consider the following questions:
 
 *(add content)*
 
-…
-
 ### Activity: Title {-}
 
-::: {.learning-activity title="this is the title"}
+::: {.learning-activity}
 
 e.g. Case study
 
 *(add content)*
 
-Note that you may be asked to review this case or similar cases in your class discussion groups. You may want to prepare by relating the case to your readings. Specifically, identify the ethical issues and terms to help explain the case.*
+::: {.note}
 
-*[Note for Facilitator’s Guide: Use the case study above as a class or group discussion prompt. Remind students to complete this activity before the class session.]*
+Note that you may be asked to review this case or similar cases in your class discussion groups. You may want to prepare by relating the case to your readings. Specifically, identify the ethical issues and terms to help explain the case.
+
+:::
 
 :::
 
@@ -99,15 +99,15 @@ Note that you may be asked to review this case or similar cases in your class di
 
 ### Activity: Title {-}
 
-::: {.learning-activity title="this is the title"}
+::: {.learning-activity}
 
 *(See [Assessment ideas](https://multi-access.twu.ca/assessment/assessment-ideas) for other ways to engage students in the topics.)*
 
 :::
 
-### Activity: Key Terms Quiz (ungraded) {-}
+<!-- ### Activity: Key Terms Quiz (ungraded) {-}
 
-::: {.learning-activity title="this is the title"}
+::: {.learning-activity}
 
 To review the concepts from this unit, take the following quiz.  This activity is ungraded and is designed to help prepare you for the assessments in this course.
 
@@ -117,9 +117,9 @@ Match the following terms to their correct definition.
 2. **Term**– definition…
 3. **Term**– definition…
 
-:::
+::: -->
 
-## Unit Summary {.unnumbered}
+## Summary {.unnumbered}
 
 In this first unit, you have had the opportunity to learn about…
 

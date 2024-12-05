@@ -1,73 +1,81 @@
-# Quarto Cheatsheet {.unnumbered}
+# Quarto Cheatsheet
 
 Below are some examples of content that can be used in course production.
 
-## Notes {.unnumbered}
+## Notes
 
 There are 2 options for notes, notes with or without icons.
 
 ### Note with an icon {.unnumbered}
 
 ::: {.note icon="true"}
-A note **with** an icon
+
+A note **with** an icon 
+
 :::
 
 ### Note without an Icon {.unnumbered}
 
-::: note
+::: note 
+
 A note **without** an icon
+
 :::
 
-## blockquotes {.unnumbered}
+## blockquotes
 
-> "Your brand is what people say about you when you're not in the room."\
+> "Your brand is what people say about you when you're not in the room."
 > ***-- Jeff Bezos***
 
-## Accordions {.unnumbered}
+## Accordions
 
 ::: {.accordion title="This is an Accordion."}
-An accordion may contain extra content such as worked examples or sample answers. Accordions should be used sparingly.
+
+An accordion may contain extra content such as worked examples or sample answers. Accordions should be used sparingly. 
+
 :::
 
-## Images {.unnumbered}
+## Images
 
 Images are handled differently depending on if they are fig-images (figures) or dec-images (decorative).
 
 ### Fig-image {.unnumbered}
 
--   Should contain a caption
--   Should have a unique fig id (*"#fig-u1_1"*)
--   You can reference any fig-image by its unique fig id from anywhere in the course
-    -   (example: @fig-u1_1)
--   Should contain alt text
--   Should contain source metadata (at least source-text)
--   May use a lightbox.
-    -   Adding a lightbox makes the image expandable with a click or tap.
+- Should contain a caption
+- Should have a unique fig id (*"#fig-u1_1"*)
+- You can reference any fig-image by its unique fig id from anywhere in the course
+    - (example: @fig-u1_1)
+- Should contain alt text
+- Should contain source metadata (at least source-text)
+- May use a lightbox.
+    - Adding a lightbox makes the image expandable with a click or tap.
 
 ![This is a caption for a fig-image](assets/cheatsheet/cat.jpg){#fig-u1_1 .lightbox fig-alt="Cat Sitting on a Wooden Table" source-text="Cat Sitting on a Wooden Table" source-link="https://www.pexels.com/photo/cat-sitting-on-a-wooden-table-12918996/" source-author="Jasmine Pang" source-author-link="https://www.pexels.com/@jasmine-pang-232852617/" source-copyright="2022, Jasmine Pang" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"
 }
 
 ### Dec-image {.unnumbered}
 
--   Should not contain a caption
--   Should not have a fig id
--   Should contain alt text
--   Should contain source metadata (at least source-text)
--   May use a lightbox.
-    -   Adding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.
+- Should not contain a caption
+- Should not have a fig id
+- Should contain alt text
+- Should contain source metadata (at least source-text)
+- May use a lightbox.
+    - Adding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.
 
 ![](assets/cheatsheet/croissants.jpg){ fig-alt="Delicious Fresh Croissants sitting on trays" source-text="Delicious Fresh Croissants" source-link="https://www.pexels.com/photo/delicious-fresh-croissants-at-sardinian-cafe-28871875/" source-author="Efrem Efre" source-author-link="https://www.pexels.com/@efrem-efre-2786187/" source-copyright="2024, Efrem Efre" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
-## Figure Blocks {.unnumbered}
+## Figure Blocks
 
 Below is a figure block containing 2 fig-images. It has a 2 column layout, so the 2 images will appear side by side.
 
 ::: {#fig-block_u1_1 layout-ncol="2"}
+
 ![This is a caption for the first fig-image](assets/cheatsheet/tram.jpg){#fig-u1_2 .lightbox fig-alt="Red Tram" source-text="Vintage Red Tram on Streets of Prague" source-link="https://www.pexels.com/photo/vintage-red-tram-on-streets-of-prague-28999320/" source-author="Aakash Goel" source-author-link="https://www.pexels.com/@ohaakash/" source-copyright="2022, Aakash Goel" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
 ![This is a caption for the second fig-image](assets/cheatsheet/livingroom.jpg){#fig-u1_3 .lightbox fig-alt="Modern living room interior with furniture and assorted plants" source-text="Modern living room interior" source-link="https://www.pexels.com/photo/modern-living-room-interior-with-furniture-and-assorted-plants-4740484/" source-author="Ksenia Chernaya" source-author-link="https://www.pexels.com/@kseniachernaya/" source-copyright="2020, Ksenia Chernaya" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
-This is the caption of the figure block
+This is the caption of the figure block 
+
 :::
 
 ### Tables {.unnumbered}
@@ -75,52 +83,60 @@ This is the caption of the figure block
 Below is a table. All tables should be contained within a figure block. Figures containg tables should not use columns.
 
 ::: {#fig-table_u1_1}
-| Month    | Savings |
-|----------|---------|
-| January  | \$250   |
-| February | \$80    |
-| March    | \$420   |
 
-This is the caption for the figure
+| Month | Savings |
+|----------|---------|
+| January | \$250 |
+| February | \$80 |
+| March | \$420 |
+
+This is the caption for the figure 
+
 :::
 
-## Learning Activites {.unnumbered}
+## Learning Activites
 
 You can set the estimated time of an activity. If you do not set the time, the field will not display.
 
 ### Activity: Title of the Activity
 
-:::: {.learning-activity time="20"}
+::: {.learning-activity time="20"}
+
 This is a learning activity containing an h5p activity. It has an estimated time set to 20 minutes.
 
 <iframe src="https://create.twu.ca/h5p/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=612" width="958" height="563" frameborder="0" allowfullscreen="allowfullscreen" title="LDRS 662_Unit 1_4Rs">
 
 </iframe>
 
-```{=html}
 <script src="https://create.twu.ca/h5p/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-```
 
-::: note
+::: note 
+
 This is a note within an activity.
+
+:::
+
 :::
 
 #### Questions to Consider {.unnumbered}
 
-1.  Is this a question?
-2.  Is this a second question?
-::::
+1. Is this a question?
+2. Is this a second question?
 
-::: prote
+::: prote 
+
 This is a prote. Protes (production notes) are only visible in *.qm*d or *.docx* files.
+
 :::
 
-## Check Your Learning {.unnumbered}
+## Check Your Learning
 
 ::: check
+
 **Before you move on to the next unit you may want to check that you are able to:**
 
--   Describe the place of leadership in results
--   Explain the discipline of results-based leadership
--   Contrast a team-based leadership style with other approaches to leadership
+- Describe the place of leadership in results
+- Explain the discipline of results-based leadership
+- Contrast a team-based leadership style with other approaches to leadership 
+
 :::
