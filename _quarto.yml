@@ -1,4 +1,4 @@
-# version 3.2
+# version 3.3
 
 project:
   type: book
@@ -6,7 +6,7 @@ project:
 
 # Info on changing metadata labels: https://quarto.org/docs/authoring/title-blocks.html#metadata-labels
 published-title: "Last Modified"
-#author-title: "Authors"
+author-title: "Authors"
 
 book:
   title: "COURSE NAME"
@@ -17,7 +17,16 @@ book:
   chapters:
     - index.qmd
     - u1.qmd
-    - cheatsheet.qmd
+    - u2.qmd
+    - u3.qmd
+    - u4.qmd
+    - u5.qmd
+    - u6.qmd
+#    - assignment1.qmd
+#    - assignment2.qmd
+#    - assignment3.qmd
+#    - course_assessment.qmd
+#    - cheatsheet.qmd
 
 
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
@@ -27,7 +36,7 @@ book:
 bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
 csl: https://twuonline.github.io/course-materials/quarto/apa.csl
 link-bibliography: true
-link-citations: true
+link-citations: false
 
 # Lua Filters
 filters:
