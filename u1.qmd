@@ -24,15 +24,14 @@ When you have completed this unit, you will be able to:
 
 Here is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.
 
+::: {.learning-activity}
+
 1. Read…
 2. Watch…
 3. Explore…
 4. Complete the ungraded quiz.
 
-
-::: {.note icon="true"}
-
-Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
+*Note*: Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
 
 :::
 
@@ -55,7 +54,7 @@ We begin Unit 1…
 
 ### Activity: Title (e.g. Read, Reflect and View) {-}
 
-::: {.learning-activity}
+::: {.learning-activity time="00"}
 
 *(add content)*
 
@@ -77,13 +76,13 @@ After completing the activities above, consider the following questions:
 
 ### Activity: Title {-}
 
-::: {.learning-activity}
+::: {.learning-activity time="00"}
 
 e.g. Case study
 
 *(add content)*
 
-::: {.note}
+::: {.note icon="true"}
 
 Note that you may be asked to review this case or similar cases in your class discussion groups. You may want to prepare by relating the case to your readings. Specifically, identify the ethical issues and terms to help explain the case.
 
@@ -99,7 +98,7 @@ Note that you may be asked to review this case or similar cases in your class di
 
 ### Activity: Title {-}
 
-::: {.learning-activity}
+::: {.learning-activity time="00"}
 
 *(See [Assessment ideas](https://multi-access.twu.ca/assessment/assessment-ideas) for other ways to engage students in the topics.)*
 

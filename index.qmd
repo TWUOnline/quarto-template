@@ -19,7 +19,7 @@ This box will prompt you to engage in course concepts by:
 - Viewing resources and reflecting on your experience and/or learning. 
 - Checking your understanding to make sure you are ready for what follows. Ways to check your learning might include self-check quizzes or questions for discussion.
 
-::: {.note}
+::: {.note icon="true"}
 
 Working through course activities will help you to meet the learning outcomes and successfully complete your assessments.
 
