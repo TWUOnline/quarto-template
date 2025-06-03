@@ -1,8 +1,10 @@
-# Overview
+# Unit 1 Title
+
+## Overview
 
 Welcome to [COURSE]
 
-## Topics {.unnumbered}
+### Topics {.unnumbered}
 
 This unit is divided into the following topics:
 1.
@@ -24,7 +26,7 @@ When you have completed this unit, you will be able to:
 
 Here is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.
 
-::: {.learning-activity}
+::: {.callout-note appearance="simple" icon="false"}
 
 1. Read…
 2. Watch…
@@ -52,7 +54,7 @@ We begin Unit 1…
 
 *(add content)*
 
-### Activity: Title (e.g. Read, Reflect and View) {-}
+### Activity: Title (e.g. Read, Reflect and View)
 
 ::: {.learning-activity time="00"}
 
@@ -74,7 +76,7 @@ After completing the activities above, consider the following questions:
 
 *(add content)*
 
-### Activity: Title {-}
+### Activity: Title
 
 ::: {.learning-activity time="00"}
 
@@ -96,7 +98,7 @@ Note that you may be asked to review this case or similar cases in your class di
 
 …
 
-### Activity: Title {-}
+### Activity: Title
 
 ::: {.learning-activity time="00"}
 
@@ -124,7 +126,7 @@ In this first unit, you have had the opportunity to learn about…
 
 *(add content)*
 
-::: {.check}
+::: check
 
 Before you move on to the next unit, you may want to check that you are able to:
 

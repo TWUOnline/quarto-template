@@ -2,11 +2,11 @@
 
 Below are some examples of content that can be used in course production.
 
-## Notes
+### Notes
 
 There are 2 options for notes, notes with or without icons.
 
-### Note with an icon {.unnumbered}
+#### Note with an icon {.unnumbered}
 
 ::: {.note icon="true"}
 
@@ -14,7 +14,7 @@ A note **with** an icon
 
 :::
 
-### Note without an Icon {.unnumbered}
+#### Note without an Icon {.unnumbered}
 
 ::: note 
 
@@ -22,12 +22,12 @@ A note **without** an icon
 
 :::
 
-## blockquotes
+### blockquotes
 
 > "Your brand is what people say about you when you're not in the room."
 > ***-- Jeff Bezos***
 
-## Accordions
+### Accordions
 
 ::: {.accordion title="This is an Accordion."}
 
@@ -35,11 +35,11 @@ An accordion may contain extra content such as worked examples or sample answers
 
 :::
 
-## Images
+### Images
 
 Images are handled differently depending on if they are fig-images (figures) or dec-images (decorative).
 
-### Fig-image {.unnumbered}
+#### Fig-image {.unnumbered}
 
 - Should contain a caption
 - Should have a unique fig id (*"#fig-u1_1"*)
@@ -50,21 +50,28 @@ Images are handled differently depending on if they are fig-images (figures) or 
 - May use a lightbox.
     - Adding a lightbox makes the image expandable with a click or tap.
 
-![This is a caption for a fig-image](assets/cheatsheet/cat.jpg){#fig-u1_1 .lightbox fig-alt="Cat Sitting on a Wooden Table" source-text="Cat Sitting on a Wooden Table" source-link="https://www.pexels.com/photo/cat-sitting-on-a-wooden-table-12918996/" source-author="Jasmine Pang" source-author-link="https://www.pexels.com/@jasmine-pang-232852617/" source-copyright="2022, Jasmine Pang" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"
-}
+::: {#fig-image}
+![](assets/cheatsheet/cat.jpg){#fig-u1_1 .lightbox fig-alt="Cat Sitting on a Wooden Table"}
 
-### Dec-image {.unnumbered}
+This is a caption for a fig-image
+:::
+
+::: text-source
+*Source:* Garvin, D. A, & Roberto, M. A. (2001). What you don’t know about making decisions. *Harvard Business Review, 79*(8)
+:::
+
+#### Dec-image {.unnumbered}
 
 - Should not contain a caption
 - Should not have a fig id
-- Should contain alt text
+- Should contain alt text as 'Decorative'
 - Should contain source metadata (at least source-text)
 - May use a lightbox.
     - Adding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.
 
-![](assets/cheatsheet/croissants.jpg){ fig-alt="Delicious Fresh Croissants sitting on trays" source-text="Delicious Fresh Croissants" source-link="https://www.pexels.com/photo/delicious-fresh-croissants-at-sardinian-cafe-28871875/" source-author="Efrem Efre" source-author-link="https://www.pexels.com/@efrem-efre-2786187/" source-copyright="2024, Efrem Efre" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
+![](assets/cheatsheet/croissants.jpg){ fig-alt="Decorative" source-text="Delicious Fresh Croissants" source-link="https://www.pexels.com/photo/delicious-fresh-croissants-at-sardinian-cafe-28871875/" source-author="Efrem Efre" source-author-link="https://www.pexels.com/@efrem-efre-2786187/" source-copyright="2024, Efrem Efre" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
-## Figure Blocks
+#### Figure Blocks
 
 Below is a figure block containing 2 fig-images. It has a 2 column layout, so the 2 images will appear side by side.
 
@@ -78,7 +85,7 @@ This is the caption of the figure block
 
 :::
 
-### Tables {.unnumbered}
+### Tables
 
 Below is a table. All tables should be contained within a figure block. Figures containg tables should not use columns.
 
@@ -90,11 +97,11 @@ Below is a table. All tables should be contained within a figure block. Figures 
 | February | \$80 |
 | March | \$420 |
 
-This is the caption for the figure 
+This is the caption for the table figure 
 
 :::
 
-## Learning Activites
+### Learning Activites
 
 You can set the estimated time of an activity. If you do not set the time, the field will not display.
 
@@ -112,13 +119,11 @@ This is a learning activity containing an h5p activity. It has an estimated time
 
 ::: note 
 
-This is a note within an activity.
+*Note:* This is a note within an activity.
 
 :::
 
-:::
-
-#### Questions to Consider {.unnumbered}
+**Questions to Consider**
 
 1. Is this a question?
 2. Is this a second question?
@@ -129,7 +134,13 @@ This is a prote. Protes (production notes) are only visible in *.qm*d or *.docx*
 
 :::
 
-## Check Your Learning
+::: video-container
+{{< video https://www.youtube-nocookie.com/embed/lDq9-QxvsNU >}}
+:::
+
+:::
+
+### Check Your Learning
 
 ::: check
 
