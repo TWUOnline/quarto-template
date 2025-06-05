@@ -26,7 +26,7 @@ When you have completed this unit, you will be able to:
 
 Here is a list of learning activities that will benefit you in completing this unit. You may find it useful for planning your work.
 
-::: {.callout-note appearance="simple" icon="false"}
+::: {.learning-activity}
 
 1. Read…
 2. Watch…
