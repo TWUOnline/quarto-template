@@ -24,8 +24,8 @@ local function callouts_html_handler()
               -- If it contains text, use as is
               return "Estimated Time: " .. attrs.time
             else
-              -- If it's just a number, append "mins"
-              return "Estimated Time: " .. attrs.time .. " mins"
+              -- If it's just a number, append "minutes"
+              return "Estimated Time: " .. attrs.time .. " minutes"
             end
           end
           return " "
