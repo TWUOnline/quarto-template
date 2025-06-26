@@ -29,11 +29,10 @@ A note **without** an icon
 
 ### Accordions
 
-::: {.accordion title="This is an Accordion."}
-
-An accordion may contain extra content such as worked examples or sample answers. Accordions should be used sparingly. 
-
-:::
+<details>
+  <summary><strong>This is an Accordion.</strong></summary>
+  <div>An accordion may contain extra content such as worked examples or sample answers. Accordions should be used sparingly. </div>
+</details>
 
 ### Images
 
