@@ -273,12 +273,6 @@ for (i in seq_along(qs)) {
 
 ```
 
-</div>
-
-# Your Score
-Total: <span id="locus-score">0</span> / <span id="locus-max">50</span><br/>
-Interpretation: <span id="locus-interpretation">—</span>
-
 :::
 
 

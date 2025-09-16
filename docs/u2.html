@@ -186,155 +186,113 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-/* update total correct if #webex-total_correct exists */
+(function () {
 
-update_total_correct = function() {
-
-  console.log("webex: update total_correct");
+  'use strict';
 
 
 
-  var t = document.getElementsByClassName("webex-total_correct");
+  function update_total_correct() {
 
-  for (var i = 0; i < t.length; i++) {
-
-    p = t[i].parentElement;
-
-    var correct = p.getElementsByClassName("webex-correct").length;
-
-    var solvemes = p.getElementsByClassName("webex-solveme").length;
-
-    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
-
-    var selects = p.getElementsByClassName("webex-select").length;
+    console.log('webex: update total_correct');
 
 
 
-    t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+    var t = document.getElementsByClassName('webex-total_correct');
 
-  }
+    for (var i = 0; i < t.length; i++) {
 
-}
-
-
-
-/* webex-solution button toggling function */
-
-b_func = function() {
-
-  console.log("webex: toggle hide");
+      var section = t[i].parentElement;
 
 
 
-  var cl = this.parentElement.classList;
+      // question count for the existing "X of N correct"
 
-  if (cl.contains('open')) {
+      var units = section.querySelectorAll('.webex-solveme, .webex-select, .webex-radiogroup');
 
-    cl.remove("open");
-
-  } else {
-
-    cl.add("open");
-
-  }
-
-}
+      var correctUnits = section.getElementsByClassName('webex-correct').length;
 
 
 
-/* check answers */
+      // NEW: points – sum selected, and show max (max per question)
 
-check_func = function() {
+      var groups = section.querySelectorAll('.webex-radiogroup');
 
-  console.log("webex: check answers");
-
-
-
-  var cl = this.parentElement.classList;
-
-  if (cl.contains('unchecked')) {
-
-    cl.remove("unchecked");
-
-    this.innerHTML = "Hide Answers";
-
-  } else {
-
-    cl.add("unchecked");
-
-    this.innerHTML = "Show Answers";
-
-  }
-
-}
+      var earned = 0, possible = 0;
 
 
 
-/* function for checking solveme answers */
+      for (var g = 0; g < groups.length; g++) {
 
-solveme_func = function(e) {
+        var grp = groups[g];
 
-  console.log("webex: check solveme");
+        var inputs = grp.querySelectorAll('input[type="radio"]');
+
+        var grpMax = 0;
 
 
 
-  var real_answers = JSON.parse(this.dataset.answer);
+        for (var j = 0; j < inputs.length; j++) {
 
-  var my_answer = this.value;
+          var v = Number(inputs[j].dataset.points || 0);
 
-  var cl = this.classList;
+          if (v > grpMax) grpMax = v;
 
-  if (cl.contains("ignorecase")) {
+        }
 
-    my_answer = my_answer.toLowerCase();
+        possible += grpMax;
 
-  }
 
-  if (cl.contains("nospaces")) {
 
-    my_answer = my_answer.replace(/ /g, "")
+        var checked = grp.querySelector('input[type="radio"]:checked');
+
+        if (checked) earned += Number(checked.dataset.points || 0);
+
+      }
+
+
+
+      t[i].textContent =
+
+        correctUnits + ' of ' + units.length + ' correct' +
+
+        ' • ' + earned + ' of ' + possible + ' pts';
+
+    }
 
   }
 
 
 
-  if (my_answer == "") {
+  function b_func() {
 
-    cl.remove("webex-correct");
+    console.log('webex: toggle hide');
 
-    cl.remove("webex-incorrect");
+    var cl = this.parentElement.classList;
 
-  } else if (real_answers.includes(my_answer)) {
-
-    cl.add("webex-correct");
-
-    cl.remove("webex-incorrect");
-
-  } else {
-
-    cl.add("webex-incorrect");
-
-    cl.remove("webex-correct");
+    if (cl.contains('open')) cl.remove('open'); else cl.add('open');
 
   }
 
 
 
-  // match numeric answers within a specified tolerance
+  function check_func() {
 
-  if(this.dataset.tol > 0){
+    console.log('webex: check answers');
 
-    var tol = JSON.parse(this.dataset.tol);
+    var cl = this.parentElement.classList;
 
-    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (cl.contains('unchecked')) {
 
-    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.remove('unchecked');
 
-      cl.add("webex-correct");
+      this.textContent = 'Hide Answers';
 
     } else {
 
-      cl.remove("webex-correct");
+      cl.add('unchecked');
+
+      this.textContent = 'Show Answers';
 
     }
 
@@ -342,258 +300,281 @@ solveme_func = function(e) {
 
 
 
-  // added regex bit
+  function solveme_func() {
 
-  if (cl.contains("regex")){
+    console.log('webex: check solveme');
 
-    answer_regex = RegExp(real_answers.join("|"))
 
-    if (answer_regex.test(my_answer)) {
 
-      cl.add("webex-correct");
+    var real_answers;
+
+    try { real_answers = JSON.parse(this.dataset.answer || '[]'); } catch (_) { real_answers = []; }
+
+
+
+    var my_answer = this.value;
+
+    var cl = this.classList;
+
+
+
+    if (cl.contains('ignorecase')) my_answer = my_answer.toLowerCase();
+
+    if (cl.contains('nospaces')) my_answer = my_answer.replace(/ /g, '');
+
+
+
+    if (my_answer === '') {
+
+      cl.remove('webex-correct'); cl.remove('webex-incorrect');
+
+    } else if (real_answers.includes(my_answer)) {
+
+      cl.add('webex-correct'); cl.remove('webex-incorrect');
+
+    } else {
+
+      cl.add('webex-incorrect'); cl.remove('webex-correct');
 
     }
 
-  }
 
 
+    // numeric tolerance
 
-  update_total_correct();
+    var tolAttr = this.dataset.tol;
 
-}
+    if (tolAttr && Number(tolAttr) > 0) {
 
+      var tol = Number(tolAttr);
 
+      var myNum = Number(my_answer);
 
-/* function for checking select answers */
+      var anyMatch = real_answers
 
-select_func = function(e) {
+        .map(function (x) { return Number(x); })
 
-  console.log("webex: check select");
+        .filter(function (x) { return !Number.isNaN(x) && !Number.isNaN(myNum); })
 
+        .some(function (x) { return Math.abs(x - myNum) < tol; });
 
-
-  var cl = this.classList
-
-
-
-  /* add style */
-
-  cl.remove("webex-incorrect");
-
-  cl.remove("webex-correct");
-
-  if (this.value == "answer") {
-
-    cl.add("webex-correct");
-
-  } else if (this.value != "blank") {
-
-    cl.add("webex-incorrect");
-
-  }
-
-
-
-  update_total_correct();
-
-}
-
-
-
-/* function for checking radiogroups answers */
-
-radiogroups_func = function(e) {
-
-  console.log("webex: check radiogroups");
-
-
-
-  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
-
-  var cl = checked_button.parentElement.classList;
-
-  var labels = checked_button.parentElement.parentElement.children;
-
-
-
-  /* get rid of styles */
-
-  for (i = 0; i < labels.length; i++) {
-
-    labels[i].classList.remove("webex-incorrect");
-
-    labels[i].classList.remove("webex-correct");
-
-  }
-
-
-
-  /* add style */
-
-  if (checked_button.value == "answer") {
-
-    cl.add("webex-correct");
-
-  } else {
-
-    cl.add("webex-incorrect");
-
-  }
-
-
-
-  update_total_correct();
-
-}
-
-
-
-window.onload = function() {
-
-  console.log("webex onload");
-
-  /* set up solution buttons */
-
-  var buttons = document.getElementsByTagName("button");
-
-
-
-  for (var i = 0; i < buttons.length; i++) {
-
-    if (buttons[i].parentElement.classList.contains('webex-solution')) {
-
-      buttons[i].onclick = b_func;
+      if (anyMatch) cl.add('webex-correct'); else cl.remove('webex-correct');
 
     }
 
-  }
 
 
+    // regex support
 
-  var check_sections = document.getElementsByClassName("webex-check");
+    if (cl.contains('regex')) {
 
-  console.log("check:", check_sections.length);
+      var answer_regex;
 
-  for (var i = 0; i < check_sections.length; i++) {
+      try {
 
-    check_sections[i].classList.add("unchecked");
+        answer_regex = new RegExp(real_answers.join('|'));
 
+        if (answer_regex.test(my_answer)) cl.add('webex-correct');
 
-
-    let btn = document.createElement("button");
-
-    btn.innerHTML = "Show Answers";
-
-    btn.classList.add("webex-check-button");
-
-    btn.onclick = check_func;
-
-    check_sections[i].appendChild(btn);
-
-
-
-    let spn = document.createElement("span");
-
-    spn.classList.add("webex-total_correct");
-
-    check_sections[i].appendChild(spn);
-
-  }
-
-
-
-  /* set up webex-solveme inputs */
-
-  var solveme = document.getElementsByClassName("webex-solveme");
-
-
-
-  for (var i = 0; i < solveme.length; i++) {
-
-    /* make sure input boxes don't auto-anything */
-
-    solveme[i].setAttribute("autocomplete","off");
-
-    solveme[i].setAttribute("autocorrect", "off");
-
-    solveme[i].setAttribute("autocapitalize", "off");
-
-    solveme[i].setAttribute("spellcheck", "false");
-
-    solveme[i].value = "";
-
-
-
-    /* adjust answer for ignorecase or nospaces */
-
-    var cl = solveme[i].classList;
-
-    var real_answer = solveme[i].dataset.answer;
-
-    if (cl.contains("ignorecase")) {
-
-      real_answer = real_answer.toLowerCase();
+      } catch (_) { /* ignore invalid regex */ }
 
     }
 
-    if (cl.contains("nospaces")) {
 
-      real_answer = real_answer.replace(/ /g, "");
+
+    update_total_correct();
+
+  }
+
+
+
+  function select_func() {
+
+    console.log('webex: check select');
+
+    var cl = this.classList;
+
+    cl.remove('webex-incorrect'); cl.remove('webex-correct');
+
+    if (this.value === 'answer') cl.add('webex-correct');
+
+    else if (this.value !== 'blank') cl.add('webex-incorrect');
+
+    update_total_correct();
+
+  }
+
+
+
+  function radiogroups_func() {
+
+    console.log('webex: check radiogroups');
+
+    var checked_button = document.querySelector('input[name="' + this.id + '"]:checked');
+
+    if (!checked_button) return;
+
+
+
+    var cl = checked_button.parentElement.classList;
+
+    var labels = checked_button.parentElement.parentElement.children;
+
+
+
+    for (var i = 0; i < labels.length; i++) {
+
+      labels[i].classList.remove('webex-incorrect');
+
+      labels[i].classList.remove('webex-correct');
 
     }
 
-    solveme[i].dataset.answer = real_answer;
 
 
+    if (checked_button.value === 'answer') cl.add('webex-correct'); else cl.add('webex-incorrect');
 
-    /* attach checking function */
-
-    solveme[i].onkeyup = solveme_func;
-
-    solveme[i].onchange = solveme_func;
-
-
-
-    solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+    update_total_correct();
 
   }
 
 
 
-  /* set up radiogroups */
+  window.onload = function () {
 
-  var radiogroups = document.getElementsByClassName("webex-radiogroup");
-
-  for (var i = 0; i < radiogroups.length; i++) {
-
-    radiogroups[i].onchange = radiogroups_func;
-
-  }
+    console.log('webex onload');
 
 
 
-  /* set up selects */
+    // solution buttons
 
-  var selects = document.getElementsByClassName("webex-select");
+    var buttons = document.getElementsByTagName('button');
 
-  for (var i = 0; i < selects.length; i++) {
+    for (var i = 0; i < buttons.length; i++) {
 
-    selects[i].onchange = select_func;
+      if (buttons[i].parentElement && buttons[i].parentElement.classList.contains('webex-solution')) {
 
-    selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+        buttons[i].onclick = b_func;
 
-  }
+      }
+
+    }
 
 
 
-  update_total_correct();
+    // check sections
 
-}
+    var check_sections = document.getElementsByClassName('webex-check');
+
+    console.log('check:', check_sections.length);
+
+    for (var j = 0; j < check_sections.length; j++) {
+
+      check_sections[j].classList.add('unchecked');
+
+
+
+      var btn = document.createElement('button');
+
+      btn.textContent = 'Show Answers';
+
+      btn.classList.add('webex-check-button');
+
+      btn.onclick = check_func;
+
+      check_sections[j].appendChild(btn);
+
+
+
+      var spn = document.createElement('span');
+
+      spn.classList.add('webex-total_correct');
+
+      check_sections[j].appendChild(spn);
+
+    }
+
+
+
+    // solveme inputs
+
+    var solveme = document.getElementsByClassName('webex-solveme');
+
+    for (var k = 0; k < solveme.length; k++) {
+
+      solveme[k].setAttribute('autocomplete', 'off');
+
+      solveme[k].setAttribute('autocorrect', 'off');
+
+      solveme[k].setAttribute('autocapitalize', 'off');
+
+      solveme[k].setAttribute('spellcheck', 'false');
+
+      solveme[k].value = '';
+
+
+
+      var cl = solveme[k].classList;
+
+      var parsed = [];
+
+      try { parsed = JSON.parse(solveme[k].dataset.answer || '[]'); } catch (_) { parsed = []; }
+
+      if (cl.contains('ignorecase')) parsed = parsed.map(function (a) { return String(a).toLowerCase(); });
+
+      if (cl.contains('nospaces')) parsed = parsed.map(function (a) { return String(a).replace(/ /g, ''); });
+
+      solveme[k].dataset.answer = JSON.stringify(parsed);
+
+
+
+      solveme[k].onkeyup = solveme_func;
+
+      solveme[k].onchange = solveme_func;
+
+
+
+      solveme[k].insertAdjacentHTML('afterend', " <span class='webex-icon'></span>");
+
+    }
+
+
+
+    // radiogroups
+
+    var radiogroups = document.getElementsByClassName('webex-radiogroup');
+
+    for (var r = 0; r < radiogroups.length; r++) {
+
+      radiogroups[r].onchange = radiogroups_func;
+
+    }
+
+
+
+    // selects
+
+    var selects = document.getElementsByClassName('webex-select');
+
+    for (var s = 0; s < selects.length; s++) {
+
+      selects[s].onchange = select_func;
+
+      selects[s].insertAdjacentHTML('afterend', " <span class='webex-icon'></span>");
+
+    }
+
+
+
+    update_total_correct();
+
+  };
+
+})();
 
 
 
 </script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
