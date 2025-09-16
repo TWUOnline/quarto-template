@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
                         </div>
               <div>
                             <div class="quarto-title-meta-heading"><p>Last Modified</p></div>
-                            <div class="quarto-title-meta-contents"><p>Jun 12, 2025</p></div>
+                            <div class="quarto-title-meta-contents"><p>Sep 16, 2025</p></div>
                         </div>
         </div>
     </div>
@@ -261,212 +261,680 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<script>
 
-/* update total correct if #webex-total_correct exists */
-update_total_correct = function() {
-  console.log("webex: update total_correct");
 
-  var t = document.getElementsByClassName("webex-total_correct");
-  for (var i = 0; i < t.length; i++) {
-    p = t[i].parentElement;
-    var correct = p.getElementsByClassName("webex-correct").length;
-    var solvemes = p.getElementsByClassName("webex-solveme").length;
-    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
-    var selects = p.getElementsByClassName("webex-select").length;
+/* webex exercises runtime (points-aware) */
 
-    t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+(function () {
+
+  'use strict';
+
+
+
+  // ---------- Utilities ----------
+
+  function toNumber(x, fallback) {
+
+    var n = Number(x);
+
+    return Number.isFinite(n) ? n : fallback;
+
   }
-}
 
-/* webex-solution button toggling function */
-b_func = function() {
-  console.log("webex: toggle hide");
 
-  var cl = this.parentElement.classList;
-  if (cl.contains('open')) {
-    cl.remove("open");
+
+  function parseJSON(str, fallback) {
+
+    try { return JSON.parse(str); } catch (_) { return fallback; }
+
+  }
+
+
+
+  function text(el) {
+
+    return el &amp;&amp; ('textContent' in el) ? el.textContent : '';
+
+  }
+
+
+
+  function bySelector(root, sel) {
+
+    return root.querySelectorAll(sel);
+
+  }
+
+
+
+  function on(el, evt, handler, opts) {
+
+    el.addEventListener(evt, handler, opts || false);
+
+  }
+
+
+
+  // ---------- Correctness + Scoring ----------
+
+  function markSolveme(inputEl) {
+
+    var answers = parseJSON(inputEl.dataset.answer || '[]', []);
+
+    var val = inputEl.value;
+
+    var cl = inputEl.classList;
+
+
+
+    if (cl.contains('ignorecase')) val = val.toLowerCase();
+
+    if (cl.contains('nospaces')) val = val.replace(/ /g, '');
+
+
+
+    // base state
+
+    cl.remove('webex-correct');
+
+    cl.remove('webex-incorrect');
+
+
+
+    if (val === '') return; // unanswered
+
+
+
+    var isHit = answers.includes(val);
+
+
+
+    // numeric tolerance (optional)
+
+    var tol = toNumber(inputEl.dataset.tol, NaN);
+
+    if (!Number.isNaN(tol)) {
+
+      var valNum = toNumber(val, NaN);
+
+      if (!Number.isNaN(valNum)) {
+
+        // if any numeric answer within tolerance, treat as correct
+
+        isHit = answers
+
+          .map(function (a) { return toNumber(a, NaN); })
+
+          .some(function (a) { return Number.isFinite(a) &amp;&amp; Math.abs(a - valNum) &lt; tol; }) || isHit;
+
+      }
+
+    }
+
+
+
+    // regex mode (optional)
+
+    if (cl.contains('regex') &amp;&amp; answers.length) {
+
+      try {
+
+        var re = new RegExp(answers.join('|'));
+
+        if (re.test(val)) isHit = true;
+
+      } catch (_) { /* ignore bad regex */ }
+
+    }
+
+
+
+    cl.add(isHit ? 'webex-correct' : 'webex-incorrect');
+
+  }
+
+
+
+  function markSelect(selectEl) {
+
+    var cl = selectEl.classList;
+
+    cl.remove('webex-incorrect');
+
+    cl.remove('webex-correct');
+
+    if (selectEl.value === 'answer') cl.add('webex-correct');
+
+    else if (selectEl.value !== 'blank') cl.add('webex-incorrect');
+
+  }
+
+
+
+  function markRadiogroup(groupEl, changedInput) {
+
+    // Clear previous label marks
+
+    var labels = groupEl.querySelectorAll('label');
+
+    for (var i = 0; i &lt; labels.length; i++) {
+
+      labels[i].classList.remove('webex-incorrect');
+
+      labels[i].classList.remove('webex-correct');
+
+    }
+
+
+
+    // Get current checked
+
+    var name = groupEl.id;
+
+    var checked = document.querySelector('input[name="' + name + '"]:checked');
+
+    if (!checked) return;
+
+
+
+    var lbl = checked.closest('label');
+
+    if (!lbl) return;
+
+
+
+    // Apply visual correctness by value (package emits value="answer" on correct)
+
+    if (checked.value === 'answer') lbl.classList.add('webex-correct');
+
+    else lbl.classList.add('webex-incorrect');
+
+
+
+    // Store selected points on the container for convenience (optional)
+
+    groupEl.dataset.selectedPoints = String(toNumber(checked.dataset.points, 0));
+
+  }
+
+
+
+  function countCorrectUnits(sectionEl) {
+
+    // solveme + select correctness is on the control; radiogroup correctness is on the chosen label
+
+    var correct = 0;
+
+
+
+    // solveme
+
+    var solvemes = bySelector(sectionEl, '.webex-solveme');
+
+    for (var i = 0; i &lt; solvemes.length; i++) {
+
+      if (solvemes[i].classList.contains('webex-correct')) correct++;
+
+    }
+
+
+
+    // selects
+
+    var selects = bySelector(sectionEl, '.webex-select');
+
+    for (var j = 0; j &lt; selects.length; j++) {
+
+      if (selects[j].classList.contains('webex-correct')) correct++;
+
+    }
+
+
+
+    // radiogroups
+
+    var groups = bySelector(sectionEl, '.webex-radiogroup');
+
+    for (var g = 0; g &lt; groups.length; g++) {
+
+      var name = groups[g].id;
+
+      var checked = name &amp;&amp; document.querySelector('input[name="' + name + '"]:checked');
+
+      if (checked &amp;&amp; checked.value === 'answer') correct++;
+
+    }
+
+
+
+    return correct;
+
+  }
+
+
+
+  function countTotalUnits(sectionEl) {
+
+    // Each solveme/select counts as 1. Each radiogroup counts as 1.
+
+    var a = bySelector(sectionEl, '.webex-solveme').length;
+
+    var b = bySelector(sectionEl, '.webex-select').length;
+
+    var c = bySelector(sectionEl, '.webex-radiogroup').length;
+
+    return a + b + c;
+
+  }
+
+
+
+  function computePoints(sectionEl) {
+
+    // Points default: radiogroups via input[data-points].
+
+    // You can also optionally set data-points on solveme/select controls; if present, we include them.
+
+    var earned = 0;
+
+    var possible = 0;
+
+
+
+    // radiogroups (max is highest option per group)
+
+    var groups = bySelector(sectionEl, '.webex-radiogroup');
+
+    for (var g = 0; g &lt; groups.length; g++) {
+
+      var grp = groups[g];
+
+      var inputs = grp.querySelectorAll('input[type="radio"]');
+
+
+
+      var grpMax = 0;
+
+      for (var i = 0; i &lt; inputs.length; i++) {
+
+        var v = toNumber(inputs[i].dataset.points, 0);
+
+        if (v &gt; grpMax) grpMax = v;
+
+      }
+
+      possible += grpMax;
+
+
+
+      var name = grp.id;
+
+      var checked = name &amp;&amp; document.querySelector('input[name="' + name + '"]:checked');
+
+      if (checked) earned += toNumber(checked.dataset.points, 0);
+
+    }
+
+
+
+    // solveme (optional points via data-points on the input)
+
+    var solvemes = bySelector(sectionEl, '.webex-solveme');
+
+    for (var s = 0; s &lt; solvemes.length; s++) {
+
+      var pts = toNumber(solvemes[s].dataset.points, NaN);
+
+      if (!Number.isNaN(pts)) {
+
+        possible += pts;
+
+        if (solvemes[s].classList.contains('webex-correct')) earned += pts;
+
+      }
+
+    }
+
+
+
+    // selects (optional points via data-points on the select)
+
+    var selects = bySelector(sectionEl, '.webex-select');
+
+    for (var k = 0; k &lt; selects.length; k++) {
+
+      var pts2 = toNumber(selects[k].dataset.points, NaN);
+
+      if (!Number.isNaN(pts2)) {
+
+        possible += pts2;
+
+        if (selects[k].classList.contains('webex-correct')) earned += pts2;
+
+      }
+
+    }
+
+
+
+    return { earned: earned, possible: possible };
+
+  }
+
+
+
+  function updateTotalCorrect() {
+
+    var totals = document.getElementsByClassName('webex-total_correct');
+
+    for (var i = 0; i &lt; totals.length; i++) {
+
+      var section = totals[i].parentElement;
+
+      var totalUnits = countTotalUnits(section);
+
+      var correctUnits = countCorrectUnits(section);
+
+      var pts = computePoints(section);
+
+
+
+      var msg = correctUnits + ' of ' + totalUnits + ' correct';
+
+      if (pts.possible &gt; 0) {
+
+        msg += ' • ' + pts.earned + ' of ' + pts.possible + ' pts';
+
+      }
+
+      totals[i].textContent = msg;
+
+      totals[i].setAttribute('aria-live', 'polite');
+
+      totals[i].setAttribute('role', 'status');
+
+    }
+
+  }
+
+
+
+  // ---------- Bootstrapping ----------
+
+  function setupSolutions() {
+
+    var sections = document.getElementsByClassName('webex-check');
+
+    for (var i = 0; i &lt; sections.length; i++) {
+
+      var sec = sections[i];
+
+      sec.classList.add('unchecked');
+
+
+
+      // Add toggle button if missing
+
+      if (!sec.querySelector('.webex-check-button')) {
+
+        var btn = document.createElement('button');
+
+        btn.type = 'button';
+
+        btn.className = 'webex-check-button';
+
+        btn.textContent = 'Show Answers';
+
+        on(btn, 'click', function () {
+
+          var parent = this.parentElement;
+
+          var cl = parent.classList;
+
+          if (cl.contains('unchecked')) {
+
+            cl.remove('unchecked');
+
+            this.textContent = 'Hide Answers';
+
+          } else {
+
+            cl.add('unchecked');
+
+            this.textContent = 'Show Answers';
+
+          }
+
+        });
+
+        sec.appendChild(btn);
+
+      }
+
+
+
+      // Add totals element if missing
+
+      if (!sec.querySelector('.webex-total_correct')) {
+
+        var spn = document.createElement('span');
+
+        spn.className = 'webex-total_correct';
+
+        sec.appendChild(spn);
+
+      }
+
+    }
+
+  }
+
+
+
+  function setupSolveme() {
+
+    var inputs = document.getElementsByClassName('webex-solveme');
+
+    for (var i = 0; i &lt; inputs.length; i++) {
+
+      var el = inputs[i];
+
+
+
+      // turn off browser “help”
+
+      el.setAttribute('autocomplete', 'off');
+
+      el.setAttribute('autocorrect', 'off');
+
+      el.setAttribute('autocapitalize', 'off');
+
+      el.setAttribute('spellcheck', 'false');
+
+
+
+      // normalize stored answers for ignorecase / nospaces
+
+      var cl = el.classList;
+
+      var ans = parseJSON(el.dataset.answer || '[]', []);
+
+      if (cl.contains('ignorecase')) ans = ans.map(function (a) { return String(a).toLowerCase(); });
+
+      if (cl.contains('nospaces')) ans = ans.map(function (a) { return String(a).replace(/ /g, ''); });
+
+      el.dataset.answer = JSON.stringify(ans);
+
+
+
+      // attach
+
+      on(el, 'keyup', function () { markSolveme(this); updateTotalCorrect(); });
+
+      on(el, 'change', function () { markSolveme(this); updateTotalCorrect(); });
+
+
+
+      // icon placeholder (optional)
+
+      if (!el.nextElementSibling || !el.nextElementSibling.classList || !el.nextElementSibling.classList.contains('webex-icon')) {
+
+        el.insertAdjacentHTML('afterend', " <span class="webex-icon"></span>");
+
+      }
+
+    }
+
+  }
+
+
+
+  function setupSelects() {
+
+    var selects = document.getElementsByClassName('webex-select');
+
+    for (var i = 0; i &lt; selects.length; i++) {
+
+      var el = selects[i];
+
+      on(el, 'change', function () { markSelect(this); updateTotalCorrect(); });
+
+      if (!el.nextElementSibling || !el.nextElementSibling.classList || !el.nextElementSibling.classList.contains('webex-icon')) {
+
+        el.insertAdjacentHTML('afterend', " <span class="webex-icon"></span>");
+
+      }
+
+    }
+
+  }
+
+
+
+  function setupRadiogroups() {
+
+    var groups = document.getElementsByClassName('webex-radiogroup');
+
+    for (var i = 0; i &lt; groups.length; i++) {
+
+      (function (grp) {
+
+        // single listener per group via event delegation
+
+        on(grp, 'change', function (e) {
+
+          var target = e.target;
+
+          if (target &amp;&amp; target.matches &amp;&amp; target.matches('input[type="radio"]')) {
+
+            markRadiogroup(grp, target);
+
+            updateTotalCorrect();
+
+          }
+
+        });
+
+      })(groups[i]);
+
+    }
+
+  }
+
+
+
+  function setupSolutionButtons() {
+
+    // For legacy ".webex-solution" show/hide areas
+
+    var buttons = document.getElementsByTagName('button');
+
+    for (var i = 0; i &lt; buttons.length; i++) {
+
+      var btn = buttons[i];
+
+      if (btn.parentElement &amp;&amp; btn.parentElement.classList.contains('webex-solution')) {
+
+        on(btn, 'click', function () {
+
+          var cl = this.parentElement.classList;
+
+          if (cl.contains('open')) cl.remove('open'); else cl.add('open');
+
+        });
+
+      }
+
+    }
+
+  }
+
+
+
+  function initAll() {
+
+    setupSolutions();
+
+    setupSolutionButtons();
+
+    setupSolveme();
+
+    setupSelects();
+
+    setupRadiogroups();
+
+    updateTotalCorrect();
+
+  }
+
+
+
+  // Run when DOM is ready
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', initAll);
+
   } else {
-    cl.add("open");
-  }
-}
 
-/* check answers */
-check_func = function() {
-  console.log("webex: check answers");
+    initAll();
 
-  var cl = this.parentElement.classList;
-  if (cl.contains('unchecked')) {
-    cl.remove("unchecked");
-    this.innerHTML = "Hide Answers";
-  } else {
-    cl.add("unchecked");
-    this.innerHTML = "Show Answers";
-  }
-}
-
-/* function for checking solveme answers */
-solveme_func = function(e) {
-  console.log("webex: check solveme");
-
-  var real_answers = JSON.parse(this.dataset.answer);
-  var my_answer = this.value;
-  var cl = this.classList;
-  if (cl.contains("ignorecase")) {
-    my_answer = my_answer.toLowerCase();
-  }
-  if (cl.contains("nospaces")) {
-    my_answer = my_answer.replace(/ /g, "")
   }
 
-  if (my_answer == "") {
-    cl.remove("webex-correct");
-    cl.remove("webex-incorrect");
-  } else if (real_answers.includes(my_answer)) {
-    cl.add("webex-correct");
-    cl.remove("webex-incorrect");
-  } else {
-    cl.add("webex-incorrect");
-    cl.remove("webex-correct");
-  }
 
-  // match numeric answers within a specified tolerance
-  if(this.dataset.tol > 0){
-    var tol = JSON.parse(this.dataset.tol);
-    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
-    if (matches.reduce((a, b) => a + b, 0) > 0) {
-      cl.add("webex-correct");
-    } else {
-      cl.remove("webex-correct");
-    }
-  }
 
-  // added regex bit
-  if (cl.contains("regex")){
-    answer_regex = RegExp(real_answers.join("|"))
-    if (answer_regex.test(my_answer)) {
-      cl.add("webex-correct");
-    }
-  }
+  // Optional: observe dynamically added widgets (e.g., after AJAX)
 
-  update_total_correct();
-}
+  var obs;
 
-/* function for checking select answers */
-select_func = function(e) {
-  console.log("webex: check select");
+  try {
 
-  var cl = this.classList
+    obs = new MutationObserver(function (mut) {
 
-  /* add style */
-  cl.remove("webex-incorrect");
-  cl.remove("webex-correct");
-  if (this.value == "answer") {
-    cl.add("webex-correct");
-  } else if (this.value != "blank") {
-    cl.add("webex-incorrect");
-  }
+      var needsUpdate = false;
 
-  update_total_correct();
-}
+      for (var i = 0; i &lt; mut.length; i++) {
 
-/* function for checking radiogroups answers */
-radiogroups_func = function(e) {
-  console.log("webex: check radiogroups");
+        var m = mut[i];
 
-  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
-  var cl = checked_button.parentElement.classList;
-  var labels = checked_button.parentElement.parentElement.children;
+        if (m.addedNodes &amp;&amp; m.addedNodes.length) needsUpdate = true;
 
-  /* get rid of styles */
-  for (i = 0; i < labels.length; i++) {
-    labels[i].classList.remove("webex-incorrect");
-    labels[i].classList.remove("webex-correct");
-  }
+      }
 
-  /* add style */
-  if (checked_button.value == "answer") {
-    cl.add("webex-correct");
-  } else {
-    cl.add("webex-incorrect");
-  }
+      if (needsUpdate) initAll();
 
-  update_total_correct();
-}
+    });
 
-window.onload = function() {
-  console.log("webex onload");
-  /* set up solution buttons */
-  var buttons = document.getElementsByTagName("button");
+    obs.observe(document.documentElement || document.body, { childList: true, subtree: true });
 
-  for (var i = 0; i < buttons.length; i++) {
-    if (buttons[i].parentElement.classList.contains('webex-solution')) {
-      buttons[i].onclick = b_func;
-    }
-  }
+  } catch (_) { /* MutationObserver not supported */ }
 
-  var check_sections = document.getElementsByClassName("webex-check");
-  console.log("check:", check_sections.length);
-  for (var i = 0; i < check_sections.length; i++) {
-    check_sections[i].classList.add("unchecked");
 
-    let btn = document.createElement("button");
-    btn.innerHTML = "Show Answers";
-    btn.classList.add("webex-check-button");
-    btn.onclick = check_func;
-    check_sections[i].appendChild(btn);
 
-    let spn = document.createElement("span");
-    spn.classList.add("webex-total_correct");
-    check_sections[i].appendChild(spn);
-  }
+})();
 
-  /* set up webex-solveme inputs */
-  var solveme = document.getElementsByClassName("webex-solveme");
 
-  for (var i = 0; i < solveme.length; i++) {
-    /* make sure input boxes don't auto-anything */
-    solveme[i].setAttribute("autocomplete","off");
-    solveme[i].setAttribute("autocorrect", "off");
-    solveme[i].setAttribute("autocapitalize", "off");
-    solveme[i].setAttribute("spellcheck", "false");
-    solveme[i].value = "";
 
-    /* adjust answer for ignorecase or nospaces */
-    var cl = solveme[i].classList;
-    var real_answer = solveme[i].dataset.answer;
-    if (cl.contains("ignorecase")) {
-      real_answer = real_answer.toLowerCase();
-    }
-    if (cl.contains("nospaces")) {
-      real_answer = real_answer.replace(/ /g, "");
-    }
-    solveme[i].dataset.answer = real_answer;
-
-    /* attach checking function */
-    solveme[i].onkeyup = solveme_func;
-    solveme[i].onchange = solveme_func;
-
-    solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
-  }
-
-  /* set up radiogroups */
-  var radiogroups = document.getElementsByClassName("webex-radiogroup");
-  for (var i = 0; i < radiogroups.length; i++) {
-    radiogroups[i].onchange = radiogroups_func;
-  }
-
-  /* set up selects */
-  var selects = document.getElementsByClassName("webex-select");
-  for (var i = 0; i < selects.length; i++) {
-    selects[i].onchange = select_func;
-    selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
-  }
-
-  update_total_correct();
-}
-
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

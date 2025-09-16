@@ -234,17 +234,52 @@ Create sections with the class `webex-check` to add a button that hides feedback
 I am going to learn a lot: `r torf(TRUE)`
 
 ```{r, results='asis'}
-opts <- c(
-   "the probability that the null hypothesis is true",
-   answer = "the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true",
-   "the probability of making an error in your conclusion"
+# statements
+qs <- c(
+  "My success is determined by my hard work and abilities.",
+  "When I fail, it is usually because of external factors like bad luck or circumstances.",
+  "I feel in control of the outcomes in my life.",
+  "Good opportunities come to me because of my own efforts.",
+  "Other people or events are often to blame when things don’t go as planned.",
+  "I believe that my actions directly affect my future.",
+  "Achieving my goals depends mostly on my decisions and persistence.",
+  "Luck plays a significant role in determining whether I succeed or fail.",
+  "I take full responsibility for the results of my decisions.",
+  "External forces like the economy or other people have a big influence on my success."
 )
+rev_idx <- c(2, 5, 8, 10)  # reverse-scored items
 
-cat("What is a p-value?", longmcq(opts))
+# Likert labels; we name every option "answer" so webexercises marks it as selectable/correct,
+# while the *score* comes only from the points vector we pass.
+likert_labels <- c(
+  "1 — Strongly Disagree",
+  "2 — Disagree",
+  "3 — Neutral",
+  "4 — Agree",
+  "5 — Strongly Agree"
+)
+likert_opts <- stats::setNames(likert_labels, rep("answer", length(likert_labels)))
+
+# emit each item + longmcq with points
+for (i in seq_along(qs)) {
+  pts <- if (i %in% rev_idx) c(5,4,3,2,1) else 1:5
+  cat(
+    sprintf("<p><strong>%d.</strong> %s</p>\n", i, htmltools::htmlEscape(qs[i])),
+    longmcq(likert_opts, points = pts),
+    "<hr/>",
+    sep = ""
+  )
+}
+
 ```
 
-:::
+</div>
 
+# Your Score
+Total: <span id="locus-score">0</span> / <span id="locus-max">50</span><br/>
+Interpretation: <span id="locus-interpretation">—</span>
+
+:::
 
 
 ## Hidden solutions and hints
