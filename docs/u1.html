@@ -239,7 +239,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#true-or-false-torf" id="toc-true-or-false-torf" class="nav-link" data-scroll-target="#true-or-false-torf"><span class="header-section-number">1.5.3</span> True or False (<code>torf()</code>)</a></li>
   <li><a href="#longer-mcqs-longmcq" id="toc-longer-mcqs-longmcq" class="nav-link" data-scroll-target="#longer-mcqs-longmcq"><span class="header-section-number">1.5.4</span> Longer MCQs (<code>longmcq()</code>)</a></li>
   </ul></li>
-  <li><a href="#checked-sections" id="toc-checked-sections" class="nav-link" data-scroll-target="#checked-sections"><span class="header-section-number">1.6</span> Checked sections</a></li>
+  <li><a href="#activity-locus-of-control-assessment" id="toc-activity-locus-of-control-assessment" class="nav-link" data-scroll-target="#activity-locus-of-control-assessment"><span class="header-section-number">1.6</span> Activity: Locus of Control Assessment</a></li>
+  <li><a href="#interpreting-your-score" id="toc-interpreting-your-score" class="nav-link" data-scroll-target="#interpreting-your-score">Interpreting Your Score</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
   <li><a href="#hidden-solutions-and-hints" id="toc-hidden-solutions-and-hints" class="nav-link" data-scroll-target="#hidden-solutions-and-hints"><span class="header-section-number">1.7</span> Hidden solutions and hints</a></li>
   </ul>
 </nav>
@@ -441,7 +443,7 @@ Checking Your Learning
 </ul>
 <p>You can also create these questions dynamically, using variables from your R session.</p>
 <ul>
-<li>The square root of 64 is: <input class="webex-solveme nospaces" size="1" data-answer="[&quot;8&quot;]"></li>
+<li>The square root of 25 is: <input class="webex-solveme nospaces" size="1" data-answer="[&quot;5&quot;]"></li>
 </ul>
 <p>The blanks are case-sensitive; if you don’t care about case, use the argument <code>ignore_case = TRUE</code>.</p>
 <ul>
@@ -477,91 +479,128 @@ Checking Your Learning
 <h3 data-number="1.5.4" class="anchored" data-anchor-id="longer-mcqs-longmcq"><span class="header-section-number">1.5.4</span> Longer MCQs (<code>longmcq()</code>)</h3>
 <p>When your answers are very long, sometimes a drop-down select box gets formatted oddly. You can use <code>longmcq()</code> to deal with this. Since the answers are long, It’s probably best to set up the options inside an R chunk with <code>echo=FALSE</code>.</p>
 <p><strong>What is a p-value?</strong></p>
-<div id="radio_BUEEHFWMUZ" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_BUEEHFWMUZ" value="" data-points="0"> <span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_BUEEHFWMUZ" value="answer" data-points="1"> <span>the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_BUEEHFWMUZ" value="" data-points="0"> <span>the probability of making an error in your conclusion</span></label>
+<div id="radio_VQBJWAKLAK" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_VQBJWAKLAK" value="" data-points="0"> <span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_VQBJWAKLAK" value="answer" data-points="1"> <span>the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_VQBJWAKLAK" value="" data-points="0"> <span>the probability of making an error in your conclusion</span></label>
 </div>
 <p><strong>What is true about a 95% confidence interval of the mean?</strong></p>
-<div id="radio_DOCPUIFKBM" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_DOCPUIFKBM" value="" data-points="0"> <span>95% of the data fall within this range</span></label><label><input type="radio" autocomplete="off" name="radio_DOCPUIFKBM" value="answer" data-points="1"> <span>if you repeated the process many times, 95% of intervals calculated in this way contain the true mean</span></label><label><input type="radio" autocomplete="off" name="radio_DOCPUIFKBM" value="" data-points="0"> <span>there is a 95% probability that the true mean lies within this range</span></label>
+<div id="radio_FVSMPCVLED" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_FVSMPCVLED" value="" data-points="0"> <span>there is a 95% probability that the true mean lies within this range</span></label><label><input type="radio" autocomplete="off" name="radio_FVSMPCVLED" value="answer" data-points="1"> <span>if you repeated the process many times, 95% of intervals calculated in this way contain the true mean</span></label><label><input type="radio" autocomplete="off" name="radio_FVSMPCVLED" value="" data-points="0"> <span>95% of the data fall within this range</span></label>
 </div>
 </section>
 </section>
-<section id="checked-sections" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="checked-sections"><span class="header-section-number">1.6</span> Checked sections</h2>
-<p>Create sections with the class <code>webex-check</code> to add a button that hides feedback until it is pressed. Add the class <code>webex-box</code> to draw a box around the section (or use your own styles).</p>
+<section id="activity-locus-of-control-assessment" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="activity-locus-of-control-assessment"><span class="header-section-number">1.6</span> Activity: Locus of Control Assessment</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Estimated Time: 30 minutes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Our locus of control’s orientation largely influences how we perceive the world. Developing an awareness of our own locus of control, as well as locus of control inherent in our organization, is of great benefit for us, as leaders.</p>
+<p>Take the time to complete and score the following questionnaire. This will help confirm where your personal or corporate locus of control sits, allow you to determine what strategic practices you need to consider changing to change or maintain your locus of control.</p>
+<section id="questionnaire-instructions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="questionnaire-instructions">Questionnaire Instructions</h2>
+<p>This questionnaire is designed to help you determine whether your locus of control is more internal or external.</p>
+<p>Read each statement carefully and choose the response that best describes your agreement using the following scale:</p>
+<p>1 = Strongly Disagree</p>
+<p>2 = Disagree</p>
+<p>3 = Neutral</p>
+<p>4 = Agree</p>
+<p>5 = Strongly Agree</p>
 <div class="webex-check webex-box">
-<p>I am going to learn a lot: <select class="webex-select"><option value="blank"></option><option value="answer">TRUE</option><option value="">FALSE</option></select></p>
 <p>
 <strong>1.</strong> My success is determined by my hard work and abilities.
 </p>
-<div id="radio_ISIADDHFLA" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_ISIADDHFLA" value="answer" data-points="1"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_ISIADDHFLA" value="answer" data-points="2"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_ISIADDHFLA" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_ISIADDHFLA" value="answer" data-points="4"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_ISIADDHFLA" value="answer" data-points="5"> <span>5 — Strongly Agree</span></label>
+<div id="radio_WRYRWPXHAP" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_WRYRWPXHAP" value="answer" data-points="1"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_WRYRWPXHAP" value="answer" data-points="2"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_WRYRWPXHAP" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_WRYRWPXHAP" value="answer" data-points="4"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_WRYRWPXHAP" value="answer" data-points="5"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>2.</strong> When I fail, it is usually because of external factors like bad luck or circumstances.
 </p>
-<div id="radio_MOANGUKRIR" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_MOANGUKRIR" value="answer" data-points="5"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_MOANGUKRIR" value="answer" data-points="4"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_MOANGUKRIR" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_MOANGUKRIR" value="answer" data-points="2"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_MOANGUKRIR" value="answer" data-points="1"> <span>5 — Strongly Agree</span></label>
+<div id="radio_POMIGWAZMB" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_POMIGWAZMB" value="answer" data-points="5"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_POMIGWAZMB" value="answer" data-points="4"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_POMIGWAZMB" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_POMIGWAZMB" value="answer" data-points="2"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_POMIGWAZMB" value="answer" data-points="1"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>3.</strong> I feel in control of the outcomes in my life.
 </p>
-<div id="radio_GNXSLPRPQH" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_GNXSLPRPQH" value="answer" data-points="1"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_GNXSLPRPQH" value="answer" data-points="2"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_GNXSLPRPQH" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_GNXSLPRPQH" value="answer" data-points="4"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_GNXSLPRPQH" value="answer" data-points="5"> <span>5 — Strongly Agree</span></label>
+<div id="radio_EBRHJOUMYE" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_EBRHJOUMYE" value="answer" data-points="1"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_EBRHJOUMYE" value="answer" data-points="2"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_EBRHJOUMYE" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_EBRHJOUMYE" value="answer" data-points="4"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_EBRHJOUMYE" value="answer" data-points="5"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>4.</strong> Good opportunities come to me because of my own efforts.
 </p>
-<div id="radio_POOIKNUVAZ" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_POOIKNUVAZ" value="answer" data-points="1"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_POOIKNUVAZ" value="answer" data-points="2"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_POOIKNUVAZ" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_POOIKNUVAZ" value="answer" data-points="4"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_POOIKNUVAZ" value="answer" data-points="5"> <span>5 — Strongly Agree</span></label>
+<div id="radio_HYZNMMWCJW" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_HYZNMMWCJW" value="answer" data-points="1"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_HYZNMMWCJW" value="answer" data-points="2"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_HYZNMMWCJW" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_HYZNMMWCJW" value="answer" data-points="4"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_HYZNMMWCJW" value="answer" data-points="5"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>5.</strong> Other people or events are often to blame when things don’t go as planned.
 </p>
-<div id="radio_PPHVZOUSGD" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_PPHVZOUSGD" value="answer" data-points="5"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_PPHVZOUSGD" value="answer" data-points="4"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_PPHVZOUSGD" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_PPHVZOUSGD" value="answer" data-points="2"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_PPHVZOUSGD" value="answer" data-points="1"> <span>5 — Strongly Agree</span></label>
+<div id="radio_JDCYVETEVL" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_JDCYVETEVL" value="answer" data-points="5"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_JDCYVETEVL" value="answer" data-points="4"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_JDCYVETEVL" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_JDCYVETEVL" value="answer" data-points="2"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_JDCYVETEVL" value="answer" data-points="1"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>6.</strong> I believe that my actions directly affect my future.
 </p>
-<div id="radio_YGRTNEQJZV" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_YGRTNEQJZV" value="answer" data-points="1"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_YGRTNEQJZV" value="answer" data-points="2"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_YGRTNEQJZV" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_YGRTNEQJZV" value="answer" data-points="4"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_YGRTNEQJZV" value="answer" data-points="5"> <span>5 — Strongly Agree</span></label>
+<div id="radio_FWXNKGGKLL" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_FWXNKGGKLL" value="answer" data-points="1"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_FWXNKGGKLL" value="answer" data-points="2"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_FWXNKGGKLL" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_FWXNKGGKLL" value="answer" data-points="4"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_FWXNKGGKLL" value="answer" data-points="5"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>7.</strong> Achieving my goals depends mostly on my decisions and persistence.
 </p>
-<div id="radio_KWJPUXHZTP" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_KWJPUXHZTP" value="answer" data-points="1"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_KWJPUXHZTP" value="answer" data-points="2"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_KWJPUXHZTP" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_KWJPUXHZTP" value="answer" data-points="4"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_KWJPUXHZTP" value="answer" data-points="5"> <span>5 — Strongly Agree</span></label>
+<div id="radio_CUJTRTIBGV" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_CUJTRTIBGV" value="answer" data-points="1"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_CUJTRTIBGV" value="answer" data-points="2"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_CUJTRTIBGV" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_CUJTRTIBGV" value="answer" data-points="4"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_CUJTRTIBGV" value="answer" data-points="5"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>8.</strong> Luck plays a significant role in determining whether I succeed or fail.
 </p>
-<div id="radio_GLUJNWGKNR" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_GLUJNWGKNR" value="answer" data-points="5"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_GLUJNWGKNR" value="answer" data-points="4"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_GLUJNWGKNR" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_GLUJNWGKNR" value="answer" data-points="2"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_GLUJNWGKNR" value="answer" data-points="1"> <span>5 — Strongly Agree</span></label>
+<div id="radio_WVYGPSZZNP" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_WVYGPSZZNP" value="answer" data-points="5"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_WVYGPSZZNP" value="answer" data-points="4"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_WVYGPSZZNP" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_WVYGPSZZNP" value="answer" data-points="2"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_WVYGPSZZNP" value="answer" data-points="1"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>9.</strong> I take full responsibility for the results of my decisions.
 </p>
-<div id="radio_ROPCAURDHH" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_ROPCAURDHH" value="answer" data-points="1"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_ROPCAURDHH" value="answer" data-points="2"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_ROPCAURDHH" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_ROPCAURDHH" value="answer" data-points="4"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_ROPCAURDHH" value="answer" data-points="5"> <span>5 — Strongly Agree</span></label>
+<div id="radio_UCYMSNEBIC" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_UCYMSNEBIC" value="answer" data-points="1"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_UCYMSNEBIC" value="answer" data-points="2"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_UCYMSNEBIC" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_UCYMSNEBIC" value="answer" data-points="4"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_UCYMSNEBIC" value="answer" data-points="5"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 <p>
 <strong>10.</strong> External forces like the economy or other people have a big influence on my success.
 </p>
-<div id="radio_IJFSKXNCPH" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_IJFSKXNCPH" value="answer" data-points="5"> <span>1 — Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_IJFSKXNCPH" value="answer" data-points="4"> <span>2 — Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_IJFSKXNCPH" value="answer" data-points="3"> <span>3 — Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_IJFSKXNCPH" value="answer" data-points="2"> <span>4 — Agree</span></label><label><input type="radio" autocomplete="off" name="radio_IJFSKXNCPH" value="answer" data-points="1"> <span>5 — Strongly Agree</span></label>
+<div id="radio_XAQSCWJURB" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_XAQSCWJURB" value="answer" data-points="5"> <span>Strongly Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_XAQSCWJURB" value="answer" data-points="4"> <span>Disagree</span></label><label><input type="radio" autocomplete="off" name="radio_XAQSCWJURB" value="answer" data-points="3"> <span>Neutral</span></label><label><input type="radio" autocomplete="off" name="radio_XAQSCWJURB" value="answer" data-points="2"> <span>Agree</span></label><label><input type="radio" autocomplete="off" name="radio_XAQSCWJURB" value="answer" data-points="1"> <span>Strongly Agree</span></label>
 </div>
 <hr>
 </div>
+</section>
+</div>
+</div>
+</section>
+<section id="interpreting-your-score" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="interpreting-your-score">Interpreting Your Score</h2>
+<p>40–50: Strong Internal Locus of Control. You believe that your actions and decisions largely determine the outcomes in your life. You take responsibility for your successes and failures and are likely to see challenges as opportunities for growth.</p>
+<p>30–39: Moderate Internal Locus of Control. You lean towards an internal locus of control but may occasionally attribute outcomes to external factors.</p>
+<p>20–29: Moderate External Locus of Control. You believe that external factors such as luck, fate, or other people significantly influence your life.</p>
+<p>10–19: Strong External Locus of Control. You feel that forces outside your control is largely controlling your life, such as luck, fate, or powerful external influences.</p>
+</section>
+<section id="reflection-questions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
+<p>How does your locus of control influence your leadership style?</p>
+<p>In what ways can you develop a more balanced perspective if needed?</p>
+<p>How might your locus of control affect how you approach challenges and decision-making as a leader?</p>
+<p>This questionnaire can serve as a foundation for understanding how your perceptions of control shape your leadership behaviors and strategies.</p>
+<p><em>Note:</em> Make note of your results as they will serve as a good references source when you write your reflection post.</p>
 </section>
 <section id="hidden-solutions-and-hints" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="hidden-solutions-and-hints"><span class="header-section-number">1.7</span> Hidden solutions and hints</h2>
@@ -669,7 +708,7 @@ Click here to see the solution
 
       t[i].textContent =
 
-        correctUnits + ' of ' + units.length + ' correct' +
+        correctUnits + ' of ' + units.length + ' answered' +
 
         ' • ' + earned + ' of ' + possible + ' pts';
 
@@ -691,23 +730,91 @@ Click here to see the solution
 
 
 
+  function reset_section(section) {
+
+    console.log('webex: reset section');
+
+
+
+    var solveme = section.querySelectorAll('.webex-solveme');
+
+    for (var i = 0; i < solveme.length; i++) {
+
+      solveme[i].value = '';
+
+      solveme[i].classList.remove('webex-correct');
+
+      solveme[i].classList.remove('webex-incorrect');
+
+    }
+
+
+
+    var selects = section.querySelectorAll('.webex-select');
+
+    for (var s = 0; s < selects.length; s++) {
+
+      selects[s].selectedIndex = 0;
+
+      selects[s].classList.remove('webex-correct');
+
+      selects[s].classList.remove('webex-incorrect');
+
+    }
+
+
+
+    var radiogroups = section.querySelectorAll('.webex-radiogroup');
+
+    for (var r = 0; r < radiogroups.length; r++) {
+
+      var radios = radiogroups[r].querySelectorAll('input[type="radio"]');
+
+      for (var j = 0; j < radios.length; j++) radios[j].checked = false;
+
+
+
+      var labels = radiogroups[r].querySelectorAll('label');
+
+      for (var k = 0; k < labels.length; k++) {
+
+        labels[k].classList.remove('webex-correct');
+
+        labels[k].classList.remove('webex-incorrect');
+
+      }
+
+    }
+
+
+
+    update_total_correct();
+
+  }
+
+
+
   function check_func() {
 
     console.log('webex: check answers');
 
-    var cl = this.parentElement.classList;
+    var section = this.parentElement;
+
+    var cl = section.classList;
 
     if (cl.contains('unchecked')) {
 
       cl.remove('unchecked');
 
-      this.textContent = 'Hide Answers';
+      this.textContent = 'Clear Result';
 
     } else {
 
       cl.add('unchecked');
 
-      this.textContent = 'Show Answers';
+      reset_section(section);
+
+      this.textContent = 'Show Result';
 
     }
 
@@ -805,15 +912,15 @@ Click here to see the solution
 
   function select_func() {
 
-    console.log('webex: check select');
+    console.log('webex: check select: modified');
 
     var cl = this.classList;
 
-    cl.remove('webex-incorrect'); cl.remove('webex-correct');
+    // cl.remove('webex-incorrect'); cl.remove('webex-correct');
 
-    if (this.value === 'answer') cl.add('webex-correct');
+    // if (this.value === 'answer') cl.add('webex-correct');
 
-    else if (this.value !== 'blank') cl.add('webex-incorrect');
+    // else if (this.value !== 'blank') cl.add('webex-incorrect');
 
     update_total_correct();
 

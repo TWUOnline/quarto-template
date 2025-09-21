@@ -34,7 +34,7 @@
       }
 
       t[i].textContent =
-        correctUnits + ' of ' + units.length + ' correct' +
+        correctUnits + ' of ' + units.length + ' answered' +
         ' • ' + earned + ' of ' + possible + ' pts';
     }
   }
@@ -45,15 +45,49 @@
     if (cl.contains('open')) cl.remove('open'); else cl.add('open');
   }
 
+  function reset_section(section) {
+    console.log('webex: reset section');
+
+    var solveme = section.querySelectorAll('.webex-solveme');
+    for (var i = 0; i < solveme.length; i++) {
+      solveme[i].value = '';
+      solveme[i].classList.remove('webex-correct');
+      solveme[i].classList.remove('webex-incorrect');
+    }
+
+    var selects = section.querySelectorAll('.webex-select');
+    for (var s = 0; s < selects.length; s++) {
+      selects[s].selectedIndex = 0;
+      selects[s].classList.remove('webex-correct');
+      selects[s].classList.remove('webex-incorrect');
+    }
+
+    var radiogroups = section.querySelectorAll('.webex-radiogroup');
+    for (var r = 0; r < radiogroups.length; r++) {
+      var radios = radiogroups[r].querySelectorAll('input[type="radio"]');
+      for (var j = 0; j < radios.length; j++) radios[j].checked = false;
+
+      var labels = radiogroups[r].querySelectorAll('label');
+      for (var k = 0; k < labels.length; k++) {
+        labels[k].classList.remove('webex-correct');
+        labels[k].classList.remove('webex-incorrect');
+      }
+    }
+
+    update_total_correct();
+  }
+
   function check_func() {
     console.log('webex: check answers');
-    var cl = this.parentElement.classList;
+    var section = this.parentElement;
+    var cl = section.classList;
     if (cl.contains('unchecked')) {
       cl.remove('unchecked');
-      this.textContent = 'Hide Answers';
+      this.textContent = 'Clear Result';
     } else {
       cl.add('unchecked');
-      this.textContent = 'Show Answers';
+      reset_section(section);
+      this.textContent = 'Show Result';
     }
   }
 
@@ -102,11 +136,11 @@
   }
 
   function select_func() {
-    console.log('webex: check select');
+    console.log('webex: check select: modified');
     var cl = this.classList;
-    cl.remove('webex-incorrect'); cl.remove('webex-correct');
-    if (this.value === 'answer') cl.add('webex-correct');
-    else if (this.value !== 'blank') cl.add('webex-incorrect');
+    // cl.remove('webex-incorrect'); cl.remove('webex-correct');
+    // if (this.value === 'answer') cl.add('webex-correct');
+    // else if (this.value !== 'blank') cl.add('webex-incorrect');
     update_total_correct();
   }
 

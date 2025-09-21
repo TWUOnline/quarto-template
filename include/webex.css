@@ -4,6 +4,7 @@
   --correct: #59935B;
   --correct_alpha: #c0edc2;
   --highlight: #467AAC;
+  --highlight_alpha: #cce0ed;
 }
 
 .webex-check {}
@@ -50,8 +51,8 @@ input.webex-solveme.webex-incorrect,
 .webex-correct,
 input.webex-solveme.webex-correct,
 .webex-radiogroup label.webex-correct {
-    border: 2px solid var(--correct);
-    background-color: var(--correct_alpha);
+    border: 2px solid var(--highlight);
+    background-color: var(--highlight_alpha);
     color: black;
     border-radius: 0.25em;
 }
@@ -65,12 +66,12 @@ input.webex-solveme.webex-correct,
 
 .webex-incorrect span::before,
 .webex-incorrect + .webex-icon::after {
-  content: "\274C  ";
+  content: ""; /* \274C   */
 }
 
 .webex-correct span::before,
 .webex-correct + .webex-icon::after {
-  content: "\2705  ";
+  content: ""; /* \2705   */
 }
 
 

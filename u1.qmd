@@ -225,13 +225,31 @@ opts_ci <- sample(c(
 
 `r longmcq(opts_ci)`
 
-## Checked sections
+## Activity: Locus of Control Assessment
 
-Create sections with the class `webex-check` to add a button that hides feedback until it is pressed. Add the class `webex-box` to draw a box around the section (or use your own styles).
+::: {.learning-activity time="30 minutes"}
+
+Our locus of control’s orientation largely influences how we perceive the world. Developing an awareness of our own locus of control, as well as locus of control inherent in our organization, is of great benefit for us, as leaders.
+
+Take the time to complete and score the following questionnaire. This will help confirm where your personal or corporate locus of control sits, allow you to determine what strategic practices you need to consider changing to change or maintain your locus of control.
+
+## Questionnaire Instructions {.unnumbered}
+
+This questionnaire is designed to help you determine whether your locus of control is more internal or external.
+
+Read each statement carefully and choose the response that best describes your agreement using the following scale:
+
+1 = Strongly Disagree
+
+2 = Disagree
+
+3 = Neutral
+
+4 = Agree
+
+5 = Strongly Agree
 
 ::: {.webex-check .webex-box}
-
-I am going to learn a lot: `r torf(TRUE)`
 
 ```{r, results='asis'}
 # statements
@@ -252,11 +270,11 @@ rev_idx <- c(2, 5, 8, 10)  # reverse-scored items
 # Likert labels; we name every option "answer" so webexercises marks it as selectable/correct,
 # while the *score* comes only from the points vector we pass.
 likert_labels <- c(
-  "1 — Strongly Disagree",
-  "2 — Disagree",
-  "3 — Neutral",
-  "4 — Agree",
-  "5 — Strongly Agree"
+  "Strongly Disagree",
+  "Disagree",
+  "Neutral",
+  "Agree",
+  "Strongly Agree"
 )
 likert_opts <- stats::setNames(likert_labels, rep("answer", length(likert_labels)))
 
@@ -275,6 +293,29 @@ for (i in seq_along(qs)) {
 
 :::
 
+:::
+
+## Interpreting Your Score {.unnumbered}
+
+40–50: Strong Internal Locus of Control. You believe that your actions and decisions largely determine the outcomes in your life. You take responsibility for your successes and failures and are likely to see challenges as opportunities for growth.
+
+30–39: Moderate Internal Locus of Control. You lean towards an internal locus of control but may occasionally attribute outcomes to external factors.
+
+20–29: Moderate External Locus of Control. You believe that external factors such as luck, fate, or other people significantly influence your life.
+
+10–19: Strong External Locus of Control. You feel that forces outside your control is largely controlling your life, such as luck, fate, or powerful external influences.
+
+## Reflection Questions {.unnumbered}
+
+How does your locus of control influence your leadership style?
+
+In what ways can you develop a more balanced perspective if needed?
+
+How might your locus of control affect how you approach challenges and decision-making as a leader?
+
+This questionnaire can serve as a foundation for understanding how your perceptions of control shape your leadership behaviors and strategies.
+
+*Note:* Make note of your results as they will serve as a good references source when you write your reflection post.
 
 ## Hidden solutions and hints
 
