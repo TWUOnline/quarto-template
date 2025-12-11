@@ -26,7 +26,8 @@ book:
 #    - assignment2.qmd
 #    - assignment3.qmd
 #    - course_assessment.qmd
-#    - cheatsheet.qmd
+    - cheatsheet.qmd
+    - slide1.qmd
 
 
 # Note: If you do not have any Zotero references, you should disable the 'references.qmd' file or else it will cause an error when rendering.    
@@ -59,7 +60,9 @@ format:
     sidebar:
       style: "docked"
       search: true
-    css: https://twuonline.github.io/course-materials/quarto/twu_styles.css
+    css:
+      - https://twuonline.github.io/course-materials/quarto/twu_styles.css
+      - include/webex.css
     toc-depth: 4
     toc: true
     toc-title: On This Page
@@ -70,7 +73,8 @@ format:
     - text: |
         <script type="application/javascript" src="https://twuonline.github.io/course-materials/quarto/twu_global_header.js"></script>
         <link rel = "shortcut icon" href = "https://twuonline.github.io/course-materials/quarto/favicon.ico" />
-        
+    include-after-body: include/webex.js
+
 # # Format - PDF
 #   pdf:
 #     documentclass: scrreprt

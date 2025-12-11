@@ -1,4 +1,4 @@
-# Quarto Cheatsheet
+# Quarto Cheatsheet {.unnumbered}
 
 Below are some examples of content that can be used in course production.
 
@@ -10,7 +10,7 @@ There are 2 options for notes, notes with or without icons.
 
 ::: {.note icon="true"}
 
-A note **with** an icon 
+*Note:* A note **with** an icon 
 
 :::
 
@@ -18,11 +18,11 @@ A note **with** an icon
 
 ::: note 
 
-A note **without** an icon
+*Note:* A note **without** an icon
 
 :::
 
-### blockquotes
+### Blockquotes
 
 > "Your brand is what people say about you when you're not in the room."
 > ***-- Jeff Bezos***
@@ -59,6 +59,14 @@ This is a caption for a fig-image
 *Source:* Garvin, D. A, & Roberto, M. A. (2001). What you don’t know about making decisions. *Harvard Business Review, 79*(8)
 :::
 
+::: {#fig-image1}
+![](assets/cheatsheet/cat.jpg){ .lightbox fig-alt="Cat Sitting on a Wooden Table"}
+:::
+
+::: text-source
+*Source:* Garvin, D. A, & Roberto, M. A. (2001). What you don’t know about making decisions. *Harvard Business Review, 79*(8)
+:::
+
 #### Dec-image {.unnumbered}
 
 - Should not contain a caption
@@ -68,7 +76,7 @@ This is a caption for a fig-image
 - May use a lightbox.
     - Adding a lightbox makes the image expandable with a click or tap. Generally this is not necessary with a decorative image.
 
-![](assets/cheatsheet/croissants.jpg){ fig-alt="Decorative" source-text="Delicious Fresh Croissants" source-link="https://www.pexels.com/photo/delicious-fresh-croissants-at-sardinian-cafe-28871875/" source-author="Efrem Efre" source-author-link="https://www.pexels.com/@efrem-efre-2786187/" source-copyright="2024, Efrem Efre" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
+![](assets/cheatsheet/croissants.jpg){fig-alt="Decorative" source-text="Delicious Fresh Croissants" source-link="https://www.pexels.com/photo/delicious-fresh-croissants-at-sardinian-cafe-28871875/" source-author="Efrem Efre" source-author-link="https://www.pexels.com/@efrem-efre-2786187/" source-copyright="2024, Efrem Efre" source-license-text="Pexels License" source-license-link="https://www.pexels.com/license/"}
 
 #### Figure Blocks
 
@@ -133,13 +141,184 @@ This is a prote. Protes (production notes) are only visible in *.qm*d or *.docx*
 
 :::
 
+[Watch: The Art of Choosing](https://www.youtube-nocookie.com/embed/lDq9-QxvsNU){target="_blank"}
+
 ::: video-container
 {{< video https://www.youtube-nocookie.com/embed/lDq9-QxvsNU >}}
 :::
 
 :::
 
-### Check Your Learning
+### Case Study Example {.unnumbered}
+
+::: {.callout-tip .case-study icon=false appearance="simple"}
+
+It is unnumbered, so it won't interfer with activities numbering, but display on the right hand side as part of the table of content.
+
+This design is created for case study intention, but open to other usage.
+
+:::
+
+### Quiz Example {.unnumbered}
+
+We create Quarto quizzes in replacement to H5P quizzes or PDF format. It is manual work, so please send in content early. For next iteration, we will add a carousell format to it.
+
+Please note that the quiz response is not saved. Below is a shortened version. For existing course examples, see LDRS 504 [5.2.2](https://twuonline.github.io/ldrs504/u5.html#activity-team-assessment){target="_blank"} and [5.5.1](https://twuonline.github.io/ldrs504/u5.html#activity-self-assessment-promoting-ethical-group-interactions){target="_blank"}. 
+
+::: learning-activity
+**Instructions:** For each statement below, rate how often you personally engage in or observe these behaviours in your groups or teams. Use this scale:
+
+**1 = Rarely or never**<br>
+**2 = Sometimes**<br>
+**3 = Often**<br>
+**4 = Almost always**
+
+::: {.webex-check .webex-box .average-enabled}
+
+```{r, echo=FALSE, results='asis'}
+library(htmltools)
+library(webexercises)
+# statements
+qs <- c(
+    "Listen carefully to others, seeking to fully understand their message, including emotions and intent, before responding.",
+    "I avoid communication that makes others feel defensive, such as criticizing or controlling language.",
+    "I am aware of my own emotions during group interactions and try to manage them constructively.",
+    "I encourage open discussion of different viewpoints, even when there is disagreement or conflict.",
+    "I welcome and respect minority opinions or dissenting views in group decisions."
+)
+
+
+# Likert labels; we name every option "answer" so webexercises marks it as selectable/correct,
+# while the *score* comes only from the points vector we pass.
+likert_labels <- c(
+    "Rarely or never",
+    "Sometimes",
+    " Often",
+    "Almost always"
+)
+likert_opts <- stats::setNames(likert_labels, rep("answer", length(likert_labels)))
+
+# emit each item + longmcq with points
+for (i in seq_along(qs)) {
+    pts <- 1:4
+
+    cat(
+        sprintf("<p><strong>%d.</strong> %s</p>\n", i, htmltools::htmlEscape(qs[i])),
+        longmcq(likert_opts, points = pts),
+        "<hr/>",
+        sep = ""
+    )
+}
+
+```
+
+:::
+**How to Interpret Your Results**
+
+**Step 1: Calculate Your Average Score**
+
+Add your scores for all 5 statements and divide them by 5 to find your average.
+
+**Step 2: Reflect on Your Average**
+
+| **Average Score** | **Interpretation** | **Reflection Questions** |
+|------------------------|------------------------------|------------------|
+| **3.5 – 4.0** | **Consistently Ethical** |  |
+| You regularly practice behaviours that promote ethical and effective group interactions. Keep reinforcing these strengths! | What specific habits help you maintain this level? How can you support others in your group? |  |
+| **2.5 – 3.4** | **Moderate Practice** |  |
+| You sometimes engage in these ethical behaviours but there is room for growth. | Which areas do you notice the most inconsistency? What small changes can you make to improve? |  |
+| **1.0 – 2.4** | **Needs Attention** |  |
+| You rarely or only occasionally use these behaviours, which may hinder ethical group dynamics. | What barriers prevent you from practicing these behaviours? What support or resources would help you develop them? |  |
+
+**Step 3: Look at Individual Items** Identify any statements where you scored below 3. These might be key focus areas to develop, as they represent critical aspects of ethical group interaction.
+
+**Step 4: Set a Personal Goal** Choose one or two behaviours to focus on strengthening in your next group experience. Consider how you might apply supportive communication, emotional intelligence, or encourage minority opinions more actively.
+
+**Reflection Questions (Optional)**
+
+-   Which of these areas do you feel strongest in?
+-   Which areas could you improve to promote more ethical group interactions?
+-   How might you practice supportive communication or encourage productive conflict in your next team meeting?
+
+:::
+
+<!-- ### Slideshow Gallery Example {.unnumbered}
+
+[Example](https://quarto-ext.github.io/lightbox/){target="_blank"}
+[Issue](https://github.com/TWUOnline/phil370/issues/22){target="_blank"} -->
+
+<!-- ### Quarto Presentation Example {.unnumbered}
+
+[Quarto Presentations Guide](https://quarto.org/docs/presentations/){target="_blank"}
+
+[Slide1 example](docs/slide1.html){target="_blank"} -->
+
+### Formula Example {.unnumbered}
+
+<!--  Examples found on https://github.com/TWUOnline/psyc207-q -->
+
+$$
+z=\frac{68-70}{12}
+$$
+
+$$
+95\%CI = \text{mean} \pm (SE \times 1.96)
+$$
+
+### Mermaid Examples {.unnumbered}
+
+#### Flowchart
+
+<!-- https://github.com/TWUOnline/LDRS330 -->
+
+```{mermaid}
+
+flowchart LR
+    A[Actions to take] --- B[Use open peer reviews to hold people accountable.]
+   A --- C[Manage at the level of the team rather than the individual.]
+   A --- D[Provide development advice through continuous assessments.]
+    B --- E[Evaluate with the team, as a team, providing both positive and negative feedback and hearing from all parties.]
+    C --- F[Have open discussion rather than secret meetings.]
+    D --- G[Meet regularly and provide feedback often.]
+
+```
+
+#### State Diagram
+
+<!-- https://github.com/TWUOnline/twu-prime -->
+
+```{mermaid}
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> Crash1
+    Crash --> [*]
+```
+
+### Tabs
+
+Tabs are only compatible with content displayed on Quarto site, not Moodle.
+
+::: {.panel-tabset}
+
+### Tab A
+
+![](assets/cheatsheet/nature.jpg){height="500" .lightbox}
+
+Artists have an uncanny ability to make things seem real. The potential for ‘trompe-l’oeil’ like this train coming out of the wall seemed as dangerous to the ancients as portraying something imperfectly and thus damaging our understanding of it. Art is out of control!
+
+### Tab B
+
+![](assets/cheatsheet/cat.jpg){width="500"}
+
+Some ancients believed art functioned like a false front, only showing part of something or being inherently deceitful.
+
+:::
+
+### Summary
 
 ::: check
 
